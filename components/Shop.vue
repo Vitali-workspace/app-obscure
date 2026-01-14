@@ -1,8 +1,13 @@
 <script setup lang="ts">
+
 const textBrand = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id eaque quidem mollitia
   voluptatem quaerat ad quos, laboriosam deserunt illum illo vitae officiis sunt optio rerum at numquam earum. Aliquam, voluptas.`;
 
+const imageUrl = 'https://lulua.pl/wp-content/uploads/2024/10/perfumeria_lulua_naked_laundry_btso-900x900.jpg';
+
 </script>
+
+
 
 <template>
     <section class="w-[clamp(320px,100vw,1200px)] mx-4 bg-[#FFF1E8] border-4 border-black rounded-xl overflow-y-auto">
