@@ -4,6 +4,8 @@
     <section>
         <p>Адресс доставки</p>
         <ul>
+            <li>Имя</li>
+            <li>Фамилия</li>
             <li>Город доставки
                 <input type="text">
             </li>
