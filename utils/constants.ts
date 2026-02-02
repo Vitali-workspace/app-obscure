@@ -98,3 +98,93 @@ const brands: Brand[] = [
     ],
   },
 ];
+
+const listSemple = [
+  {
+    name: "Все парфюмы",
+    description: "Общее описание для списка",
+    products: [
+      {
+        title: "Filippo Sorcinelli",
+        titleSemple: "Reliqvia",
+        promoText: "Готический ладен",
+        imageMain: imageUrl,
+        price1ml: "$10",
+        price5ml: "$50",
+        price10ml: "$100",
+        priceFull: "$190",
+        notsTop: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+        notsMid: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+        notsBase: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+      },
+      { title: "Voix Humaine 8", price1ml: "$100", image: imageUrl },
+      { title: "Vento Forte", price1ml: "$240", image: imageUrl },
+    ],
+  },
+];
+
+const notsPerf = [
+  {
+    name: "Reliqvia",
+    prod: [
+      {
+        notsTop: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+        notsMid: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+        notsBase: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Epicentro",
+    prod: [
+      {
+        notsTop: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+        notsMid: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+        notsBase: [
+          { name: "цветы", url: "путь" },
+          { name: "дерево", url: "путь" },
+        ],
+      },
+    ],
+  },
+];
+
+const listStory = [];
+
+const datapers = {
+  name: "Otto",
+  surname: "Pariks",
+  city: "Minsk",
+  address: "st Pushch, 27",
+  zipCode: "223556",
+  euPost: "st Pushch, 27",
+  phone: "375297080907",
+  telegram: "123456644",
+  achievements: [],
+};
+
+// belPost
