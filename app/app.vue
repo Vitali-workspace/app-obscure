@@ -5,7 +5,7 @@
 
     <!-- ! рамку из мейн убрать -->
     <!-- ! мейн по высоте экрана -->
-    <main class="flex w-[clamp(500px,99vw,1800px)] max-[801px]:flex-col max-[801px]:m-0 m-4 overflow-hidden">
+    <main class="flex w-[clamp(500px,99vw,1800px)] max-[801px]:m-0 m-4 overflow-hidden">
 
       <!-- ! Бренды -->
       <!-- <Brands /> -->
