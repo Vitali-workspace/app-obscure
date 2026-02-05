@@ -507,19 +507,19 @@ const listGurmanic = [
         priceFull: "190",
         notes: {
           top: [
-            { name: "Молоко", url: TESTnote1 },
-            { name: "Вафельный рожок", url: TESTnote2 },
-            { name: "Печенье", url: TESTnote3 },
+            { name: "Лайм", url: TESTnote1 },
+            { name: "Ром", url: TESTnote2 },
+            { name: "Кока-кола", url: TESTnote3 },
           ],
           middle: [
-            { name: "Печенье", url: TESTnote3 },
-            { name: "Крекер", url: TESTnote4 },
-            { name: "Крем брюлье", url: TESTnote7 },
-            { name: "Капкейк", url: TESTnote9 },
+            { name: "Давана", url: TESTnote3 },
+            { name: "Береза", url: TESTnote4 },
+            { name: "Чёрный перец", url: TESTnote9 },
           ],
           base: [
-            { name: "Сахарная вата", url: TESTnote5 },
-            { name: "Крем", url: TESTnote6 },
+            { name: "Ваниль", url: TESTnote5 },
+            { name: "Амбра", url: TESTnote6 },
+            { name: "Белый мускус", url: TESTnote6 },
           ],
         },
       },
@@ -536,20 +536,14 @@ const listGurmanic = [
         priceFull: "190",
         notes: {
           top: [
-            { name: "Молоко", url: TESTnote1 },
-            { name: "Вафельный рожок", url: TESTnote2 },
-            { name: "Печенье", url: TESTnote3 },
+            { name: "Миндальная пудра", url: TESTnote1 },
+            { name: "Сливочный крем", url: TESTnote2 },
           ],
           middle: [
-            { name: "Печенье", url: TESTnote3 },
-            { name: "Крекер", url: TESTnote4 },
-            { name: "Крем брюлье", url: TESTnote7 },
-            { name: "Капкейк", url: TESTnote9 },
+            { name: "Молочный мусс", url: TESTnote3 },
+            { name: "Карамель", url: TESTnote4 },
           ],
-          base: [
-            { name: "Сахарная вата", url: TESTnote5 },
-            { name: "Крем", url: TESTnote6 },
-          ],
+          base: [{ name: "Ваниль", url: TESTnote6 }],
         },
       },
 
@@ -565,19 +559,16 @@ const listGurmanic = [
         priceFull: "190",
         notes: {
           top: [
-            { name: "Молоко", url: TESTnote1 },
-            { name: "Вафельный рожок", url: TESTnote2 },
-            { name: "Печенье", url: TESTnote3 },
+            { name: "Карамелизированная ваниль", url: TESTnote1 },
+            { name: "Морская соль", url: TESTnote2 },
           ],
           middle: [
-            { name: "Печенье", url: TESTnote3 },
-            { name: "Крекер", url: TESTnote4 },
-            { name: "Крем брюлье", url: TESTnote7 },
-            { name: "Капкейк", url: TESTnote9 },
+            { name: "Обжаренный орех макадамия", url: TESTnote3 },
+            { name: "Белый шоколад", url: TESTnote4 },
           ],
           base: [
-            { name: "Сахарная вата", url: TESTnote5 },
-            { name: "Крем", url: TESTnote6 },
+            { name: "Бобы тонка", url: TESTnote5 },
+            { name: "Цветок кокоса", url: TESTnote6 },
           ],
         },
       },
@@ -585,7 +576,7 @@ const listGurmanic = [
       {
         brand: "The House of Oud",
         perfumeName: "L’Explicite",
-        promoText: "Банан в ореховой пасте",
+        promoText: "Банановый хлеб с арахисовым маслом",
         imageMain: TestBottle5,
         imageTest: TestPyramid1,
         price1ml: "10",
@@ -594,19 +585,18 @@ const listGurmanic = [
         priceFull: "190",
         notes: {
           top: [
-            { name: "Молоко", url: TESTnote1 },
-            { name: "Вафельный рожок", url: TESTnote2 },
-            { name: "Печенье", url: TESTnote3 },
+            { name: "Цедра лимона", url: TESTnote1 },
+            { name: "Иланг-иланг", url: TESTnote2 },
           ],
           middle: [
-            { name: "Печенье", url: TESTnote3 },
-            { name: "Крекер", url: TESTnote4 },
-            { name: "Крем брюлье", url: TESTnote7 },
-            { name: "Капкейк", url: TESTnote9 },
+            { name: "Банановый хлеб", url: TESTnote3 },
+            { name: "Арахисовое масло", url: TESTnote4 },
+            { name: "Тёплые специи", url: TESTnote7 },
           ],
           base: [
-            { name: "Сахарная вата", url: TESTnote5 },
-            { name: "Крем", url: TESTnote6 },
+            { name: "Фиалка", url: TESTnote5 },
+            { name: "Амбра", url: TESTnote6 },
+            { name: "Фруктовые мускусы", url: TESTnote6 },
           ],
         },
       },
@@ -724,6 +714,112 @@ const listExtrem = [
           ],
         },
       },
+
+      {
+        brand: "Spiritica",
+        perfumeName: "Leonarda",
+        promoText: "Металлическое мыло",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Домашнее мыло", url: TESTnote1 },
+            { name: "Кровавый апельсин", url: TESTnote2 },
+            { name: "Акорд каустической соды", url: TESTnote3 },
+            { name: "Чёрный перец", url: TESTnote3 },
+            { name: "Кровь", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Крем Шантийи", url: TESTnote3 },
+            { name: "Домашнее печенье", url: TESTnote4 },
+            { name: "Малиновый сироп", url: TESTnote7 },
+            { name: "Металлические ноты", url: TESTnote7 },
+          ],
+          base: [
+            { name: "Уд", url: TESTnote6 },
+            { name: "Сера", url: TESTnote5 },
+            { name: "Тёмный шоколад", url: TESTnote6 },
+            { name: "Амбра", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Spiritica",
+        perfumeName: "Jeffrey",
+        promoText: "Жуткий ковёр",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Ледяное пиво", url: TESTnote1 },
+            { name: "Акорд попперса", url: TESTnote2 },
+            { name: "Белый апельсин", url: TESTnote3 },
+            { name: "Живые дрожжи", url: TESTnote3 },
+            { name: "Кислотные альдегиды", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Грязный ковёр", url: TESTnote3 },
+            { name: "Гвоздика", url: TESTnote4 },
+            { name: "Свёрнувшаяся кровь", url: TESTnote7 },
+            { name: "Человеческий пот", url: TESTnote4 },
+            { name: "Острый нож", url: TESTnote4 },
+          ],
+          base: [
+            { name: "Расплавленный пластик", url: TESTnote6 },
+            { name: "Сырой подвал", url: TESTnote5 },
+            { name: "Амбра", url: TESTnote6 },
+            { name: "Берёза", url: TESTnote6 },
+            { name: "Ветивер", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Senyoko",
+        perfumeName: "Hora de la Verdad Sombra",
+        promoText: "Кровавая кожа",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Белый перец", url: TESTnote1 },
+            { name: "Тимьян", url: TESTnote2 },
+            { name: "Испанский шафран", url: TESTnote3 },
+            { name: "Кровавый аккорд", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Абсолют турецкой розы", url: TESTnote3 },
+            { name: "Жасмин", url: TESTnote4 },
+            { name: "Нарцисс", url: TESTnote7 },
+          ],
+          base: [
+            { name: "Африканский камень", url: TESTnote6 },
+            { name: "Кожа", url: TESTnote5 },
+            { name: "Кедр", url: TESTnote6 },
+            { name: "Гваяк", url: TESTnote6 },
+            { name: "Берёза", url: TESTnote6 },
+            { name: "Кастореум", url: TESTnote6 },
+            { name: "Мускус", url: TESTnote6 },
+            { name: "Дубовый мох", url: TESTnote6 },
+            { name: "Цибетин", url: TESTnote6 },
+            { name: "Испанский лабданум", url: TESTnote6 },
+            { name: "Уд", url: TESTnote6 },
+          ],
+        },
+      },
     ],
   },
 ];
@@ -736,8 +832,8 @@ const listPromo = [
     listPerfumes: [
       {
         brand: "Название",
-        perfumeName: "Belkis Desorden",
-        promoText: "Ягодные костры",
+        perfumeName: "Desorden",
+        promoText: "Ягодные",
         imageMain: TestBottle5,
         imageTest: TestPyramid1,
         price1ml: "10",
@@ -765,6 +861,225 @@ const listPromo = [
     ],
   },
 ];
+
+// ================================
+
+const listNext = [
+  {
+    titlePage: "Название страницы",
+    descriptionPage: "Описание страницы",
+    listPerfumes: [
+      {
+        brand: "Pineward",
+        perfumeName: "Lime Cola",
+        promoText: "Супер насыщенная Кока-Кола",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Лайм холодного отжима", url: TESTnote1 },
+            { name: "Чёрная вишня", url: TESTnote2 },
+            { name: "Корень имбиря", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Цветок нероли", url: TESTnote3 },
+            { name: "Горький апельсин", url: TESTnote4 },
+            { name: "Мускатный орех", url: TESTnote9 },
+            { name: "Кориандр", url: TESTnote9 },
+            { name: "Сахар", url: TESTnote7 },
+          ],
+          base: [
+            { name: "Ваниль", url: TESTnote9 },
+            { name: "Корица", url: TESTnote9 },
+            { name: "Ром", url: TESTnote5 },
+            { name: "Кока-Кола", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Imaginary Authors",
+        perfumeName: "A Whiff of Wafflecone",
+        promoText: "Вафельный рожок",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Ваниль", url: TESTnote1 },
+            { name: "Солёная карамель", url: TESTnote2 },
+            { name: "Сайгонская корица", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Жирные сливки", url: TESTnote3 },
+            { name: "Сандал", url: TESTnote4 },
+          ],
+          base: [
+            { name: "Миндальный сироп", url: TESTnote5 },
+            { name: "Мороженое", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Imaginary Authors",
+        perfumeName: "A City On Fire",
+        promoText: "Спички",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Тёмные ягоды", url: TESTnote1 },
+            { name: "Можжевеловое масло", url: TESTnote2 },
+          ],
+          middle: [
+            { name: "Кардамон", url: TESTnote4 },
+            { name: "Клирвуд", url: TESTnote7 },
+            { name: "Нард", url: TESTnote9 },
+          ],
+          base: [
+            { name: "Горелая спичка", url: TESTnote5 },
+            { name: "Лабданум", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Imaginary Authors",
+        perfumeName: "Bull's Blood",
+        promoText: "Кровавое месиво",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Герань", url: TESTnote1 },
+            { name: "Испанская роза", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Пачули", url: TESTnote3 },
+            { name: "Чёрный мускус", url: TESTnote4 },
+          ],
+          base: [
+            { name: "Табак", url: TESTnote5 },
+            { name: "Сандал", url: TESTnote6 },
+            { name: "Бычья кровь", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "The Fragrance Engineers",
+        perfumeName: "Nekro Dellamorte",
+        promoText: "Кладбищенский",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Лимфа", url: TESTnote1 },
+            { name: "Кровь", url: TESTnote2 },
+            { name: "Гной", url: TESTnote3 },
+            { name: "Грибок", url: TESTnote3 },
+            { name: "Сырая комната", url: TESTnote6 },
+          ],
+          middle: [
+            { name: "Плесень", url: TESTnote3 },
+            { name: "Запах тела", url: TESTnote4 },
+            { name: "Абсолют жасмина", url: TESTnote7 },
+            { name: "Моча", url: TESTnote9 },
+            { name: "Гиацинт", url: TESTnote5 },
+          ],
+          base: [
+            { name: "Кожа лица", url: TESTnote6 },
+            { name: "Вагинальный аккорд", url: TESTnote6 },
+            { name: "Шампанское", url: TESTnote6 },
+            { name: "Бензин", url: TESTnote6 },
+            { name: "Губная помада", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Strangers Parfumerie",
+        perfumeName: "Sombre",
+        promoText: "Мрачный",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Аккорд рвоты", url: TESTnote1 },
+            { name: "Аккорд плесени", url: TESTnote2 },
+            { name: "Аккорд ночных животных", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Гной", url: TESTnote3 },
+            { name: "Грязь", url: TESTnote4 },
+            { name: "Пот", url: TESTnote7 },
+            { name: "Шампанское", url: TESTnote9 },
+          ],
+          base: [
+            { name: "Масло ириса", url: TESTnote5 },
+            { name: "Ночные цветы (Жасмин, Тубероза)", url: TESTnote6 },
+            { name: "Роза", url: TESTnote6 },
+          ],
+        },
+      },
+
+      {
+        brand: "Название",
+        perfumeName: "Desorden",
+        promoText: "Ягодные",
+        imageMain: TestBottle5,
+        imageTest: TestPyramid1,
+        price1ml: "10",
+        price5ml: "50",
+        price10ml: "100",
+        priceFull: "190",
+        notes: {
+          top: [
+            { name: "Молоко", url: TESTnote1 },
+            { name: "Вафельный рожок", url: TESTnote2 },
+            { name: "Печенье", url: TESTnote3 },
+          ],
+          middle: [
+            { name: "Печенье", url: TESTnote3 },
+            { name: "Крекер", url: TESTnote4 },
+            { name: "Крем брюлье", url: TESTnote7 },
+            { name: "Капкейк", url: TESTnote9 },
+          ],
+          base: [
+            { name: "Сахарная вата", url: TESTnote5 },
+            { name: "Крем", url: TESTnote6 },
+          ],
+        },
+      },
+    ],
+  },
+];
+
+//=================================
 
 // Тексты для всех страниц
 const listStory = [
@@ -841,6 +1156,496 @@ const listDiscoverySet = [
             { name: "Крем", url: TESTnote6 },
           ],
         },
+      },
+    ],
+  },
+];
+
+const discoverySets = [
+  {
+    titlePage: "Все наборы пробников",
+    descriptionPage: "Описание страницы с discovery-сетами",
+    listSets: [
+      {
+        brand: "Neandertal",
+        descriptionBrand:
+          "Ароматы, исследующие связь прошлого и будущего через запах.",
+        imageSet: TestBottle5, // обложка набора
+        priceSet: "300", // цена за весь сет
+
+        perfumes: [
+          {
+            perfumeName: "Dark",
+            promoText:
+              "Древние костры и густая смола. Глубокий, дымный, пряный аромат.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [
+                { name: "Листва", url: TESTnote1 },
+                { name: "Имбирь", url: TESTnote2 },
+                { name: "Розовый перец", url: TESTnote2 },
+                { name: "Грейпфрут", url: TESTnote2 },
+                { name: "Сосна", url: TESTnote2 },
+              ],
+              middle: [
+                { name: "Ладан", url: TESTnote3 },
+                { name: "Герань", url: TESTnote4 },
+                { name: "Тмин", url: TESTnote3 },
+                { name: "Морская водоросль", url: TESTnote4 },
+              ],
+              base: [
+                { name: "Ветивер", url: TESTnote5 },
+                { name: "Пачули", url: TESTnote6 },
+                { name: "Уд", url: TESTnote6 },
+                { name: "Амбра", url: TESTnote6 },
+                { name: "Мускус", url: TESTnote6 },
+                { name: "Кожа", url: TESTnote6 },
+                { name: "Сандал", url: TESTnote6 },
+                { name: "Табак", url: TESTnote6 },
+                { name: "Абсолют лабданума", url: TESTnote6 },
+              ],
+            },
+          },
+          {
+            perfumeName: "Light",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Хиноки", url: TESTnote7 },
+                { name: "Кориандр", url: TESTnote8 },
+                { name: "Гальбанум", url: TESTnote8 },
+                { name: "Лист фиалки", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Ирис", url: TESTnote9 },
+                { name: "Металлический аккорд", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Амбра", url: TESTnote7 },
+                { name: "Пачули", url: TESTnote6 },
+                { name: "Кожа", url: TESTnote6 },
+                { name: "Кедр", url: TESTnote6 },
+                { name: "Мускус", url: TESTnote6 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Us",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Бергамот", url: TESTnote7 },
+                { name: "Апельсин", url: TESTnote8 },
+                { name: "Элеми", url: TESTnote8 },
+                { name: "Розовый перец", url: TESTnote8 },
+                { name: "Чёрный перец", url: TESTnote8 },
+                { name: "Эвкалипт", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Роза", url: TESTnote9 },
+                { name: "Кардамон", url: TESTnote7 },
+                { name: "Ладан", url: TESTnote9 },
+                { name: "Герань", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Ветивер", url: TESTnote7 },
+                { name: "Африканский камень", url: TESTnote6 },
+                { name: "Лабданум", url: TESTnote7 },
+                { name: "Мирра", url: TESTnote6 },
+                { name: "Киприол", url: TESTnote7 },
+                { name: "Можжевеловое масло", url: TESTnote6 },
+                { name: "Уд", url: TESTnote6 },
+                { name: "Абсолют древесного мха", url: TESTnote6 },
+                { name: "Сандаловое масло", url: TESTnote6 },
+                { name: "Мускус", url: TESTnote6 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Them",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Грейпфрут", url: TESTnote7 },
+                { name: "Лаванда", url: TESTnote8 },
+                { name: "Ирис", url: TESTnote8 },
+                { name: "Семена моркови", url: TESTnote8 },
+                { name: "Морская водоросль", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Нероли", url: TESTnote9 },
+                { name: "Хиноки", url: TESTnote7 },
+                { name: "Магнолия", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Сандал", url: TESTnote7 },
+                { name: "Амбретта", url: TESTnote6 },
+                { name: "Стиракс", url: TESTnote7 },
+                { name: "Мускус", url: TESTnote6 },
+                { name: "Амбра", url: TESTnote6 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "is",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Мускатный орех", url: TESTnote7 },
+                { name: "Мирт", url: TESTnote8 },
+                { name: "Гальбанум", url: TESTnote8 },
+                { name: "Бергамот", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Инжир", url: TESTnote9 },
+                { name: "Фиалка", url: TESTnote9 },
+                { name: "Металлические ноты", url: TESTnote7 },
+                { name: "Тёмный шоколад", url: TESTnote9 },
+              ],
+              base: [
+                { name: "Замша", url: TESTnote7 },
+                { name: "Ветивер", url: TESTnote6 },
+                { name: "Пачули", url: TESTnote7 },
+                { name: "Сандал", url: TESTnote6 },
+                { name: "Мускус", url: TESTnote7 },
+                { name: "Перуанский бальзам", url: TESTnote6 },
+                { name: "Ваниль", url: TESTnote7 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "was",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Мате", url: TESTnote7 },
+                { name: "Бергамот", url: TESTnote8 },
+                { name: "Кардамон", url: TESTnote7 },
+                { name: "Мускатный орех", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Герань", url: TESTnote9 },
+                { name: "Гвоздика", url: TESTnote7 },
+                { name: "Ладанник", url: TESTnote7 },
+                { name: "Дивинирис", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Ваниль", url: TESTnote7 },
+                { name: "Кедр", url: TESTnote6 },
+                { name: "Ветивер", url: TESTnote6 },
+                { name: "Пачули", url: TESTnote6 },
+                { name: "Сандал", url: TESTnote6 },
+                { name: "Стиракс", url: TESTnote6 },
+                { name: "Амбра", url: TESTnote6 },
+                { name: "Мускус", url: TESTnote6 },
+              ],
+            },
+          },
+        ],
+      },
+
+      {
+        brand: "Wolf Brothers",
+        descriptionBrand: "Животные польских лесов",
+        imageSet: TestBottle5, // обложка набора
+        priceSet: "300", // цена за весь сет
+
+        perfumes: [
+          {
+            perfumeName: "Bear",
+            promoText:
+              "Древние костры и густая смола. Глубокий, дымный, пряный аромат.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [
+                { name: "Корица", url: TESTnote1 },
+                { name: "Имбирь", url: TESTnote2 },
+                { name: "Лесные деревья", url: TESTnote2 },
+              ],
+              middle: [
+                { name: "Ирис", url: TESTnote3 },
+                { name: "Мёд", url: TESTnote4 },
+                { name: "Прополис", url: TESTnote4 },
+              ],
+              base: [
+                { name: "Кедр", url: TESTnote5 },
+                { name: "Ладанник", url: TESTnote6 },
+                { name: "Кора дерева", url: TESTnote4 },
+                { name: "Лабданум", url: TESTnote4 },
+                { name: "Ваниль", url: TESTnote4 },
+              ],
+            },
+          },
+          {
+            perfumeName: "Boar",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Яблоко", url: TESTnote7 },
+                { name: "Гальбанум", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Трюфель", url: TESTnote9 },
+                { name: "Мох", url: TESTnote7 },
+                { name: "Хвойные деревья", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Сухая древесина", url: TESTnote7 },
+                { name: "Ветивер", url: TESTnote6 },
+                { name: "Мех", url: TESTnote6 },
+                { name: "Кожа", url: TESTnote6 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Deer",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Шалфей мускатный", url: TESTnote7 },
+                { name: "Мята", url: TESTnote8 },
+                { name: "Кумин", url: TESTnote8 },
+                { name: "Фисташка", url: TESTnote8 },
+                { name: "Табак", url: TESTnote8 },
+                { name: "Зелёный кофе", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Пачули", url: TESTnote9 },
+                { name: "Кедр", url: TESTnote7 },
+                { name: "Сухое сено", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Кожа", url: TESTnote7 },
+                { name: "Мускус", url: TESTnote6 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Goat",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Лист фиалки", url: TESTnote7 },
+                { name: "Османтус", url: TESTnote8 },
+                { name: "Козье молоко", url: TESTnote9 },
+                { name: "Грибы", url: TESTnote7 },
+                { name: "Трюфели", url: TESTnote7 },
+              ],
+              middle: [
+                { name: "Гвоздика", url: TESTnote9 },
+                { name: "Кумин", url: TESTnote7 },
+                { name: "Кедр", url: TESTnote9 },
+                { name: "Хвойные деревья", url: TESTnote7 },
+                { name: "Пачули", url: TESTnote9 },
+              ],
+              base: [
+                { name: "Ветивер", url: TESTnote7 },
+                { name: "Мох", url: TESTnote6 },
+                { name: "Мех", url: TESTnote6 },
+                { name: "Уд", url: TESTnote6 },
+                { name: "Костус", url: TESTnote6 },
+                { name: "Кожа", url: TESTnote6 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Wisent",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Грейпфрут", url: TESTnote7 },
+                { name: "Лист чёрной смородины", url: TESTnote8 },
+                { name: "Лист ежевики", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Зубровка", url: TESTnote9 },
+                { name: "Сено", url: TESTnote8 },
+                { name: "Жёлуди", url: TESTnote7 },
+              ],
+              base: [{ name: "Ваниль", url: TESTnote7 }],
+            },
+          },
+
+          {
+            perfumeName: "Wolf",
+            promoText: "Луч солнечного тепла и влажная листва после дождя.",
+            imageMain: TestBottle5,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [
+                { name: "Розовый перец", url: TESTnote7 },
+                { name: "Слива", url: TESTnote8 },
+                { name: "Кардамон", url: TESTnote8 },
+                { name: "Давана", url: TESTnote8 },
+              ],
+              middle: [
+                { name: "Ветивер", url: TESTnote9 },
+                { name: "Мирра", url: TESTnote7 },
+                { name: "Сосна", url: TESTnote7 },
+                { name: "Ладан", url: TESTnote7 },
+                { name: "Шалфей мускатный", url: TESTnote7 },
+                { name: "Кедр", url: TESTnote7 },
+                { name: "Пихтовый бальзам", url: TESTnote7 },
+              ],
+              base: [
+                { name: "Кожа", url: TESTnote7 },
+                { name: "Дубовый мох", url: TESTnote6 },
+                { name: "Амбра", url: TESTnote6 },
+                { name: "Бобы тонка", url: TESTnote6 },
+              ],
+            },
+          },
+        ],
+      },
+
+      {
+        brand: "Marlou",
+        descriptionBrand:
+          "Ароматы, вдохновлённые историческими моментами и архитектурой эпохи.",
+        imageSet: TestBottle3,
+        priceSet: "520",
+        perfumes: [
+          {
+            perfumeName: "Doliphor",
+            promoText:
+              "Тёплый шоколад, специи и ваниль — как визит в монастырскую кухню XVII века.",
+            imageMain: TestBottle4,
+            imageTest: TestPyramid2,
+            notes: {
+              top: [{ name: "Семена моркови", url: TESTnote3 }],
+              middle: [
+                { name: "Костус", url: TESTnote4 },
+                { name: "Кумин", url: TESTnote5 },
+              ],
+              base: [{ name: "Мускус", url: TESTnote1 }],
+            },
+          },
+          {
+            perfumeName: "Ambilux",
+            promoText:
+              "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
+            imageMain: TestBottle4,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [
+                { name: "Бессмертник", url: TESTnote2 },
+                { name: "Иланг-иланг", url: TESTnote4 },
+              ],
+              middle: [
+                { name: "Кумин", url: TESTnote3 },
+                { name: "Костус", url: TESTnote5 },
+              ],
+              base: [{ name: "Ладан", url: TESTnote9 }],
+            },
+          },
+
+          {
+            perfumeName: "Poudrextase",
+            promoText:
+              "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
+            imageMain: TestBottle4,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [{ name: "Рисовая мука", url: TESTnote2 }],
+              middle: [
+                { name: "Роза", url: TESTnote3 },
+                { name: "Кипарис", url: TESTnote5 },
+              ],
+              base: [
+                { name: "Бобы Тонка", url: TESTnote7 },
+                { name: "Цивета", url: TESTnote9 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Carnicure",
+            promoText:
+              "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
+            imageMain: TestBottle4,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [
+                { name: "Цветок апельсина", url: TESTnote2 },
+                { name: "Фиалка", url: TESTnote4 },
+              ],
+              middle: [
+                { name: "Пачули", url: TESTnote3 },
+                { name: "Сандал", url: TESTnote5 },
+              ],
+              base: [
+                { name: "Лабданум", url: TESTnote7 },
+                { name: "Мускус", url: TESTnote9 },
+                { name: "Цивета", url: TESTnote9 },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Heliodose",
+            promoText:
+              "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
+            imageMain: TestBottle4,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [{ name: "Гальбанум", url: TESTnote2 }],
+              middle: [
+                { name: "Тиаре", url: TESTnote3 },
+                { name: "Индол", url: TESTnote5 },
+              ],
+              base: [{ name: "Мускус", url: TESTnote7 }],
+            },
+          },
+
+          {
+            perfumeName: "Corpalium",
+            promoText:
+              "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
+            imageMain: TestBottle4,
+            imageTest: TestPyramid1,
+            notes: {
+              top: [
+                { name: "Ирис", url: TESTnote2 },
+                { name: "Амбретта", url: TESTnote4 },
+              ],
+              middle: [
+                { name: "Пажитник", url: TESTnote3 },
+                { name: "Гваяк", url: TESTnote5 },
+              ],
+              base: [
+                { name: "Кедр", url: TESTnote7 },
+                { name: "Кастореум", url: TESTnote9 },
+              ],
+            },
+          },
+        ],
       },
     ],
   },
