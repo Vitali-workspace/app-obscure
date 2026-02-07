@@ -1,47 +1,60 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
+
 
 <template>
-    <section>
-        <h2>Адресс доставки</h2>
-        <ul>
-            <li>
+    <section class="min-w-[520px] bg-[#FFF1E8] border-4 border-black rounded-xl mx-auto">
+        <h2 class="text-center py-2">Адресс доставки</h2>
+
+
+        <ul class="flex flex-col mx-4">
+            <li class="flex flex-col">
                 <label for="name">Имя</label>
-                <input type="text" placeholder="Имя" id="name">
+                <input class="p-2 border-2 border-black rounded-xl" type="text" placeholder="Имя" id="name">
             </li>
-            <li>
+            <li class="flex flex-col">
                 <label for="surname">Фамилия</label>
-                <input type="text" placeholder="Фамилия" id="surname">
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="Фамилия" id="surname">
             </li>
-            <li>
+            <li class="flex flex-col">
                 <label for="delivery-city">Город доставки</label>
-                <input type="text" placeholder="Минск" id="delivery-city">
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="Минск" id="delivery-city">
             </li>
-            <li>
+            <li class="flex flex-col">
                 <label for="delivery-address">Адрес и номер дома</label>
-                <input type="text" placeholder="ул Ленина, 44" id="delivery-address">
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="ул Ленина, 44"
+                    id="delivery-address">
             </li>
-            <li>
+            <li class="flex flex-col">
                 <label for="belposhta-index">Почтовый индекс Белпочты</label>
-                <input type="text" placeholder="220011" id="belposhta-index">
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="220011" id="belposhta-index">
             </li>
-            <li>
+            <li class="flex flex-col">
                 <label for="europost-address">Адрес европочты</label>
-                <input type="text" placeholder="220011" id="europost-address">
-            </li>
-            <li>
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="ул Ленина, 29"
+                    id="europost-address">
+            </li class="flex flex-col">
+            <li class="flex flex-col">
                 <label for="phone-number">Номер телефона</label>
-                <input type="text" placeholder="+375..." id="phone-number">
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="+375291112233"
+                    id="phone-number">
             </li>
-            <li>
+            <li class="flex flex-col">
                 <label for="telegram-tag">Тег в телеграм</label>
-                <input type="text" placeholder="@name" id="telegram-tag">
+                <input class="border-2 border-black rounded-xl" type="text" placeholder="@name" id="telegram-tag">
             </li>
         </ul>
-        <button class="">Сохранить данные</button>
+
+
+        <div class="flex justify-center mt-2">
+            <button class="m-4 p-3 bg-[#FFF1E8] border-4 border-black rounded-xl">Сохранить данные</button>
+        </div>
+
     </section>
 
 
-    <section>
+    <!-- <section>
         <p>История заказов</p>
         <ul>
             <li>
@@ -54,5 +67,8 @@
             <li></li>
             <li></li>
         </ul>
-    </section>
+    </section> -->
+
 </template>
+
+<style></style>
