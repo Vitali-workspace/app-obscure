@@ -1,5 +1,6 @@
 // animalistic
 const amber = "../public/notes/animalistic/amber.webp";
+const ambergris = "../public/notes/animalistic/ambergris.webp";
 const ambrette = "../public/notes/animalistic/ambrette.webp";
 const animalNotes = "../public/notes/animalistic/animal-notes.webp";
 const blackMusk = "../public/notes/animalistic/black-musk.jpg";
@@ -24,6 +25,7 @@ const vomit = "../public/notes/animalistic/vomit.jpg";
 
 const animalistic = {
   amber,
+  ambergris,
   ambrette,
   animalNotes,
   blackMusk,
@@ -395,6 +397,7 @@ const nuts = {
 
 // objects
 const adultToys = "../public/notes/objects/adult-toys.jpg";
+const asphalt = "../public/notes/objects/asphalt.webp";
 const bandages = "../public/notes/objects/bandages.jpg";
 const burntMatch = "../public/notes/objects/burnt-match.webp";
 const carpet = "../public/notes/objects/carpet.jpg";
@@ -423,6 +426,7 @@ const wick = "../public/notes/objects/wick.jpg";
 
 const objects = {
   adultToys,
+  asphalt,
   bandages,
   burntMatch,
   carpet,
@@ -529,6 +533,7 @@ const synthetics = {
 
 // vegetables
 const beetroot = "../public/notes/vegetables-cereals/beetroot.webp";
+const bellPepper = "../public/notes/vegetables-cereals/bell-pepper.webp";
 const carrotSeeds = "../public/notes/vegetables-cereals/carrot-seeds.webp";
 const malt = "../public/notes/vegetables-cereals/malt.webp";
 const potatoes = "../public/notes/vegetables-cereals/potatoes.webp";
@@ -537,6 +542,7 @@ const wheat = "../public/notes/vegetables-cereals/wheat.webp";
 
 const vegetables = {
   beetroot,
+  bellPepper,
   carrotSeeds,
   malt,
   potatoes,
@@ -551,6 +557,7 @@ const amyris = "../public/notes/woods/amyris.webp";
 const bark = "../public/notes/woods/bark.webp";
 const birch = "../public/notes/woods/birch.webp";
 const cascarilla = "../public/notes/woods/cascarilla.webp";
+const cashmirWood = "../public/notes/woods/cashmir-wood.webp";
 const cedarWood = "../public/notes/woods/cedar-wood.webp";
 const clearwood = "../public/notes/woods/clearwood.webp";
 const cypress = "../public/notes/woods/cypress.webp";
@@ -574,6 +581,7 @@ const woods = {
   bark,
   birch,
   cascarilla,
+  cashmirWood,
   cedarWood,
   clearwood,
   cypress,
