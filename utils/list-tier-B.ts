@@ -66,15 +66,15 @@ type PerfumesTierType = {
 
 //========================================
 
-const perfumesTierD: PerfumesTierType = [
+const perfumesTierB: PerfumesTierType = [
   {
-    titlePage: "Любительский уровень",
-    descriptionPage: "Простые парфюмы",
+    titlePage: "Эксперементальный уровень",
+    descriptionPage: "Необычные парфюмы",
     listPerfumes: [
       {
-        brand: "The House of Oud",
-        perfumeName: "L'Explicite",
-        promoText: "Банановый хлеб с арахисовым маслом",
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Reliqvia",
+        promoText: "Готический церковный ладан",
         imagePerfume: TestBottle5,
         price05ml: 0,
         price1ml: 0,
@@ -86,62 +86,26 @@ const perfumesTierD: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Цедра лимона", src: fruits.lemonZest },
-            { name: "Иланг-иланг", src: flowers.ylangYlang },
-          ],
-          middle: [
-            { name: "Банановый хлеб", src: gourmand.bread },
-            { name: "Арахисовое масло", src: gourmand.nutella },
-            { name: "Тёплые специи", src: spices.spicyNotes },
-          ],
-          base: [
-            { name: "Фиалка", src: flowers.violet },
-            { name: "Амбра", src: animalistic.amber },
-            { name: "Фруктовые мускусы", src: fruits.fruityNotes },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: imgVibe },
-          { name: "Влажный", src: imgVibe },
-          { name: "Тёмный", src: imgVibe },
-        ],
-      },
-
-      {
-        brand: "Imaginary Authors",
-        perfumeName: "A Whiff of Wafflecone",
-        promoText: "Вафельный рожок",
-        imagePerfume: TestBottle5,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Ваниль", src: spices.vanilla },
-            { name: "Солёная карамель", src: gourmand.caramel },
-            { name: "Сайгонская корица", src: spices.cinnamon },
-          ],
-          middle: [
-            { name: "Жирные сливки", src: gourmand.butterCream },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Ладан", src: resins.incense },
+            { name: "Кашмеран", src: synthetics.cashmeran },
+            { name: "Гваяк", src: woods.guaiacWood },
             { name: "Сандал", src: woods.sandalwood },
           ],
+          middle: [
+            { name: "Мастиковое дерево", src: woods.masticTree },
+            { name: "Сосна", src: woods.pine },
+            { name: "Гвоздика", src: spices.cloves },
+            { name: "Цветок апельсина", src: flowers.orangeBlossom },
+            { name: "Амирис", src: woods.amyris },
+          ],
           base: [
-            { name: "Миндальный сироп", src: drinks.syrup },
-            { name: "Мороженое", src: gourmand.iceCream },
+            { name: "Элеми", src: resins.elemi },
+            { name: "Сладкий апельсин", src: fruits.orange },
+            { name: "Чёрная смородина", src: berries.blackCurrant },
+            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Дым", src: natural.smoke },
+            { name: "Табак", src: green.tobacco },
           ],
         },
         textStory: {
@@ -161,43 +125,9 @@ const perfumesTierD: PerfumesTierType = [
       },
 
       {
-        brand: "Lush",
-        perfumeName: "Let The Good Times Roll",
-        promoText: "Попкорн в масле",
-        imagePerfume: "",
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [{ name: "Карамель", src: gourmand.caramel }],
-          middle: [{ name: "Сливочное масло", src: gourmand.butter }],
-          base: [{ name: "Попкорн", src: gourmand.popcorn }],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
-
-      {
-        brand: "Pineward",
-        perfumeName: "Lime Cola",
-        promoText: "Супер насыщенная Кока-Кола",
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Lavs",
+        promoText: "Церковный ладан",
         imagePerfume: TestBottle5,
         price05ml: 0,
         price1ml: 0,
@@ -209,22 +139,106 @@ const perfumesTierD: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Лайм холодного отжима", src: fruits.lime },
-            { name: "Чёрная вишня", src: berries.blackCherry },
-            { name: "Корень имбиря", src: spices.ginger },
+            { name: "Чёрный перец", src: spices.blackPepper },
+            { name: "Кардамон", src: spices.cardamom },
+            { name: "Жасмин", src: flowers.jasmine },
           ],
           middle: [
-            { name: "Цветок нероли", src: flowers.neroli },
-            { name: "Горький апельсин", src: fruits.orange },
-            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Элеми", src: resins.elemi },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Гвоздика", src: spices.cloves },
             { name: "Кориандр", src: spices.coriander },
-            { name: "Сахар", src: gourmand.sugar },
           ],
           base: [
+            { name: "Опопонакс", src: resins.opoponax },
+            { name: "Дубовый мох", src: green.moss },
+            { name: "Палисандр", src: woods.palisander },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: imgVibe },
+          { name: "Влажный", src: imgVibe },
+          { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Vento Forte",
+        promoText: "Резиновая акватика",
+        imagePerfume: TestBottle5,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Замша", src: animalistic.suede },
+            { name: "Калон", src: synthetics.calone },
+            { name: "Дубовый мох", src: green.moss },
+          ],
+          middle: [
+            { name: "Грязь", src: natural.mud },
+            { name: "Кожа", src: animalistic.leather },
+          ],
+          base: [{ name: "Ветер", src: green.vetiver }],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: imgVibe },
+          { name: "Влажный", src: imgVibe },
+          { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Contre Bombarde 32",
+        promoText: "Древесно сливочная гурманика",
+        imagePerfume: TestBottle5,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
             { name: "Ваниль", src: spices.vanilla },
-            { name: "Корица", src: spices.cinnamon },
-            { name: "Ром", src: drinks.rum },
-            { name: "Кока-Кола", src: drinks.cocaCola },
+            { name: "Амбра", src: animalistic.amber },
+          ],
+          middle: [
+            { name: "Кедровое дерево", src: woods.cedarWood },
+            { name: "Сандаловое дерево", src: woods.sandalwood },
+          ],
+          base: [
+            { name: "Можжевельник", src: green.juniper },
+            { name: "Элеми", src: resins.elemi },
           ],
         },
         textStory: {
@@ -246,4 +260,4 @@ const perfumesTierD: PerfumesTierType = [
   },
 ];
 
-export { perfumesTierD };
+export { perfumesTierB };

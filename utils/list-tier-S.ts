@@ -66,15 +66,15 @@ type PerfumesTierType = {
 
 //========================================
 
-const perfumesTierD: PerfumesTierType = [
+const perfumesTierS: PerfumesTierType = [
   {
-    titlePage: "Любительский уровень",
-    descriptionPage: "Простые парфюмы",
+    titlePage: "Экстримальный уровень",
+    descriptionPage: "Самые жёсткие парфюмы",
     listPerfumes: [
       {
-        brand: "The House of Oud",
-        perfumeName: "L'Explicite",
-        promoText: "Банановый хлеб с арахисовым маслом",
+        brand: "Etat Libre d'Orange",
+        perfumeName: "Secretions Magnifiques",
+        promoText: "Жуткая акватика",
         imagePerfume: TestBottle5,
         price05ml: 0,
         price1ml: 0,
@@ -86,62 +86,19 @@ const perfumesTierD: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Цедра лимона", src: fruits.lemonZest },
-            { name: "Иланг-иланг", src: flowers.ylangYlang },
+            { name: "Морской аккорд", src: natural.marineNotes },
+            { name: "Солёный аккорд", src: natural.salt },
+            { name: "Альдегиды", src: synthetics.aldehydes },
           ],
           middle: [
-            { name: "Банановый хлеб", src: gourmand.bread },
-            { name: "Арахисовое масло", src: gourmand.nutella },
-            { name: "Тёплые специи", src: spices.spicyNotes },
+            { name: "Кровавый аккорд", src: animalistic.blood },
+            { name: "Молочный аккорд", src: drinks.milk },
+            { name: "Адреналиновый аккорд", src: synthetics.diviniris },
           ],
           base: [
-            { name: "Фиалка", src: flowers.violet },
-            { name: "Амбра", src: animalistic.amber },
-            { name: "Фруктовые мускусы", src: fruits.fruityNotes },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: imgVibe },
-          { name: "Влажный", src: imgVibe },
-          { name: "Тёмный", src: imgVibe },
-        ],
-      },
-
-      {
-        brand: "Imaginary Authors",
-        perfumeName: "A Whiff of Wafflecone",
-        promoText: "Вафельный рожок",
-        imagePerfume: TestBottle5,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Ваниль", src: spices.vanilla },
-            { name: "Солёная карамель", src: gourmand.caramel },
-            { name: "Сайгонская корица", src: spices.cinnamon },
-          ],
-          middle: [
-            { name: "Жирные сливки", src: gourmand.butterCream },
+            { name: "Опопонакс", src: resins.opoponax },
             { name: "Сандал", src: woods.sandalwood },
-          ],
-          base: [
-            { name: "Миндальный сироп", src: drinks.syrup },
-            { name: "Мороженое", src: gourmand.iceCream },
+            { name: "Ирис", src: flowers.iris },
           ],
         },
         textStory: {
@@ -161,10 +118,10 @@ const perfumesTierD: PerfumesTierType = [
       },
 
       {
-        brand: "Lush",
-        perfumeName: "Let The Good Times Roll",
-        promoText: "Попкорн в масле",
-        imagePerfume: "",
+        brand: "The Fragrance Engineers",
+        perfumeName: "Nekro Dellamorte",
+        promoText: "Кладбищенский",
+        imagePerfume: TestBottle5,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -174,9 +131,120 @@ const perfumesTierD: PerfumesTierType = [
         visibility: "visible",
         volumeMl: 10,
         notes: {
-          top: [{ name: "Карамель", src: gourmand.caramel }],
-          middle: [{ name: "Сливочное масло", src: gourmand.butter }],
-          base: [{ name: "Попкорн", src: gourmand.popcorn }],
+          top: [
+            { name: "Лимфа", src: animalistic.lymph },
+            { name: "Кровь", src: animalistic.blood },
+            { name: "Гной", src: animalistic.pus },
+            { name: "Грибок", src: mushrooms.fungus },
+            { name: "Сырая комната", src: objects.dampRoom },
+          ],
+          middle: [
+            { name: "Плесень", src: mushrooms.mold },
+            { name: "Бензин", src: objects.gasoline },
+            { name: "Абсолют жасмина", src: balsamsOil.absolutePlants },
+            { name: "Моча", src: animalistic.urine },
+            { name: "Гиацинт", src: flowers.hyacinth },
+          ],
+          base: [
+            { name: "Кожа лица", src: animalistic.skin },
+            { name: "Вагинальный аккорд", src: animalistic.body },
+            { name: "Запах тела", src: animalistic.bodyOdor },
+            { name: "Шампанское", src: drinks.champagne },
+            { name: "Губная помада", src: objects.lipstick },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: imgVibe },
+          { name: "Влажный", src: imgVibe },
+          { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Strangers Parfumerie",
+        perfumeName: "Sombre",
+        promoText: "Мрачный",
+        imagePerfume: TestBottle5,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Аккорд рвоты", src: animalistic.vomit },
+            { name: "Аккорд плесени", src: mushrooms.mold },
+            {
+              name: "Аккорд ночных животных",
+              src: animalistic.nocturnalAnimals,
+            },
+          ],
+          middle: [
+            { name: "Гной", src: animalistic.pus },
+            { name: "Грязь", src: natural.mud },
+            { name: "Пот", src: animalistic.sweat },
+            { name: "Шампанское", src: drinks.champagne },
+          ],
+          base: [
+            { name: "Масло ириса", src: balsamsOil.absolutePlants },
+            {
+              name: "Ночные цветы (Жасмин, Тубероза)",
+              src: flowers.nightBlooming,
+            },
+            { name: "Роза", src: flowers.rose },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: imgVibe },
+          { name: "Влажный", src: imgVibe },
+          { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Khalis",
+        perfumeName: "Oud Al Fakhir",
+        promoText: "Гавноуд",
+        imagePerfume: TestBottle5,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [{ name: "Амбра", src: animalistic.amber }],
+          middle: [
+            { name: "Полынь", src: green.wormwood },
+            { name: "Табак", src: green.tobacco },
+          ],
+          base: [
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Уд", src: woods.agarwoodOud },
+          ],
         },
         textStory: {
           brandHistory: [
@@ -193,57 +261,8 @@ const perfumesTierD: PerfumesTierType = [
           { name: "Тёмный", src: "" },
         ],
       },
-
-      {
-        brand: "Pineward",
-        perfumeName: "Lime Cola",
-        promoText: "Супер насыщенная Кока-Кола",
-        imagePerfume: TestBottle5,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Лайм холодного отжима", src: fruits.lime },
-            { name: "Чёрная вишня", src: berries.blackCherry },
-            { name: "Корень имбиря", src: spices.ginger },
-          ],
-          middle: [
-            { name: "Цветок нероли", src: flowers.neroli },
-            { name: "Горький апельсин", src: fruits.orange },
-            { name: "Мускатный орех", src: spices.nutmeg },
-            { name: "Кориандр", src: spices.coriander },
-            { name: "Сахар", src: gourmand.sugar },
-          ],
-          base: [
-            { name: "Ваниль", src: spices.vanilla },
-            { name: "Корица", src: spices.cinnamon },
-            { name: "Ром", src: drinks.rum },
-            { name: "Кока-Кола", src: drinks.cocaCola },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: imgVibe },
-          { name: "Влажный", src: imgVibe },
-          { name: "Тёмный", src: imgVibe },
-        ],
-      },
     ],
   },
 ];
 
-export { perfumesTierD };
+export { perfumesTierS };
