@@ -1,6 +1,13 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { perfumesTierF, perfumesTierD, perfumesTierC, perfumesTierB, perfumesTierA, perfumesTierS, perfumesTierIDK } from '../utils/perfumes';
+import { ref } from "vue";
+import { perfumesTierF } from "../utils/list-tier-F";
+import { perfumesTierD } from "../utils/list-tier-D";
+import { perfumesTierC } from "../utils/list-tier-C";
+import { perfumesTierB } from "../utils/list-tier-B";
+import { perfumesTierA } from "../utils/list-tier-A";
+import { perfumesTierS } from "../utils/list-tier-S";
+import { perfumesTierIDK } from "../utils/list-tier-IDK";
+
 
 // visibility: visible - hidden
 // url - src
@@ -106,14 +113,16 @@ const handleBuy = (volume: string, price: number) => {
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 p-4">
-            <div v-for="(item, index) in perfumesTierS[0]?.listPerfumes" :key="index" @click="openModal(item)"
+            <div v-for="(item, index) in perfumesTierC[0]?.listPerfumes" :key="index" @click="openModal(item)"
                 class="border-4 border-black rounded-xl bg-white aspect-square w-full max-w-[300px] mx-auto cursor-pointer">
                 <!-- Контент квадрата -->
                 <NuxtImg class="rounded-t-lg aspect-square w-full max-w-[300px]" :src="item.imagePerfume"
                     :alt="item.perfumeName" />
-                <h3 class="text-center">{{ item.perfumeName }}</h3>
-                <h3 class="text-center">{{ item.promoText }}</h3>
-                <p class="text-center">
+
+                <p class="text-center leading-tight mt-1 text-sm">{{ item.brand }}</p>
+                <h3 class="text-center leading-tight">{{ item.perfumeName }}</h3>
+                <h3 class="text-center leading-tight text-sm">{{ item.promoText }}</h3>
+                <p class="text-center leading-tight mb-1">
                     <span>{{ item.price1ml }}</span>
                     -
                     <span>{{ item.price10ml }}</span>
