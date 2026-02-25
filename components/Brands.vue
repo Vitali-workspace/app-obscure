@@ -1,31 +1,83 @@
 <script setup lang="ts">
-//import { listFilippoSorcinelli } from '~~/utils/constants';
+import { perfumesTierF } from "../utils/list-tier-F";
+import { perfumesTierD } from "../utils/list-tier-D";
+import { perfumesTierC } from "../utils/list-tier-C";
+import { perfumesTierB } from "../utils/list-tier-B";
+import { perfumesTierA } from "../utils/list-tier-A";
+import { perfumesTierS } from "../utils/list-tier-S";
+import { perfumesTierIDK } from "../utils/list-tier-IDK";
 
+import { usePerfumeStore } from '../stores/usePerfumeStore';
+
+const perfumeStore = usePerfumeStore();
+
+// save store
+function handleSelect(perfumes: any[]) {
+  perfumeStore.setPerfumes(perfumes);
+}
 </script>
 
 
 <template>
+  <div>
     <section class="min-w-[240px] h-[440px] bg-[#FFF1E8] border-4 border-black rounded-xl max-[1001px]:hidden">
-        <h3 class="border-b-4 border-black py-2 text-lg text-center">Все Бренды - Уровни</h3>
+      <h3 class="border-b-4 border-black py-2 text-lg text-center font-semibold">Уровни айсберга</h3>
 
-        <ul class="text-center">
-            <li class="py-2 border-b-2 border-black">Ванильный (Tier F)</li>
-            <li class="py-2 border-b-2 border-black">Казуальный (Tier D)</li>
-            <li class="py-2 border-b-2 border-black">Странный (Tier C)</li>
-            <li class="py-2 border-b-2 border-black">Эксперементальный (TierB)</li>
-            <li class="py-2 border-b-2 border-black">Хардкорный (TierA)</li>
-            <li class="py-2">Экстримальный (Tier S)</li>
-            <li class="py-2 hidden">Неопределённый (Tier IDK)</li>
+      <ul class="text-center">
+        <li class="py-2 border-b-2 border-black">
+        <button @click="handleSelect(perfumesTierF)">Ванильный (Tier F)</button>
+        </li>
+        
+        <li class="py-2 border-b-2 border-black">
+        <button @click="handleSelect(perfumesTierD)">Казуальный (Tier D)</button>
+        </li>
 
-            <li class="border-t-4 border-b-2 border-black py-2">Наборы пробников</li>
-            <li class="py-2 border-b-2 border-black">Услуги / Встречи</li>
-            <li class="py-2">Остатки во флаконах</li>
-        </ul>
+        <li class="py-2 border-b-2 border-black">
+        <button @click="handleSelect(perfumesTierC)">Странный (Tier C)</button>
+        </li>
 
-        <!-- <ul class="">
-            <li class="border-t-4 border-b-2 border-black py-2">Наборы пробников</li>
-            <li class="py-2 border-b-2 border-black">Услуги / Встречи</li>
-            <li class="py-2">Остатки во флаконах</li>
-        </ul> -->
+        <li class="py-2 border-b-2 border-black">
+        <button @click="handleSelect(perfumesTierB)">Эксперементальный (Tier B)</button>
+        </li>
+
+        <li class="py-2 border-b-2 border-black">
+        <button @click="handleSelect(perfumesTierA)">Хардкорный (Tier A)</button>
+        </li>
+
+        <li class="py-2">
+        <button  @click="handleSelect(perfumesTierS)">Экстремальный (Tier S)</button>
+        </li>
+
+        <li class="py-2 hidden">
+        <button @click="handleSelect(perfumesTierIDK)">Неопределённый (Tier IDK)</button>    
+        </li>
+
+
+        <li class="border-t-4 border-b-2 border-black py-2">
+        <button @click="">Наборы пробников</button>
+        </li>
+
+        <li class="py-2 border-b-2 border-black">
+        <button @click="">Услуги / Встречи</button>
+        </li>
+
+        <li class="py-2">
+        <button @click="">Остатки во флаконах</button>
+        </li>
+
+      </ul>
     </section>
+
+    <!--
+    <section
+      class="min-w-[240px] h-[140px] bg-[#FFF1E8] border-4 border-black rounded-xl mt-4 max-[1001px]:hidden"
+    >
+      <ul class="text-center">
+        <li class="border-t-4 border-b-2 border-black py-2">Наборы пробников</li>
+        <li class="py-2 border-b-2 border-black">Услуги / Встречи</li>
+        <li class="py-2">Остатки во флаконах</li>
+      </ul>
+    </section>
+    -->
+  </div>
 </template>
