@@ -3,6 +3,7 @@ const amber = "../public/notes/animalistic/amber.webp";
 const ambergris = "../public/notes/animalistic/ambergris.webp";
 const ambrette = "../public/notes/animalistic/ambrette.webp";
 const animalNotes = "../public/notes/animalistic/animal-notes.webp";
+const beeswax = "";
 const blackMusk = "../public/notes/animalistic/black-musk.jpg";
 const blood = "../public/notes/animalistic/blood.jpg";
 const body = "../public/notes/animalistic/body.jpg";
@@ -28,6 +29,7 @@ const animalistic = {
   ambergris,
   ambrette,
   animalNotes,
+  beeswax,
   blackMusk,
   blood,
   body,
@@ -104,6 +106,7 @@ const liquor = "../public/notes/drinks/liquor.webp";
 const mapleSyrup = "../public/notes/drinks/maple-syrup.webp";
 const mate = "../public/notes/drinks/mate.webp";
 const milk = "../public/notes/drinks/milk.webp";
+const pinaColada = "";
 const rum = "../public/notes/drinks/rum.webp";
 const syrup = "../public/notes/drinks/syrup.webp";
 
@@ -120,6 +123,7 @@ const drinks = {
   mapleSyrup,
   mate,
   milk,
+  pinaColada,
   rum,
   syrup,
 };
@@ -202,8 +206,10 @@ const mango = "../public/notes/fruits/mango.webp";
 const melon = "../public/notes/fruits/melon.webp";
 const orange = "../public/notes/fruits/orange.webp";
 const papaya = "../public/notes/fruits/papaya.webp";
+const peach = "../public/notes/fruits/peach.webp";
 const pineapple = "../public/notes/fruits/pineapple.webp";
 const plum = "../public/notes/fruits/plum.webp";
+const yuzu = "";
 
 const fruits = {
   apple,
@@ -222,8 +228,10 @@ const fruits = {
   melon,
   orange,
   papaya,
+  peach,
   pineapple,
   plum,
+  yuzu,
 };
 
 // gourmand
@@ -273,6 +281,7 @@ const gourmand = {
 
 // green
 const angelica = "../public/notes/green/angelica.webp";
+const basil = "../public/notes/green/basil.webp";
 const blackberryLeaf = "../public/notes/green/blackberry-leaf.webp";
 const blackCurrantLeaf = "../public/notes/green/black-currant-leaf.webp";
 const calamus = "../public/notes/green/calamus.webp";
@@ -303,6 +312,7 @@ const wormwood = "../public/notes/green/wormwood.webp";
 
 const green = {
   angelica,
+  basil,
   blackberryLeaf,
   blackCurrantLeaf,
   calamus,
@@ -386,12 +396,14 @@ const natural = {
 const almond = "../public/notes/nuts/almond.webp";
 const coconut = "../public/notes/nuts/coconut.webp";
 const macadamia = "../public/notes/nuts/macadamia.webp";
+const pecan = "../public/notes/nuts/pecan.webp";
 const pistachio = "../public/notes/nuts/pistachio.webp";
 
 const nuts = {
   almond,
   coconut,
   macadamia,
+  pecan,
   pistachio,
 };
 
@@ -460,6 +472,7 @@ const elemi = "../public/notes/resins/elemi.webp";
 const incense = "../public/notes/resins/incense.webp";
 const labdanum = "../public/notes/resins/labdanum.webp";
 const myrrh = "../public/notes/resins/myrrh.webp";
+const olibanum = "";
 const opoponax = "../public/notes/resins/opoponax.webp";
 const propolis = "../public/notes/resins/propolis.webp";
 const styrax = "../public/notes/resins/styrax.webp";
@@ -470,6 +483,7 @@ const resins = {
   incense,
   labdanum,
   myrrh,
+  olibanum,
   opoponax,
   propolis,
   styrax,
