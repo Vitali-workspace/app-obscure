@@ -331,7 +331,7 @@ const perfumesTierA: PerfumesTierType = [
             { name: "Кровь", src: animalistic.blood },
           ],
           middle: [
-            { name: "Крем Шантийи", src: gourmand.cream },
+            { name: "Крем шантийи", src: gourmand.cream },
             { name: "Домашнее печенье", src: gourmand.cookie },
             { name: "Малиновый сироп", src: drinks.syrup },
             { name: "Металлические ноты", src: natural.metallicNotes },
