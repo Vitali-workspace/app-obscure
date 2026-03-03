@@ -20,11 +20,19 @@ import {
 
 //============ флаконы ========================
 
-const TestBottle1 = "../assets/TEST-bottle/Bulls-Blood-900x900.jpg";
-const TestBottle2 = "../assets/TEST-bottle/CORPUS-EQUUS-2021.png";
 const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle4 = "../public/TEST-bottle/burning-barbershop.webp";
 const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+
+const desordenBottle = "../public/bottles/sorcinelli/belkis-desorden.webp";
+const pincettBottle = "../public/bottles/sorcinelli/pincett.webp";
+const unaNoiaSulBottle = "../public/bottles/sorcinelli/una-noia-sul.webp";
+const magicBottle = "../public/bottles/tier-c/bohoboco-magic-2.webp";
+const potatoesBottle = "../public/bottles/tier-c/bohoboco-potatoes-2.webp";
+const thunderstormBottle = "";
+const petrichorBottle = "";
+const rainTappingBottle = "../public/bottles/tier-c/asmr-rain.webp";
+const bonfireBottle = "../public/bottles/tier-c/asmr-bonfire.webp";
+const blackOudBottle = "";
 
 const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
 
@@ -75,7 +83,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Belkis Desorden",
         promoText: "Ягодные костры",
-        imagePerfume: TestBottle5,
+        imagePerfume: desordenBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -116,7 +124,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Pincett",
         promoText: "Мускусный цитрус",
-        imagePerfume: TestBottle5,
+        imagePerfume: pincettBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -167,7 +175,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Una Noia Sul Mare d'Inverno",
         promoText: "Зимний Ennui-noir",
-        imagePerfume: TestBottle5,
+        imagePerfume: unaNoiaSulBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -213,7 +221,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Bohoboco",
         perfumeName: "Magic Mushrooms",
         promoText: "Магический лес",
-        imagePerfume: TestBottle5,
+        imagePerfume: magicBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -267,7 +275,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Bohoboco",
         perfumeName: "Polish Potatoes",
         promoText: "Овощи в земле",
-        imagePerfume: TestBottle5,
+        imagePerfume: potatoesBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -395,7 +403,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "ASMR Fragrances",
         perfumeName: "Rain Tapping",
         promoText: "Ливень в лесу",
-        imagePerfume: TestBottle3,
+        imagePerfume: rainTappingBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -442,7 +450,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "ASMR Fragrances",
         perfumeName: "Bonfire Whisper",
         promoText: "Листья в костре",
-        imagePerfume: TestBottle3,
+        imagePerfume: bonfireBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

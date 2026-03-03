@@ -20,11 +20,16 @@ import {
 
 //============ флаконы ========================
 
-const TestBottle1 = "../assets/TEST-bottle/Bulls-Blood-900x900.jpg";
-const TestBottle2 = "../assets/TEST-bottle/CORPUS-EQUUS-2021.png";
-const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle4 = "../public/TEST-bottle/burning-barbershop.webp";
 const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+
+const areaBottle = "../public/bottles/sorcinelli/area.webp";
+const quickieBottle = "../public/bottles/sorcinelli/quickie-2.webp";
+const butNotTodayBottle = "../public/bottles/sorcinelli/but-not-today.webp";
+const cityFireBottle = "../public/bottles/imaginary-authors/city-fire.webp";
+const bullBloodBottle = "../public/bottles/imaginary-authors/bull-blood.webp";
+const leonardaBottle = "../public/bottles/spiritica/leonarda-2.webp";
+const jeffreyBottle = "../public/bottles/spiritica/jeffrey.jpg";
+const verdadSombraBottle = "";
 
 const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
 
@@ -75,7 +80,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "But Not Today",
         promoText: "Горькие травы",
-        imagePerfume: TestBottle5,
+        imagePerfume: butNotTodayBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -126,7 +131,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Cruising-Areas",
         promoText: "Аромат ночи",
-        imagePerfume: TestBottle5,
+        imagePerfume: areaBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -178,7 +183,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Quickie and Coffee",
         promoText: "Анималистичный кофе",
-        imagePerfume: TestBottle5,
+        imagePerfume: quickieBottle,
         price05ml: 0,
         price1ml: 1,
         price2ml: 0,
@@ -225,7 +230,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Imaginary Authors",
         perfumeName: "A City On Fire",
         promoText: "Спички",
-        imagePerfume: TestBottle5,
+        imagePerfume: cityFireBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -269,7 +274,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Imaginary Authors",
         perfumeName: "Bull's Blood",
         promoText: "Кровавое месиво",
-        imagePerfume: TestBottle5,
+        imagePerfume: bullBloodBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -313,7 +318,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Spiritica",
         perfumeName: "Leonarda",
         promoText: "Человеческое мыло",
-        imagePerfume: TestBottle5,
+        imagePerfume: leonardaBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -363,7 +368,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Spiritica",
         perfumeName: "Jeffrey",
         promoText: "Жуткий ковёр",
-        imagePerfume: TestBottle5,
+        imagePerfume: jeffreyBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

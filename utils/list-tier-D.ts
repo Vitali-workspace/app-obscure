@@ -20,11 +20,11 @@ import {
 
 //============ флаконы ========================
 
-const TestBottle1 = "../assets/TEST-bottle/Bulls-Blood-900x900.jpg";
-const TestBottle2 = "../assets/TEST-bottle/CORPUS-EQUUS-2021.png";
-const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle4 = "../public/TEST-bottle/burning-barbershop.webp";
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+const expliciteBottle = "../public/bottles/tier-d/house-oud-explicite.webp";
+const waffleconeBottle = "../public/bottles/imaginary-authors/wafflecone.webp";
+const goodTimesBottle = "../public/bottles/tier-d/lush-good-times.webp";
+const severoBottle = "../public/bottles/tier-d/jacques-zolty-severo.webp";
+const limeColaBottle = "../public/bottles/tier-d/pineward-cola.webp";
 
 const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
 
@@ -74,8 +74,8 @@ const perfumesTierD: PerfumesTierType = [
       {
         brand: "The House of Oud",
         perfumeName: "L'Explicite",
-        promoText: "Банановый хлеб с арахисовым маслом",
-        imagePerfume: TestBottle5,
+        promoText: "Банановый хлеб и Nutella",
+        imagePerfume: expliciteBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -120,7 +120,7 @@ const perfumesTierD: PerfumesTierType = [
         brand: "Imaginary Authors",
         perfumeName: "A Whiff of Wafflecone",
         promoText: "Вафельный рожок",
-        imagePerfume: TestBottle5,
+        imagePerfume: waffleconeBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -164,7 +164,7 @@ const perfumesTierD: PerfumesTierType = [
         brand: "Lush",
         perfumeName: "Let The Good Times Roll",
         promoText: "Попкорн в масле",
-        imagePerfume: "",
+        imagePerfume: goodTimesBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -195,10 +195,56 @@ const perfumesTierD: PerfumesTierType = [
       },
 
       {
+        brand: "Jacques Zolty",
+        perfumeName: "Severo",
+        promoText: "Кока-кола с ромом",
+        imagePerfume: severoBottle,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Лайм", src: fruits.lime },
+            { name: "Ром", src: drinks.rum },
+            { name: "Кока-кола", src: drinks.cocaCola },
+          ],
+          middle: [
+            { name: "Давана", src: green.davana },
+            { name: "Береза", src: woods.birch },
+            { name: "Чёрный перец", src: spices.blackPepper },
+          ],
+          base: [
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Белый мускус", src: spices.whitePepper },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
         brand: "Pineward",
         perfumeName: "Lime Cola",
-        promoText: "Супер насыщенная Кока-Кола",
-        imagePerfume: TestBottle5,
+        promoText: "Супер насыщенная кока-кола",
+        imagePerfume: limeColaBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

@@ -20,11 +20,10 @@ import {
 
 //============ флаконы ========================
 
-const TestBottle1 = "../assets/TEST-bottle/Bulls-Blood-900x900.jpg";
-const TestBottle2 = "../assets/TEST-bottle/CORPUS-EQUUS-2021.png";
-const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle4 = "../public/TEST-bottle/burning-barbershop.webp";
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+const reliqviaBottle = "../public/bottles/sorcinelli/reliqvia.webp";
+const lavsBottle = "../public/bottles/sorcinelli/lavs.webp";
+const ventoForteBottle = "../public/bottles/sorcinelli/vento-forte.webp";
+const bombardeBottle = "../public/bottles/sorcinelli/musique.webp";
 
 const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
 
@@ -75,7 +74,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Reliqvia",
         promoText: "Готический церковный ладан",
-        imagePerfume: TestBottle5,
+        imagePerfume: reliqviaBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -128,7 +127,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Lavs",
         promoText: "Церковный ладан",
-        imagePerfume: TestBottle5,
+        imagePerfume: lavsBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -177,7 +176,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Vento Forte",
         promoText: "Резиновая акватика",
-        imagePerfume: TestBottle5,
+        imagePerfume: ventoForteBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -218,7 +217,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Filippo Sorcinelli",
         perfumeName: "Contre Bombarde 32",
         promoText: "Древесно сливочная гурманика",
-        imagePerfume: TestBottle5,
+        imagePerfume: bombardeBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

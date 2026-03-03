@@ -20,11 +20,10 @@ import {
 
 //============ флаконы ========================
 
-const TestBottle1 = "../assets/TEST-bottle/Bulls-Blood-900x900.jpg";
-const TestBottle2 = "../assets/TEST-bottle/CORPUS-EQUUS-2021.png";
-const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle4 = "../public/TEST-bottle/burning-barbershop.webp";
 const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+
+const cookiesCreamBottle = "../public/bottles/tubbees/cookies-cream.webp";
+const tresLechesBottle = "../public/bottles/tubbees/tres-leches.webp";
 
 const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
 
@@ -75,7 +74,7 @@ const perfumesTierF: PerfumesTierType = [
         brand: "Tubbees",
         perfumeName: "Cookies & Cream",
         promoText: "Сливочное печенье",
-        imagePerfume: TestBottle4,
+        imagePerfume: cookiesCreamBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -118,7 +117,7 @@ const perfumesTierF: PerfumesTierType = [
         brand: "Tubbees",
         perfumeName: "Tres Leches",
         promoText: "Молочный десерт",
-        imagePerfume: TestBottle5,
+        imagePerfume: tresLechesBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -157,52 +156,6 @@ const perfumesTierF: PerfumesTierType = [
           { name: "Мрачное здание", src: imgVibe },
           { name: "Влажный", src: imgVibe },
           { name: "Тёмный", src: imgVibe },
-        ],
-      },
-
-      {
-        brand: "Jacques Zolty",
-        perfumeName: "Severo",
-        promoText: "Кока-кола с ромом",
-        imagePerfume: TestBottle5,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Лайм", src: fruits.lime },
-            { name: "Ром", src: drinks.rum },
-            { name: "Кока-кола", src: drinks.cocaCola },
-          ],
-          middle: [
-            { name: "Давана", src: green.davana },
-            { name: "Береза", src: woods.birch },
-            { name: "Чёрный перец", src: spices.blackPepper },
-          ],
-          base: [
-            { name: "Ваниль", src: spices.vanilla },
-            { name: "Амбра", src: animalistic.amber },
-            { name: "Белый мускус", src: spices.whitePepper },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
         ],
       },
 

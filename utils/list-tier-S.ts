@@ -20,11 +20,12 @@ import {
 
 //============ флаконы ========================
 
-const TestBottle1 = "../assets/TEST-bottle/Bulls-Blood-900x900.jpg";
-const TestBottle2 = "../assets/TEST-bottle/CORPUS-EQUUS-2021.png";
-const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle4 = "../public/TEST-bottle/burning-barbershop.webp";
 const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+
+const nekroBottle = "../public/bottles/tier-s/nekro.webp";
+const sombreBottle = "../public/bottles/tier-s/strangers-sombre.webp";
+const secretionsBottle = "../public/bottles/tier-s/secretions-magnifiques.webp";
+const fakhirBottle = "";
 
 const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
 
@@ -75,7 +76,7 @@ const perfumesTierS: PerfumesTierType = [
         brand: "Etat Libre d'Orange",
         perfumeName: "Secretions Magnifiques",
         promoText: "Жуткая акватика",
-        imagePerfume: TestBottle5,
+        imagePerfume: secretionsBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -121,7 +122,7 @@ const perfumesTierS: PerfumesTierType = [
         brand: "The Fragrance Engineers",
         perfumeName: "Nekro Dellamorte",
         promoText: "Кладбищенский",
-        imagePerfume: TestBottle5,
+        imagePerfume: nekroBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -173,7 +174,7 @@ const perfumesTierS: PerfumesTierType = [
         brand: "Strangers Parfumerie",
         perfumeName: "Sombre",
         promoText: "Мрачный",
-        imagePerfume: TestBottle5,
+        imagePerfume: sombreBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
