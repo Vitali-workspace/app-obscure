@@ -18,6 +18,8 @@ import {
   woods,
 } from "./nots";
 
+import type { PerfumesTierType } from "./constants";
+
 //============ флаконы ========================
 
 const expliciteBottle = "../public/bottles/tier-d/house-oud-explicite.webp";
@@ -26,45 +28,13 @@ const goodTimesBottle = "../public/bottles/tier-d/lush-good-times.webp";
 const severoBottle = "../public/bottles/tier-d/jacques-zolty-severo.webp";
 const limeColaBottle = "../public/bottles/tier-d/pineward-cola.webp";
 
-const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
+const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
 
 //================ Тиры ====================
-
-type PerfumesTierType = {
-  titlePage: string;
-  descriptionPage: string;
-  listPerfumes: {
-    brand: string;
-    perfumeName: string;
-    promoText: string;
-    imagePerfume: string;
-    price05ml: number;
-    price1ml: number;
-    price2ml: number;
-    price5ml: number;
-    price10ml: number;
-    priceFull: number;
-    visibility: "visible" | "hidden";
-    volumeMl: number;
-    notes: {
-      top: { name: string; src: string }[];
-      middle: { name: string; src: string }[];
-      base: { name: string; src: string }[];
-    };
-    textStory: {
-      brandHistory: { text: string }[];
-      perfumeHistory: { text: string }[];
-      review: { text: string }[];
-    };
-    vibe: { name: string; src: string }[];
-  }[];
-}[];
-
-//========================================
 
 const perfumesTierD: PerfumesTierType = [
   {

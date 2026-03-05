@@ -18,11 +18,11 @@ import {
   woods,
 } from "./nots";
 
+import type { PerfumesTierType } from "./constants";
+
 //============ флаконы ========================
 
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
-
-const areaBottle = "../public/bottles/sorcinelli/area.webp";
+const areaBottle = "../public/bottles/sorcinelli/area-2.webp";
 const quickieBottle = "../public/bottles/sorcinelli/quickie-2.webp";
 const butNotTodayBottle = "../public/bottles/sorcinelli/but-not-today.webp";
 const cityFireBottle = "../public/bottles/imaginary-authors/city-fire.webp";
@@ -31,43 +31,11 @@ const leonardaBottle = "../public/bottles/spiritica/leonarda-2.webp";
 const jeffreyBottle = "../public/bottles/spiritica/jeffrey.jpg";
 const verdadSombraBottle = "";
 
-const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
+const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
-
-//================ Тиры ====================
-
-type PerfumesTierType = {
-  titlePage: string;
-  descriptionPage: string;
-  listPerfumes: {
-    brand: string;
-    perfumeName: string;
-    promoText: string;
-    imagePerfume: string;
-    price05ml: number;
-    price1ml: number;
-    price2ml: number;
-    price5ml: number;
-    price10ml: number;
-    priceFull: number;
-    visibility: "visible" | "hidden";
-    volumeMl: number;
-    notes: {
-      top: { name: string; src: string }[];
-      middle: { name: string; src: string }[];
-      base: { name: string; src: string }[];
-    };
-    textStory: {
-      brandHistory: { text: string }[];
-      perfumeHistory: { text: string }[];
-      review: { text: string }[];
-    };
-    vibe: { name: string; src: string }[];
-  }[];
-}[];
 
 //========================================
 
@@ -420,7 +388,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Senyoko",
         perfumeName: "Hora de la Verdad Sombra",
         promoText: "Кровавая кожа",
-        imagePerfume: TestBottle5,
+        imagePerfume: NotIMG,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

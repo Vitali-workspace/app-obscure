@@ -18,52 +18,20 @@ import {
   woods,
 } from "./nots";
 
-//============ флаконы ========================
+import type { PerfumesTierType } from "./constants";
 
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+//============ флаконы ========================
 
 const cookiesCreamBottle = "../public/bottles/tubbees/cookies-cream.webp";
 const tresLechesBottle = "../public/bottles/tubbees/tres-leches.webp";
 
-const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
+const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
 
 //================ Тиры ====================
-
-type PerfumesTierType = {
-  titlePage: string;
-  descriptionPage: string;
-  listPerfumes: {
-    brand: string;
-    perfumeName: string;
-    promoText: string;
-    imagePerfume: string;
-    price05ml: number;
-    price1ml: number;
-    price2ml: number;
-    price5ml: number;
-    price10ml: number;
-    priceFull: number;
-    visibility: "visible" | "hidden";
-    volumeMl: number;
-    notes: {
-      top: { name: string; src: string }[];
-      middle: { name: string; src: string }[];
-      base: { name: string; src: string }[];
-    };
-    textStory: {
-      brandHistory: { text: string }[];
-      perfumeHistory: { text: string }[];
-      review: { text: string }[];
-    };
-    vibe: { name: string; src: string }[];
-  }[];
-}[];
-
-//========================================
 
 const perfumesTierF: PerfumesTierType = [
   {
@@ -163,7 +131,7 @@ const perfumesTierF: PerfumesTierType = [
         brand: "Montale",
         perfumeName: "Vanilla Cake",
         promoText: "Молочный кекс",
-        imagePerfume: TestBottle5,
+        imagePerfume: NotIMG,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -203,7 +171,7 @@ const perfumesTierF: PerfumesTierType = [
         brand: "Sol de Janeiro",
         perfumeName: "Cheirosa '71",
         promoText: "Орехи макадамия",
-        imagePerfume: TestBottle5,
+        imagePerfume: NotIMG,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

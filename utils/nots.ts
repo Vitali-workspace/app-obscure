@@ -390,11 +390,12 @@ const metallicNotes = "../public/notes/natural-atmospheric/metallic-notes.webp";
 const mud = "../public/notes/natural-atmospheric/mud.webp";
 const ozone = "../public/notes/natural-atmospheric/ozone.jpg";
 const petrichor = "../public/notes/natural-atmospheric/petrichor.jpg";
-const rain = "../public/notes/natural-atmospheric/rain.jpg";
+const rain = "../public/notes/natural-atmospheric/rain.webp";
 const salt = "../public/notes/natural-atmospheric/salt.webp";
 const smoke = "../public/notes/natural-atmospheric/smoke.jpg";
 const solarNotes = "../public/notes/natural-atmospheric/solar-notes.webp";
 const sulphur = "../public/notes/natural-atmospheric/sulphur.webp";
+const wind = "../public/notes/natural-atmospheric/wind.webp";
 
 const natural = {
   clay,
@@ -412,6 +413,7 @@ const natural = {
   smoke,
   solarNotes,
   sulphur,
+  wind,
 };
 
 // nuts

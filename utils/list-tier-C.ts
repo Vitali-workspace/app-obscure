@@ -18,61 +18,28 @@ import {
   woods,
 } from "./nots";
 
-//============ флаконы ========================
+import type { PerfumesTierType } from "./constants";
 
-const TestBottle3 = "../assets/TEST-bottle/Mansa-900x900.png";
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+//============ флаконы ========================
 
 const desordenBottle = "../public/bottles/sorcinelli/belkis-desorden.webp";
 const pincettBottle = "../public/bottles/sorcinelli/pincett.webp";
 const unaNoiaSulBottle = "../public/bottles/sorcinelli/una-noia-sul.webp";
 const magicBottle = "../public/bottles/tier-c/bohoboco-magic-2.webp";
 const potatoesBottle = "../public/bottles/tier-c/bohoboco-potatoes-2.webp";
-const thunderstormBottle = "";
-const petrichorBottle = "";
+const thunderstormBottle = "../public/bottles/tier-c/demeter-thunderstorm.jpg";
+const petrichorBottle = "../public/bottles/tier-c/demeter-petrichor .jpg";
 const rainTappingBottle = "../public/bottles/tier-c/asmr-rain.webp";
 const bonfireBottle = "../public/bottles/tier-c/asmr-bonfire.webp";
-const blackOudBottle = "";
+const blackOudBottle = "../public/bottles/tier-c/khalis-black-oud.jpg";
 
-const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
+const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
 
 //================ Тиры ====================
-
-type PerfumesTierType = {
-  titlePage: string;
-  descriptionPage: string;
-  listPerfumes: {
-    brand: string;
-    perfumeName: string;
-    promoText: string;
-    imagePerfume: string;
-    price05ml: number;
-    price1ml: number;
-    price2ml: number;
-    price5ml: number;
-    price10ml: number;
-    priceFull: number;
-    visibility: "visible" | "hidden";
-    volumeMl: number;
-    notes: {
-      top: { name: string; src: string }[];
-      middle: { name: string; src: string }[];
-      base: { name: string; src: string }[];
-    };
-    textStory: {
-      brandHistory: { text: string }[];
-      perfumeHistory: { text: string }[];
-      review: { text: string }[];
-    };
-    vibe: { name: string; src: string }[];
-  }[];
-}[];
-
-//========================================
 
 const perfumesTierC: PerfumesTierType = [
   {
@@ -332,7 +299,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Demeter",
         perfumeName: "Thunderstorm",
         promoText: "Грозовое небо",
-        imagePerfume: TestBottle3,
+        imagePerfume: thunderstormBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -369,7 +336,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Demeter",
         perfumeName: "Petrichor",
         promoText: "После дождя",
-        imagePerfume: TestBottle3,
+        imagePerfume: petrichorBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -496,7 +463,7 @@ const perfumesTierC: PerfumesTierType = [
         brand: "Khalis",
         perfumeName: "Black Oud",
         promoText: "Запах шпал",
-        imagePerfume: TestBottle3,
+        imagePerfume: blackOudBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

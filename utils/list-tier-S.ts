@@ -18,54 +18,23 @@ import {
   woods,
 } from "./nots";
 
-//============ флаконы ========================
+import type { PerfumesTierType } from "./constants";
 
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+//============ флаконы ========================
 
 const nekroBottle = "../public/bottles/tier-s/nekro.webp";
 const sombreBottle = "../public/bottles/tier-s/strangers-sombre.webp";
-const secretionsBottle = "../public/bottles/tier-s/secretions-magnifiques.webp";
-const fakhirBottle = "";
+const secretionsBottle =
+  "../public/bottles/tier-s/secretions-magnifiques-2.jpg";
+const fakhirBottle = "../public/bottles/tier-s/khalis-oud-fakhir.jpg";
 
-const NotIMG = "./assets/TEST-bottle/naked_laundry-900x900.jpg";
+const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
 
 //================ Тиры ====================
-
-type PerfumesTierType = {
-  titlePage: string;
-  descriptionPage: string;
-  listPerfumes: {
-    brand: string;
-    perfumeName: string;
-    promoText: string;
-    imagePerfume: string;
-    price05ml: number;
-    price1ml: number;
-    price2ml: number;
-    price5ml: number;
-    price10ml: number;
-    priceFull: number;
-    visibility: "visible" | "hidden";
-    volumeMl: number;
-    notes: {
-      top: { name: string; src: string }[];
-      middle: { name: string; src: string }[];
-      base: { name: string; src: string }[];
-    };
-    textStory: {
-      brandHistory: { text: string }[];
-      perfumeHistory: { text: string }[];
-      review: { text: string }[];
-    };
-    vibe: { name: string; src: string }[];
-  }[];
-}[];
-
-//========================================
 
 const perfumesTierS: PerfumesTierType = [
   {
@@ -227,7 +196,7 @@ const perfumesTierS: PerfumesTierType = [
         brand: "Khalis",
         perfumeName: "Oud Al Fakhir",
         promoText: "Гавноуд",
-        imagePerfume: TestBottle5,
+        imagePerfume: fakhirBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
