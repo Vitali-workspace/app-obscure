@@ -73,13 +73,17 @@ const closeModal = () => {
         </div>
     </section>
 
-    <!-- :selectedPerfume="selectedPerfume" может упростить название -->
-     
+    <!--  -->
+    <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+    max-w-[700px] max-h-[95vh] my-2 overflow-y-auto">
+    
     <ModalCard
         :show="showModal"
         :selectedPerfume="selectedPerfume"
         @close="closeModal"
     />
+     </div>
+
 
 </template>
 
