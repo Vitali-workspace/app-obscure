@@ -39,9 +39,9 @@ const handleBuy = (volume: string, price: number) => {
 
 
 <template>
-  
-    <section v-if="show"
-            class="flex flex-col max-w-[900px] min-w-[320px] bg-white border-4 border-black rounded-xl p-4 overflow-scroll">
+  <div v-if="show" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    
+    <section class="flex flex-col max-w-[900px] min-w-[320px] bg-white border-4 border-black rounded-xl p-4 overflow-scroll">
             
             <button
                 class="top-2 right-2 border-2 border-black rounded-md px-3 py-1 bg-red-400 hover:bg-red-500 transition"
@@ -150,6 +150,7 @@ const handleBuy = (volume: string, price: number) => {
 
 
         </section>
+    </div>
    
 </template>
 
