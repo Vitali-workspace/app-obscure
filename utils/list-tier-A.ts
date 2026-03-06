@@ -22,14 +22,17 @@ import type { PerfumesTierType } from "./constants";
 
 //============ флаконы ========================
 
-const areaBottle = "../public/bottles/sorcinelli/area-2.webp";
-const quickieBottle = "../public/bottles/sorcinelli/quickie-2.webp";
-const butNotTodayBottle = "../public/bottles/sorcinelli/but-not-today.webp";
-const cityFireBottle = "../public/bottles/imaginary-authors/city-fire.webp";
-const bullBloodBottle = "../public/bottles/imaginary-authors/bull-blood.webp";
-const leonardaBottle = "../public/bottles/spiritica/leonarda-2.webp";
-const jeffreyBottle = "../public/bottles/spiritica/jeffrey.jpg";
-const verdadSombraBottle = "";
+const areaBottle = "../public/bottles/brands/sorcinelli/area-2.webp";
+const quickieBottle = "../public/bottles/brands/sorcinelli/quickie-2.webp";
+const butNotTodayBottle =
+  "../public/bottles/brands/sorcinelli/but-not-today.webp";
+const cityFireBottle =
+  "../public/bottles/brands/imaginary-authors/city-fire.webp";
+const bullBloodBottle =
+  "../public/bottles/brands/imaginary-authors/bulls-blood-2.webp";
+const leonardaBottle = "../public/bottles/brands/spiritica/leonarda-2.webp";
+const jeffreyBottle = "../public/bottles/brands/spiritica/jeffrey.jpg";
+const verdadSombraBottle = "../public/bottles/tier-s/";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 

@@ -22,9 +22,11 @@ import type { PerfumesTierType } from "./constants";
 
 //============ флаконы ========================
 
-const desordenBottle = "../public/bottles/sorcinelli/belkis-desorden.webp";
-const pincettBottle = "../public/bottles/sorcinelli/pincett.webp";
-const unaNoiaSulBottle = "../public/bottles/sorcinelli/una-noia-sul.webp";
+const desordenBottle =
+  "../public/bottles/brands/sorcinelli/belkis-desorden.webp";
+const pincettBottle = "../public/bottles/brands/sorcinelli/pincett.webp";
+const unaNoiaSulBottle =
+  "../public/bottles/brands/sorcinelli/una-noia-sul.webp";
 const magicBottle = "../public/bottles/tier-c/bohoboco-magic-2.webp";
 const potatoesBottle = "../public/bottles/tier-c/bohoboco-potatoes-2.webp";
 const thunderstormBottle = "../public/bottles/tier-c/demeter-thunderstorm.jpg";

@@ -23,7 +23,8 @@ import type { PerfumesTierType } from "./constants";
 //============ флаконы ========================
 
 const expliciteBottle = "../public/bottles/tier-d/house-oud-explicite.webp";
-const waffleconeBottle = "../public/bottles/imaginary-authors/wafflecone.webp";
+const waffleconeBottle =
+  "../public/bottles/brands/imaginary-authors/wafflecone.webp";
 const goodTimesBottle = "../public/bottles/tier-d/lush-good-times.webp";
 const severoBottle = "../public/bottles/tier-d/jacques-zolty-severo.webp";
 const limeColaBottle = "../public/bottles/tier-d/pineward-cola.webp";

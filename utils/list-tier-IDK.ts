@@ -22,7 +22,7 @@ import type { PerfumesTierType } from "./constants";
 
 //============ флаконы ========================
 
-const TestBottle5 = "../public/TEST-bottle/naked_laundry-900x900.jpg";
+
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
@@ -43,7 +43,7 @@ const perfumesTierIDK: PerfumesTierType = [
         brand: "Toskovat",
         perfumeName: "Inexcusable Evil",
         promoText: "Запах войны",
-        imagePerfume: TestBottle5,
+        imagePerfume: NotIMG,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -93,7 +93,7 @@ const perfumesTierIDK: PerfumesTierType = [
         brand: "Toskovat",
         perfumeName: "Last Birthday Cake",
         promoText: "Вкус последнего торта",
-        imagePerfume: TestBottle5,
+        imagePerfume: NotIMG,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -152,7 +152,7 @@ const perfumesTierIDK: PerfumesTierType = [
         brand: "Toskovat",
         perfumeName: "Born Screaming",
         promoText: "Дымный",
-        imagePerfume: TestBottle5,
+        imagePerfume: NotIMG,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,
@@ -208,6 +208,59 @@ const perfumesTierIDK: PerfumesTierType = [
           { name: "Тёмный", src: imgVibe },
         ],
       },
+
+
+
+// ================ шаблон ====================
+      {
+        brand: "xxxxxxx",
+        perfumeName: "xxxx",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+          middle: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+          base: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
     ],
   },
 ];

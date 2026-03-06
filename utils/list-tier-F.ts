@@ -22,8 +22,9 @@ import type { PerfumesTierType } from "./constants";
 
 //============ флаконы ========================
 
-const cookiesCreamBottle = "../public/bottles/tubbees/cookies-cream.webp";
-const tresLechesBottle = "../public/bottles/tubbees/tres-leches.webp";
+const cookiesCreamBottle =
+  "../public/bottles/brands/tubbees/cookies-cream.webp";
+const tresLechesBottle = "../public/bottles/brands/tubbees/tres-leches.webp";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
