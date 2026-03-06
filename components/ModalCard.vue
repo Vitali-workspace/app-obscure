@@ -1,14 +1,10 @@
 <script setup lang="ts">
 
 import type { PerfumeType } from '../utils/constants';
+import { usePerfumeStore } from '../stores/usePerfumeStore';
+import type { CartItem } from '../stores/usePerfumeStore';
 
-interface Purchase {
-    volume: string;
-    price: number;
-    timestamp: Date;
-}
-
-//=======================
+const perfumeStore = usePerfumeStore();
 
 const props = defineProps<{
   show: boolean;
@@ -22,26 +18,28 @@ const emit = defineEmits<{
 
 const closeModal = () => emit('close');
 
-//================================
-//const handleBuy = (volume: string, price: number) => emit('buy', volume, price);
-
 const handleBuy = (volume: string, price: number) => {
-    const purchase: Purchase = {
-        volume: volume,
-        price: price,
-        timestamp: new Date()
-    }
-    console.warn('Покупка сохранена:', purchase)
-}
+  if (!props.selectedPerfume) return;
+
+  const item: CartItem = {
+    brand: props.selectedPerfume.brand,
+    perfumeName: props.selectedPerfume.perfumeName,
+    price,
+    volume,
+  };
+
+  perfumeStore.addToCart(item);
+  emit('buy', volume, price);
+};
 
 </script>
 
 
 
 <template>
-  <div v-if="show" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div v-if="show" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
     
-    <section class="flex flex-col max-w-[900px] min-w-[320px] bg-white border-4 border-black rounded-xl p-4 overflow-scroll">
+    <section class="flex flex-col max-w-[900px] min-w-[320px] max-h-[90vh] bg-white border-4 border-black rounded-xl p-4 overflow-y-auto">
             
             <button
                 class="top-2 right-2 border-2 border-black rounded-md px-3 py-1 bg-red-400 hover:bg-red-500 transition"
@@ -61,7 +59,7 @@ const handleBuy = (volume: string, price: number) => {
 
                             <div class="flex items-center w-full">
                             <div class="flex-1 h-px bg-black"></div>
-                            <h4 class="font-semibold p-2 text-lg">Верхние</h4>
+                            <h4 class="font-semibold p-2 text-lg">Верхние ноты</h4>
                             <div class="flex-1 h-px bg-black"></div>
                             </div>
                             
@@ -76,7 +74,7 @@ const handleBuy = (volume: string, price: number) => {
 
                             <div class="flex items-center w-full">
                             <hr class="flex-1 border-t-2 border-black" />
-                            <h4 class="font-semibold p-2 text-lg">Средние</h4>
+                            <h4 class="font-semibold p-2 text-lg">Средние ноты</h4>
                             <hr class="flex-1 border-t-2 border-black" />
                             </div>
                             
@@ -91,7 +89,7 @@ const handleBuy = (volume: string, price: number) => {
 
                             <div class="flex items-center w-full">
                             <hr class="flex-1 border-t-2 border-black" />
-                            <h4 class="font-semibold p-2 text-lg">Нижние</h4>
+                            <h4 class="font-semibold p-2 text-lg">Нижние ноты</h4>
                             <hr class="flex-1 border-t-2 border-black" />
                             </div>
                             
