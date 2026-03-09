@@ -78,19 +78,25 @@ const balsamsOil = {
 const blackberry = "../public/notes/berries/blackberry.webp";
 const blackCherry = "../public/notes/berries/black-cherry.webp";
 const blackCurrant = "../public/notes/berries/black-currant.webp";
+const blueberry = "../public/notes/berries/blueberry.webp";
 const cherry = "../public/notes/berries/cherry.webp";
 const mulberry = "../public/notes/berries/mulberry.webp";
 const physalis = "../public/notes/berries/physalis.jpg";
+const raspberry = "../public/notes/berries/raspberry.webp";
 const redBerries = "../public/notes/berries/red-berries.webp";
+const redCurrant = "../public/notes/berries/red-currant.webp";
 
 const berries = {
   blackberry,
   blackCherry,
   blackCurrant,
+  blueberry,
   cherry,
   mulberry,
   physalis,
+  raspberry,
   redBerries,
+  redCurrant,
 };
 
 // drinks
@@ -419,6 +425,7 @@ const natural = {
 // nuts
 const almond = "../public/notes/nuts/almond.webp";
 const coconut = "../public/notes/nuts/coconut.webp";
+const hazelnut = "../public/notes/nuts/hazelnut.webp";
 const macadamia = "../public/notes/nuts/macadamia.webp";
 const pecan = "../public/notes/nuts/pecan.webp";
 const pistachio = "../public/notes/nuts/pistachio.webp";
@@ -426,6 +433,7 @@ const pistachio = "../public/notes/nuts/pistachio.webp";
 const nuts = {
   almond,
   coconut,
+  hazelnut,
   macadamia,
   pecan,
   pistachio,
@@ -580,7 +588,9 @@ const synthetics = {
 // vegetables
 const beetroot = "../public/notes/vegetables-cereals/beetroot.webp";
 const bellPepper = "../public/notes/vegetables-cereals/bell-pepper.webp";
+const carrot = "../public/notes/vegetables-cereals/carrot.webp";
 const carrotSeeds = "../public/notes/vegetables-cereals/carrot-seeds.webp";
+const cucumber = "../public/notes/vegetables-cereals/cucumber.webp";
 const malt = "../public/notes/vegetables-cereals/malt.webp";
 const potatoes = "../public/notes/vegetables-cereals/potatoes.webp";
 const rhubarb = "../public/notes/vegetables-cereals/rhubarb.webp";
@@ -589,7 +599,9 @@ const wheat = "../public/notes/vegetables-cereals/wheat.webp";
 const vegetables = {
   beetroot,
   bellPepper,
+  carrot,
   carrotSeeds,
+  cucumber,
   malt,
   potatoes,
   rhubarb,
