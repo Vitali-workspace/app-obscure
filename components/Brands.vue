@@ -6,6 +6,7 @@ import { perfumesTierB } from "../utils/list-tier-B";
 import { perfumesTierA } from "../utils/list-tier-A";
 import { perfumesTierS } from "../utils/list-tier-S";
 import { perfumesTierIDK } from "../utils/list-tier-IDK";
+import { perfumesTierSoon } from "../utils/list-tier-soon";
 
 import { usePerfumeStore } from '../stores/usePerfumeStore';
 
@@ -20,49 +21,59 @@ function handleSelect(perfumes: any[]) {
 
 <template>
   <div>
-    <section class="min-w-[240px] h-[440px] bg-[#FFF1E8] border-4 border-black rounded-xl max-[1001px]:hidden">
-      <h3 class="border-b-4 border-black py-2 text-lg text-center font-semibold">Уровни айсберга</h3>
+    <section class="min-w-[240px] h-[520px] bg-[#FFF1E8] border-4 border-black rounded-xl max-[1001px]:hidden">
+      <h3 class="border-b-4 border-black py-2 text-lg text-center font-semibold">Уровни</h3>
 
       <ul class="text-center">
         <li class="py-2 border-b-2 border-black">
-        <button @click="handleSelect(perfumesTierF)">Ванильный (Tier F)</button>
+          <button @click="handleSelect(perfumesTierF)">Ванильный (Tier F)</button>
         </li>
-        
+
+        <!-- необычный -->
         <li class="py-2 border-b-2 border-black">
-        <button @click="handleSelect(perfumesTierD)">Казуальный (Tier D)</button>
+          <button @click="handleSelect(perfumesTierD)">Казуальный (Tier D)</button>
         </li>
 
         <li class="py-2 border-b-2 border-black">
-        <button @click="handleSelect(perfumesTierC)">Странный (Tier C)</button>
+          <button @click="handleSelect(perfumesTierC)">Странный (Tier C)</button>
         </li>
 
         <li class="py-2 border-b-2 border-black">
-        <button @click="handleSelect(perfumesTierB)">Эксперементальный (Tier B)</button>
+          <button @click="handleSelect(perfumesTierB)">Эксперементальный (Tier B)</button>
         </li>
 
         <li class="py-2 border-b-2 border-black">
-        <button @click="handleSelect(perfumesTierA)">Хардкорный (Tier A)</button>
+          <button @click="handleSelect(perfumesTierA)">Хардкорный (Tier A)</button>
         </li>
 
-        <li class="py-2">
-        <button  @click="handleSelect(perfumesTierS)">Экстремальный (Tier S)</button>
+        <li class="py-2 border-b-2 border-black">
+          <button @click="handleSelect(perfumesTierS)">Экстремальный (Tier S)</button>
         </li>
 
         <li class="py-2 hidden">
-        <button @click="handleSelect(perfumesTierIDK)">Неопределённый (Tier IDK)</button>    
+          <button @click="handleSelect(perfumesTierIDK)">Неопределённый (Tier IDK)</button>
         </li>
 
 
-        <li class="border-t-4 border-b-2 border-black py-2">
-        <button @click="">Наборы пробников</button>
+        
+        <li class="py-2 border-t-4 border-b-2 border-black">
+          <button @click="handleSelect(perfumesTierSoon)">Скоро приедет</button>
         </li>
 
         <li class="py-2 border-b-2 border-black">
-        <button @click="">Услуги / Встречи</button>
+          <button @click="">Наборы пробников</button>
+        </li>
+
+        <li class="py-2 border-b-2 border-black">
+          <button @click="">Услуги / Встречи</button>
+        </li>
+
+        <li class="py-2 border-b-2 border-black">
+          <button @click="">Остатки во флаконах</button>
         </li>
 
         <li class="py-2">
-        <button @click="">Остатки во флаконах</button>
+          <button @click="">Временные предложения</button>
         </li>
 
       </ul>
