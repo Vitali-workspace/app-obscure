@@ -27,6 +27,7 @@ const sombreBottle = "../public/bottles/tier-s/strangers-sombre.webp";
 const secretionsBottle =
   "../public/bottles/tier-s/secretions-magnifiques-2.jpg";
 const fakhirBottle = "../public/bottles/tier-s/khalis-oud-fakhir.jpg";
+const sadonasoBottle = "../public/bottles/tier-s/sadonaso.jpg";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
@@ -88,9 +89,52 @@ const perfumesTierS: PerfumesTierType = [
       },
 
       {
+        brand: "Nasomatto",
+        perfumeName: "Sadonaso",
+        promoText: "Золотой дождь",
+        imagePerfume: sadonasoBottle,
+        price05ml: 10,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [{ name: "Кофе", src: drinks.coffee }],
+          middle: [
+            { name: "Мускус", src: animalistic.musk },
+            { name: "Табак", src: green.tobacco },
+            { name: "Сандал", src: woods.sandalwood },
+          ],
+          base: [
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Животные ноты", src: animalistic.animalNotes },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
         brand: "The Fragrance Engineers",
         perfumeName: "Nekro Dellamorte",
-        promoText: "Кладбищенский",
+        promoText: "Аромат некро-хоррора",
         imagePerfume: nekroBottle,
         price05ml: 0,
         price1ml: 0,

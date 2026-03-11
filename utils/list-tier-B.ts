@@ -27,6 +27,7 @@ const lavsBottle = "../public/bottles/brands/sorcinelli/lavs-2.jpg";
 const ventoForteBottle =
   "../public/bottles/brands/sorcinelli/vento-forte-2.webp";
 const bombardeBottle = "../public/bottles/brands/sorcinelli/musique-2.jpg";
+const fantomasBottle = "../public/bottles/tier-b/fantomas.jpg";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
@@ -231,7 +232,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Nasomatto",
         perfumeName: "Fantomas",
         promoText: "Призрак дыни",
-        imagePerfume: NotIMG,
+        imagePerfume: fantomasBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

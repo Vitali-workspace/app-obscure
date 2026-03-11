@@ -24,9 +24,9 @@ import type { PerfumesTierType } from "./constants";
 
 const desordenBottle =
   "../public/bottles/brands/sorcinelli/belkis-desorden.webp";
-const pincettBottle = "../public/bottles/brands/sorcinelli/pincett.webp";
+const pincettBottle = "../public/bottles/brands/sorcinelli/pincett.jpg";
 const unaNoiaSulBottle =
-  "../public/bottles/brands/sorcinelli/una-noia-sul.webp";
+  "../public/bottles/brands/sorcinelli/una-noia-sul.jpg";
 const magicBottle = "../public/bottles/tier-c/bohoboco-magic-2.webp";
 const potatoesBottle = "../public/bottles/tier-c/bohoboco-potatoes-2.webp";
 const thunderstormBottle = "../public/bottles/tier-c/demeter-thunderstorm.jpg";

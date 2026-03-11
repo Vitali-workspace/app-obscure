@@ -27,12 +27,12 @@ const quickieBottle = "../public/bottles/brands/sorcinelli/quickie-2.webp";
 const butNotTodayBottle =
   "../public/bottles/brands/sorcinelli/but-not-today.webp";
 const cityFireBottle =
-  "../public/bottles/brands/imaginary-authors/city-fire.webp";
+  "../public/bottles/brands/imaginary-authors/city-fire-2.jpg";
 const bullBloodBottle =
   "../public/bottles/brands/imaginary-authors/bulls-blood-2.webp";
 const leonardaBottle = "../public/bottles/brands/spiritica/leonarda-2.webp";
 const jeffreyBottle = "../public/bottles/brands/spiritica/jeffrey.jpg";
-const verdadSombraBottle = "../public/bottles/tier-s/";
+const verdadSombraBottle = "../public/bottles/tier-a/senyoko-verdad-sombra.jpg";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
@@ -391,7 +391,7 @@ const perfumesTierA: PerfumesTierType = [
         brand: "Senyoko",
         perfumeName: "Hora de la Verdad Sombra",
         promoText: "Кровавая кожа",
-        imagePerfume: NotIMG,
+        imagePerfume: verdadSombraBottle,
         price05ml: 0,
         price1ml: 0,
         price2ml: 0,

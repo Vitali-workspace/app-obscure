@@ -22,7 +22,19 @@ import {
 import type { PerfumesTierType } from "./constants";
 
 
+const xBottle = "../public/bottles";
+
+
+const grigiaBottle = "../public/bottles/brands/maqueda/grigia.webp";
+const macchiaBottle = "../public/bottles/brands/maqueda/macchia.jpg";
+const salomeBottle = "../public/bottles";
+const cherryColaBottle = "../public/bottles";
+
+
+
+
 const NotIMG = "../public/bottles/not-bottle.webp";
+
 
 
 const imgVibe = "../public/vibe/test-room.jpg";
@@ -75,10 +87,10 @@ const perfumesTierSoon: PerfumesTierType = [
           },
     
           {
-            brand: "Maqueda Perfume",
+            brand: "Maqueda",
             perfumeName: "Grigia",
             promoText: "Страшное путешествие амбры",
-            imagePerfume: NotIMG,
+            imagePerfume: grigiaBottle,
             price05ml: 0,
             price1ml: 0,
             price2ml: 0,
@@ -116,10 +128,10 @@ const perfumesTierSoon: PerfumesTierType = [
           },
     
           {
-            brand: "Maqueda Perfume",
+            brand: "Maqueda",
             perfumeName: "Macchia",
             promoText: "Полёт пчелы",
-            imagePerfume: NotIMG,
+            imagePerfume: macchiaBottle,
             price05ml: 0,
             price1ml: 0,
             price2ml: 0,
@@ -521,6 +533,161 @@ const perfumesTierSoon: PerfumesTierType = [
               { name: "Тёмный", src: "" },
             ],
         },
+
+        {
+          brand: "Bohoboco",
+          perfumeName: "Plum Spray Paint",
+          promoText: "xxxxx",
+          imagePerfume: "",
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 50,
+          price10ml: 100,
+          priceFull: 190,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Розовый перец", src: spices.pinkPepper },
+              { name: "Слива", src: fruits.plum },
+              { name: "Аэрозольная краска", src: "" },
+              { name: "Корица", src: spices.cinnamon },
+            ],
+            middle: [
+              { name: "Шафран", src: spices.saffron },
+              { name: "Магнолия", src: flowers.magnolia },
+              { name: "Красные ягоды", src: berries.redBerries },
+              { name: "Жасмин", src: flowers.jasmine },
+              { name: "Ром", src: drinks.rum },
+            ],
+            base: [
+              { name: "Лабданум", src: resins.labdanum },
+              { name: "Виски", src: drinks.bourbonWhiskey },
+              { name: "Пачули", src: green.patchouli },
+              { name: "Кожа", src: animalistic.leather },
+              { name: "Дым", src: natural.smoke },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+        },
+  
+        {
+          brand: "Bohoboco",
+          perfumeName: "Mango Yuzu Gasoline",
+          promoText: "xxxxx",
+          imagePerfume: "",
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 50,
+          price10ml: 100,
+          priceFull: 190,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Мандарин", src: fruits.mandarin },
+              { name: "Юдзу", src: fruits.yuzu },
+              { name: "Каламондин", src: "" },
+              { name: "Манго", src: fruits.mango },
+              { name: "Ананас", src: "" },
+              { name: "Чёрная смородина", src: berries.blackCurrant },
+            ],
+            middle: [
+              { name: "Ландыш", src: flowers.lilyValley },
+              { name: "Ирис", src: flowers.iris },
+              { name: "Жасминовый чай", src: "" },
+              { name: "Бразильское манго", src: fruits.mango },
+            ],
+            base: [
+              { name: "Кедр", src: woods.cedarWood },
+              { name: "Мшистые ноты", src: green.moss },
+              { name: "Замша", src: animalistic.suede },
+              { name: "Кожа", src: animalistic.leather },
+              { name: "Ладан", src: resins.incense },
+              { name: "Бензин", src: objects.gasoline },
+              { name: "Ветивер", src: green.vetiver },
+              { name: "Амбра", src: animalistic.amber },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+        },
+  
+        {
+          brand: "Bohoboco",
+          perfumeName: "Wild Carrot Oud",
+          promoText: "xxxxx",
+          imagePerfume: "",
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 50,
+          price10ml: 100,
+          priceFull: 190,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Бергамот", src: fruits.bergamot },
+              { name: "Морковь", src: "" },
+              { name: "Корица", src: spices.cinnamon },
+            ],
+            middle: [
+              { name: "Кедр", src: woods.cedarWood },
+              { name: "Сухое дерево", src: "" },
+              { name: "Уд", src: woods.agarwoodOud },
+            ],
+            base: [
+              { name: "Табак", src: green.tobacco },
+              { name: "Животные ноты", src: animalistic.animalNotes },
+              { name: "Кожа", src: animalistic.leather },
+              { name: "Стиракс", src: resins.styrax },
+              { name: "Земля", src: natural.dirt },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+        },
+  
   
         
       ],
