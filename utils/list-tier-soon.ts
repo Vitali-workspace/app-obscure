@@ -210,12 +210,12 @@ const perfumesTierSoon: PerfumesTierType = [
                 { name: "Шафран", src: spices.saffron },
               ],
               base: [
-                { name: "Звёздная пыль", src: "" },
+                { name: "Звёздная пыль", src: natural.dust },
                 { name: "Цветок космея", src: "" },
                 { name: "Порох", src: objects.gunpowder },
                 { name: "Печёное миндальное печенье", src: gourmand.cookie },
                 { name: "Ладан", src: resins.incense },
-                { name: "Горячий металл", src: "" },
+                { name: "Горячий металл", src: objects.hotIron },
                 { name: "Сандал", src: woods.sandalwood },
               ],
             },
@@ -392,12 +392,12 @@ const perfumesTierSoon: PerfumesTierType = [
                 { name: "Орех пекан", src: nuts.pecan },
               ],
               middle: [
-                { name: "Жареный фундук", src: "" },
+                { name: "Жареный фундук", src: nuts.hazelnut },
                 { name: "Миндальная пудра", src: gourmand.ediblePowder },
               ],
               base: [
                 { name: "Ваниль", src: spices.vanilla },
-                { name: "Зеленый фундук", src: "" },
+                { name: "Зеленый фундук", src: nuts.hazelnut },
                 { name: "Амбра", src: animalistic.musk },
               ],
             },
@@ -551,7 +551,7 @@ const perfumesTierSoon: PerfumesTierType = [
             top: [
               { name: "Розовый перец", src: spices.pinkPepper },
               { name: "Слива", src: fruits.plum },
-              { name: "Аэрозольная краска", src: "" },
+              { name: "Аэрозольная краска", src: objects.sprayPaint },
               { name: "Корица", src: spices.cinnamon },
             ],
             middle: [
@@ -604,7 +604,7 @@ const perfumesTierSoon: PerfumesTierType = [
               { name: "Юдзу", src: fruits.yuzu },
               { name: "Каламондин", src: "" },
               { name: "Манго", src: fruits.mango },
-              { name: "Ананас", src: "" },
+              { name: "Ананас", src: fruits.pineapple },
               { name: "Чёрная смородина", src: berries.blackCurrant },
             ],
             middle: [
@@ -656,12 +656,12 @@ const perfumesTierSoon: PerfumesTierType = [
           notes: {
             top: [
               { name: "Бергамот", src: fruits.bergamot },
-              { name: "Морковь", src: "" },
+              { name: "Морковь", src: vegetables.carrot },
               { name: "Корица", src: spices.cinnamon },
             ],
             middle: [
               { name: "Кедр", src: woods.cedarWood },
-              { name: "Сухое дерево", src: "" },
+              { name: "Сухое дерево", src: woods.dryWood },
               { name: "Уд", src: woods.agarwoodOud },
             ],
             base: [

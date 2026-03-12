@@ -85,6 +85,7 @@ const physalis = "../public/notes/berries/physalis.jpg";
 const raspberry = "../public/notes/berries/raspberry.webp";
 const redBerries = "../public/notes/berries/red-berries.webp";
 const redCurrant = "../public/notes/berries/red-currant.webp";
+const strawberry = "../public/notes/berries/strawberry.webp";
 
 const berries = {
   blackberry,
@@ -97,6 +98,7 @@ const berries = {
   raspberry,
   redBerries,
   redCurrant,
+  strawberry,
 };
 
 // drinks
@@ -153,6 +155,7 @@ const jasmine = "../public/notes/flowers/jasmine.webp";
 const lavender = "../public/notes/flowers/lavender.webp";
 const lily = "../public/notes/flowers/lily.webp";
 const lilyValley = "../public/notes/flowers/lily-of-the-valley.webp";
+const lotus = "../public/notes/flowers/lotus.webp";
 const magnolia = "../public/notes/flowers/magnolia.webp";
 const narcissus = "../public/notes/flowers/narcissus.webp";
 const neroli = "../public/notes/flowers/neroli.webp";
@@ -186,6 +189,7 @@ const flowers = {
   lavender,
   lilyValley,
   lily,
+  lotus,
   magnolia,
   narcissus,
   neroli,
@@ -220,9 +224,13 @@ const mango = "../public/notes/fruits/mango.webp";
 const melon = "../public/notes/fruits/melon.webp";
 const orange = "../public/notes/fruits/orange.webp";
 const papaya = "../public/notes/fruits/papaya.webp";
+const passionfruit = "../public/notes/fruits/passionfruit.webp";
 const peach = "../public/notes/fruits/peach.webp";
 const pineapple = "../public/notes/fruits/pineapple.webp";
+const pitahaya = "../public/notes/fruits/pitahaya.webp";
 const plum = "../public/notes/fruits/plum.webp";
+const redApple = "../public/notes/fruits/red-apple.webp";
+const tropicalFruits = "../public/notes/fruits/tropical-fruits.webp";
 const yuzu = "../public/notes/fruits/yuzu.webp";
 
 const fruits = {
@@ -242,9 +250,13 @@ const fruits = {
   melon,
   orange,
   papaya,
+  passionfruit,
   peach,
   pineapple,
+  pitahaya,
   plum,
+  redApple,
+  tropicalFruits,
   yuzu,
 };
 
@@ -261,6 +273,7 @@ const cherryPie = "../public/notes/gourmand/cherry-pie.jpg";
 const cocoa = "../public/notes/gourmand/cocoa.webp";
 const cookie = "../public/notes/gourmand/cookie.webp";
 const cookieDough = "../public/notes/gourmand/cookie-dough.webp";
+const cottonCandy = "../public/notes/gourmand/cotton-candy.webp";
 const cream = "../public/notes/gourmand/cream.webp";
 const custard = "../public/notes/gourmand/custard.jpg";
 const darkChocolate = "../public/notes/gourmand/dark-chocolate.webp";
@@ -268,11 +281,13 @@ const ediblePowder = "../public/notes/gourmand/edible-powder.jpg";
 const honey = "../public/notes/gourmand/honey.webp";
 const iceCream = "../public/notes/gourmand/ice-cream.webp";
 const liveYeast = "../public/notes/gourmand/live-yeast.webp";
+const meringues = "../public/notes/gourmand/meringues.webp";
 const milkMousse = "../public/notes/gourmand/milk-mousse.webp";
 const nutella = "../public/notes/gourmand/nutella.webp";
 const popcorn = "../public/notes/gourmand/popcorn.webp";
 const ricePowder = "../public/notes/gourmand/rice-powder.webp";
 const sugar = "../public/notes/gourmand/sugar.webp";
+const toast = "../public/notes/gourmand/toast.webp";
 const whiteChocolate = "../public/notes/gourmand/white-chocolate.webp";
 
 const gourmand = {
@@ -288,6 +303,7 @@ const gourmand = {
   cocoa,
   cookie,
   cookieDough,
+  cottonCandy,
   cream,
   custard,
   darkChocolate,
@@ -295,11 +311,13 @@ const gourmand = {
   honey,
   iceCream,
   liveYeast,
+  meringues,
   milkMousse,
   nutella,
   popcorn,
   ricePowder,
   sugar,
+  toast,
   whiteChocolate,
 };
 
@@ -332,6 +350,7 @@ const nard = "../public/notes/green/nard.webp";
 const patchouli = "../public/notes/green/patchouli.webp";
 const tarragon = "../public/notes/green/tarragon.webp";
 const tobacco = "../public/notes/green/tobacco.webp";
+const valerian = "../public/notes/green/valerian.webp";
 const vetiver = "../public/notes/green/vetiver.webp";
 const violetLeaf = "../public/notes/green/violet-leaf.webp";
 const wormwood = "../public/notes/green/wormwood.webp";
@@ -365,6 +384,7 @@ const green = {
   patchouli,
   tarragon,
   tobacco,
+  valerian,
   vetiver,
   violetLeaf,
   wormwood,
@@ -389,7 +409,9 @@ const mushrooms = {
 const clay = "../public/notes/natural-atmospheric/clay.webp";
 const concrete = "../public/notes/natural-atmospheric/concrete.webp";
 const dirt = "../public/notes/natural-atmospheric/dirt.webp";
+const dust = "../public/notes/natural-atmospheric/dust.webp";
 const earthyNotes = "../public/notes/natural-atmospheric/earthy-notes.webp";
+const ice = "../public/notes/natural-atmospheric/ice.webp";
 const iodine = "../public/notes/natural-atmospheric/iodine.webp";
 const marineNotes = "../public/notes/natural-atmospheric/marine-notes.webp";
 const metallicNotes = "../public/notes/natural-atmospheric/metallic-notes.webp";
@@ -399,7 +421,9 @@ const petrichor = "../public/notes/natural-atmospheric/petrichor.jpg";
 const rain = "../public/notes/natural-atmospheric/rain.webp";
 const salt = "../public/notes/natural-atmospheric/salt.webp";
 const smoke = "../public/notes/natural-atmospheric/smoke.jpg";
+const snow = "../public/notes/natural-atmospheric/snow.webp";
 const solarNotes = "../public/notes/natural-atmospheric/solar-notes.webp";
+const stone = "../public/notes/natural-atmospheric/stone.webp";
 const sulphur = "../public/notes/natural-atmospheric/sulphur.webp";
 const wind = "../public/notes/natural-atmospheric/wind.webp";
 
@@ -407,7 +431,9 @@ const natural = {
   clay,
   concrete,
   dirt,
+  dust,
   earthyNotes,
+  ice,
   iodine,
   marineNotes,
   metallicNotes,
@@ -417,7 +443,9 @@ const natural = {
   rain,
   salt,
   smoke,
+  snow,
   solarNotes,
+  stone,
   sulphur,
   wind,
 };
@@ -448,27 +476,35 @@ const carpet = "../public/notes/objects/carpet.jpg";
 const causticSoda = "../public/notes/objects/caustic-soda.webp";
 const chekhovGun = "../public/notes/objects/chekhov-gun.jpg";
 const cork = "../public/notes/objects/cork.jpg";
+const creditCards = "../public/notes/objects/credit-cards.webp";
 const dampRoom = "../public/notes/objects/damp-room.jpg";
 const danceClub = "../public/notes/objects/dance-club.jpg";
 const dvdCase = "../public/notes/objects/dvd-case.jpg";
 const fallenConcrete = "../public/notes/objects/fallen-concrete.jpg";
-const gasoline = "../public/notes/objects/gasoline.webp";
+const gasoline = "../public/notes/objects/gasoline.jpg";
 const gunpowder = "../public/notes/objects/gunpowder.webp";
+const holyWater = "../public/notes/objects/holy-water.webp";
 const hotIron = "../public/notes/objects/hot-iron.webp";
 const ink = "../public/notes/objects/ink.webp";
 const latex = "../public/notes/objects/latex.webp";
 const lipstick = "../public/notes/objects/lipstick.webp";
 const money = "../public/notes/objects/money.jpg";
+const oldBooks = "../public/notes/objects/old-books.webp";
+const oldHouse = "../public/notes/objects/old-house.webp";
 const paper = "../public/notes/objects/paper.webp";
 const pearlNecklace = "../public/notes/objects/pearl-necklace.jpg";
 const plastic = "../public/notes/objects/plastic.webp";
+const plasticBag = "../public/notes/objects/plastic-bag.webp";
 const poppedBalloon = "../public/notes/objects/popped-balloon.jpg";
 const poppers = "../public/notes/objects/poppers.jpg";
+const priestClothes = "../public/notes/objects/priest-s-clothes.webp";
 const ropeNecklace = "../public/notes/objects/rope-necklace.jpg";
 const rubber = "../public/notes/objects/rubber.webp";
 const sharpKnife = "../public/notes/objects/sharp-knife.jpg";
 const soap = "../public/notes/objects/soap.webp";
 const soapBlood = "../public/notes/objects/soap-blood.webp";
+const sprayPaint = "../public/notes/objects/spray-paint.webp";
+const suntanLotion = "../public/notes/objects/suntan-lotion.webp";
 const tennisBall = "../public/notes/objects/tennis-ball.webp";
 const wick = "../public/notes/objects/wick.jpg";
 
@@ -481,27 +517,35 @@ const objects = {
   causticSoda,
   chekhovGun,
   cork,
+  creditCards,
   dampRoom,
   danceClub,
   dvdCase,
   fallenConcrete,
   gasoline,
   gunpowder,
+  holyWater,
   hotIron,
   ink,
   latex,
   lipstick,
   money,
+  oldBooks,
+  oldHouse,
   paper,
   pearlNecklace,
   plastic,
+  plasticBag,
   poppedBalloon,
   poppers,
+  priestClothes,
   ropeNecklace,
   rubber,
   sharpKnife,
   soap,
   soapBlood,
+  sprayPaint,
+  suntanLotion,
   tennisBall,
   wick,
 };

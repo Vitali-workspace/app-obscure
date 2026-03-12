@@ -183,7 +183,7 @@ const perfumesTierF: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Карамелизированная ваниль", src: spices.vanilla },
+            { name: "Карамельная ваниль", src: spices.vanilla },
             { name: "Морская соль", src: natural.salt },
           ],
           middle: [
