@@ -110,11 +110,11 @@ import {
                 { name: "Жасмин", src: flowers.jasmine },
                 { name: "Гелиотроп", src: flowers.heliotrope },
                 { name: "Бергамот", src: fruits.bergamot },
-                { name: "Боярышник", src: "" },
+                { name: "Боярышник", src: green.hawthorn },
               ],
               middle: [
-                { name: "Небесные мускусы", src: "" },
-                { name: "Кокосовое молоко", src: "" },
+                { name: "Небесные мускусы", src: animalistic.musk },
+                { name: "Кокосовое молоко", src: drinks.coconutMilk },
                 { name: "Кардамон", src: spices.cardamom },
                 { name: "Ваниль", src: spices.vanilla },
                 { name: "Бобы тонка", src: spices.tonkaBean },
@@ -143,12 +143,9 @@ import {
         },
 
 
-
-
-
         {
-            brand: "xxxxxxx",
-            perfumeName: "xxxx",
+            brand: "Miguel Matos",
+            perfumeName: "Electric Dreams",
             promoText: "xxxxx",
             imagePerfume: NotIMG,
             price05ml: 0,
@@ -161,22 +158,68 @@ import {
             volumeMl: 10,
             notes: {
               top: [
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
+                { name: "Металлические цитрусы", src: fruits.metalCitrus },
+                { name: "Дешёвое вино", src: drinks.redWine },
+                { name: "Пластиковые цветы", src: flowers.plasticFlowers },
+                { name: "Банан", src: fruits.banana },
               ],
               middle: [
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
+                
+                { name: "Кожа", src: animalistic.leather },
+                { name: "Газировка Tutti Frutti", src: drinks.sodaFrutti },
+                { name: "Iso E Super", src: synthetics.isoSuper },
               ],
               base: [
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
+                { name: "Клубничная жевательная резинка", src: gourmand.bubbleGum },
+                { name: "Дым перегретого компьютера", src: objects.computerSmoke },
+                { name: "Свежее бельё", src: "" },
+                { name: "Амброценид", src: synthetics.ambrocenide },
+              ],
+            },
+            textStory: {
+              brandHistory: [
+                { text: "Первый абзац" },
+                { text: "Второй абзац" },
+                { text: "Третий абзац" },
+              ],
+              perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+              review: [{ text: "Первый абзац" }],
+            },
+            vibe: [
+              { name: "Мрачное здание", src: "" },
+              { name: "Влажный", src: "" },
+              { name: "Тёмный", src: "" },
+            ],
+        },
+
+
+        {
+            brand: "OHTOP",
+            perfumeName: "Ohsphalte",
+            promoText: "Запах города",
+            imagePerfume: NotIMG,
+            price05ml: 0,
+            price1ml: 0,
+            price2ml: 0,
+            price5ml: 50,
+            price10ml: 100,
+            priceFull: 190,
+            visibility: "visible",
+            volumeMl: 10,
+            notes: {
+              top: [
+                { name: "Лабданум", src: resins.labdanum },
+                { name: "Ирис", src: flowers.iris },
+              ],
+              middle: [
+                { name: "Бетон", src: natural.concrete },
+                { name: "Ветивер", src: green.vetiver },
+                { name: "Пачули", src: green.patchouli },
+              ],
+              base: [
+                { name: "Асфальт", src: objects.asphalt },
+                { name: "Замша", src: animalistic.leather },
+
               ],
             },
             textStory: {
@@ -196,12 +239,12 @@ import {
         },
 
         {
-            brand: "xxxxxxx",
-            perfumeName: "xxxx",
-            promoText: "xxxxx",
+            brand: "Perfume.Sucks X Sasha Frolova",
+            perfumeName: "Perfume.Sucks",
+            promoText: "Латексная кожа",
             imagePerfume: NotIMG,
             price05ml: 0,
-            price1ml: 0,
+            price1ml: 5,
             price2ml: 0,
             price5ml: 50,
             price10ml: 100,
@@ -210,22 +253,31 @@ import {
             volumeMl: 10,
             notes: {
               top: [
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
+                { name: "Малина", src: berries.raspberry },
+                { name: "Клубника", src: berries.strawberry },
+                { name: "Трава", src: green.grass },
+                { name: "Чёрный перец", src: spices.blackPepper },
+                { name: "Розовый перец", src: spices.pinkPepper },
+                { name: "Лимон", src: fruits.lemon },
+                { name: "Грейпфрут", src: fruits.grapefruit },
               ],
               middle: [
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
+                { name: "Замша", src: animalistic.suede },
+                { name: "Смородина", src: berries.blackCurrant },
+                { name: "Тимьян", src: spices.thyme },
+                { name: "Ревень", src: vegetables.rhubarb },
+                { name: "Герань", src: flowers.geranium },
+                { name: "Роза", src: flowers.rose },
+                { name: "Гардения", src: flowers.gardenia },
               ],
               base: [
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
-                { name: "xxx", src: "" },
+                { name: "Кожа", src: animalistic.leather },
+                { name: "Уд", src: woods.agarwoodOud },
+                { name: "Пачули", src: green.patchouli },
+                { name: "Нагармота", src: green.nagarmotha },
+                { name: "Мёд", src: gourmand.honey },
+                { name: "Мох", src: green.moss },
+                { name: "Мускус", src: animalistic.musk },
               ],
             },
             textStory: {
@@ -243,6 +295,119 @@ import {
               { name: "Тёмный", src: "" },
             ],
         },
+
+        {
+          brand: "Duduar Milano",
+          perfumeName: "Vodkaviar",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 50,
+          price10ml: 100,
+          priceFull: 190,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Лайм", src: fruits.lime },
+              { name: "Клубника", src: berries.strawberry },
+              { name: "Виноград", src: "" },
+              { name: "Кайпироска", src: "" },
+              { name: "Розовая соль", src: "" },
+              { name: "Мандарин", src: fruits.mandarin },
+              { name: "Соль", src: natural.salt },
+            ],
+            middle: [
+              { name: "Хлор", src: "" },
+              { name: "Водка", src: drinks.vodka },
+              { name: "Розовый перец", src: spices.pinkPepper },
+              { name: "Цветок миндаля", src: "" },
+              { name: "Имбирь", src: spices.ginger },
+              { name: "Цветок вишни", src: "" },
+              { name: "Красная икра", src: "" },
+              { name: "Икра", src: "" },
+            ],
+            base: [
+              { name: "Древесина", src: woods.woodyNotes },
+              { name: "Мускус", src: animalistic.musk },
+              { name: "Зелёные листья", src: "" },
+              { name: "Амбра", src: animalistic.amber },
+              { name: "Серая амбра", src: animalistic.ambergris },
+              { name: "Гурманские ноты", src: "" },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+      },
+
+      {
+        brand: "Duduar Milano",
+        perfumeName: "Vani' Caviar",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Соль", src: natural.salt },
+            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Амирис", src: woods.amyris },
+            { name: "Красные ягоды", src: berries.redBerries },
+            { name: "Бергамот", src: fruits.bergamot },
+          ],
+          middle: [
+            { name: "Икра", src: "" },
+            { name: "Иланг-иланг", src: flowers.ylangYlang },
+            { name: "Ладан", src: resins.incense },
+            { name: "Мирра", src: resins.myrrh },
+            { name: "Инжир", src: fruits.fig },
+            { name: "Тубероза", src: flowers.tuberose },
+            { name: "Жасмин", src: flowers.jasmine },
+          ],
+          base: [
+            { name: "Мускус", src: animalistic.musk },
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Бобы тонка", src: spices.vanilla },
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Карамель", src: gourmand.caramel },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+    },
   
   
         
@@ -250,18 +415,7 @@ import {
     },
   ];
   
-  export { perfumesTierPromo };
-
-
-
-
-
-
-
-
-
-
-
+export { perfumesTierPromo };
 
 
 

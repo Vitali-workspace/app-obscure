@@ -98,7 +98,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Filippo Sorcinelli",
         perfumeName: "Lavs",
-        promoText: "Церковный ладан",
+        promoText: "Металлический ладан",
         imagePerfume: lavsBottle,
         price05ml: 0,
         price1ml: 0,

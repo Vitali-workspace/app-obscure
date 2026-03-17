@@ -45,7 +45,7 @@ const perfumesTierS: PerfumesTierType = [
       {
         brand: "Etat Libre d'Orange",
         perfumeName: "Secretions Magnifiques",
-        promoText: "Жуткая акватика",
+        promoText: "Телесная акватика",
         imagePerfume: secretionsBottle,
         price05ml: 0,
         price1ml: 0,

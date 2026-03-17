@@ -298,7 +298,7 @@ const perfumesTierIDK: PerfumesTierType = [
             { name: "Лимон", src: fruits.lemon },
           ],
           middle: [
-            { name: "Бобы ванили", src: "" },
+            { name: "Бобы ванили", src: spices.vanilla },
             { name: "Фундук", src: nuts.hazelnut },
           ],
           base: [
@@ -346,7 +346,7 @@ const perfumesTierIDK: PerfumesTierType = [
             { name: "Опопонакс", src: resins.opoponax },
             { name: "Олибанум", src: resins.olibanum },
             { name: "Мирра", src: resins.myrrh },
-            { name: "Свечи", src: "" },
+            { name: "Свечи", src: objects.candle },
             { name: "Старые книги", src: objects.oldBooks },
           ],
           base: [
@@ -389,15 +389,15 @@ const perfumesTierIDK: PerfumesTierType = [
         notes: {
           top: [
             { name: "Лёд", src: natural.ice },
-            { name: "Пальчиковый лайм", src: "" },
-            { name: "Жевательная резинка", src: "" },
+            { name: "Пальчиковый лайм", src: fruits.fingerLime },
+            { name: "Жевательная резинка", src: gourmand.bubbleGum },
             { name: "Питахайя", src: fruits.pitahaya },
           ],
           middle: [
-            { name: "Мартини «Порнозвезда»", src: "" },
-            { name: "Цветок «Клешня омара»", src: "" },
-            { name: "Амариллис «Голая леди»", src: "" },
-            { name: "Венерина мухоловка", src: "" },
+            { name: "Мартини «Порнозвезда»", src: drinks.martiniPornstar },
+            { name: "Цветок «Клешня омара»", src: flowers.clawFlower },
+            { name: "Амариллис «Голая леди»", src: flowers.amaryllis },
+            { name: "Венерина мухоловка", src: flowers.venusFlytrap },
           ],
           base: [
             { name: "Ваниль", src: spices.vanilla },
@@ -405,7 +405,7 @@ const perfumesTierIDK: PerfumesTierType = [
             { name: "Лотос", src: flowers.lotus },
             { name: "Хурма", src: fruits.passionfruit },
             { name: "Лосьон для тела", src: objects.suntanLotion },
-            { name: "Воск поэзии и песни сирен", src: "" },
+            { name: "Воск поэзии и песни сирен", src: objects.poetry },
           ],
         },
         textStory: {
@@ -439,14 +439,14 @@ const perfumesTierIDK: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Бросание ржавой монеты", src: "" },
+            { name: "Бросание ржавой монеты", src: objects.rustyCoin },
           ],
           middle: [
             { name: "Петрикор", src: natural.petrichor },
             { name: "Мирра", src: resins.myrrh },
-            { name: "Сухие листья", src: "" },
-            { name: "Пыльный мрамор", src: "" },
-            { name: "Шалфей", src: "" },
+            { name: "Сухие листья", src: natural.dryLeaves },
+            { name: "Пыльный мрамор", src: natural.marble },
+            { name: "Шалфей", src: green.clarySage },
           ],
           base: [
             { name: "Почва", src: natural.dirt },
@@ -488,18 +488,18 @@ const perfumesTierIDK: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Старый кинотеатр", src: "" },
-            { name: "Кислые конфеты", src: "" },
+            { name: "Старый кинотеатр", src: objects.cinema },
+            { name: "Кислые конфеты", src: gourmand.bubbleGum },
           ],
           middle: [
-            { name: "Попкорн застрявший в зубах", src: "" },
+            { name: "Попкорн застрявший в зубах", src: objects.popcornMouth },
             { name: "Кока-кола", src: drinks.cocaCola },
-            { name: "Картонные стаканчики", src: "" },
+            { name: "Картонные стаканчики", src: objects.cardboardCups },
             { name: "Роза", src: flowers.rose },
           ],
           base: [
-            { name: "Газета", src: "" },
-            { name: "Сигаретные фильтры", src: "" },
+            { name: "Газета", src: objects.newspaper },
+            { name: "Сигаретные фильтры", src: objects.cigarettes },
             { name: "Мускус", src: animalistic.musk },
             { name: "Лабданум", src: resins.labdanum },
             { name: "Амбретта", src: animalistic.ambrette },
@@ -543,12 +543,12 @@ const perfumesTierIDK: PerfumesTierType = [
           middle: [
             { name: "Грязные доллары", src: objects.money },
             { name: "Чернила", src: objects.ink },
-            { name: "Воск свечи", src: "" },
+            { name: "Воск свечи", src: objects.candle },
           ],
           base: [
             { name: "Зелёная сакральная смола", src: "" },
             { name: "Святая вода", src: objects.holyWater },
-            { name: "Старая исповедальня", src: "" },
+            { name: "Старая исповедальня", src: objects.confessional },
             { name: "Одежда священника", src: objects.priestClothes },
             { name: "Полиэтиленовый пакет", src: objects.plasticBag },
           ],
@@ -584,16 +584,16 @@ const perfumesTierIDK: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Жевательная резинка", src: "" },
+            { name: "Жевательная резинка", src: gourmand.bubbleGum },
             { name: "Сахарная вата", src: gourmand.cottonCandy },
             { name: "Клубника", src: berries.strawberry },
           ],
           middle: [
-            { name: "Скрежет металла", src: "" },
+            { name: "Скрежет металла", src: objects.screechingMetal },
             { name: "Резина", src: objects.rubber },
             { name: "Бензин", src: objects.gasoline },
             { name: "Роза", src: flowers.rose },
-            { name: "Автомобильные сиденья", src: "" },
+            { name: "Автомобильные сиденья", src: objects.carSeats },
           ],
           base: [
             { name: "Натуральный уд", src: woods.agarwoodOud },
@@ -678,19 +678,19 @@ const perfumesTierIDK: PerfumesTierType = [
         notes: {
           top: [
             { name: "Сено", src: green.hay },
-            { name: "Пшеничные отруби", src: "" },
+            { name: "Пшеничные отруби", src: vegetables.wheatBran },
             { name: "Кофе", src: drinks.coffee },
-            { name: "Иссоп", src: "" },
+            { name: "Иссоп", src: flowers.hyssop },
           ],
           middle: [
             { name: "Корица", src: spices.cinnamon },
-            { name: "Какао-бобы", src: "" },
+            { name: "Какао-бобы", src: gourmand.cocoa },
             { name: "Дубовый мох", src: green.moss },
             { name: "Священный зелёный ладан", src: resins.incense },
           ],
           base: [
             { name: "Глина", src: natural.clay },
-            { name: "Влажные камени", src: "" },
+            { name: "Влажные камени", src: natural.pebbles },
           ],
         },
         textStory: {
@@ -769,11 +769,11 @@ const perfumesTierIDK: PerfumesTierType = [
             { name: "Отработанный порох", src: objects.gunpowder },
           ],
           middle: [
-            { name: "Горелый миндаль", src: "" },
+            { name: "Горелый миндаль", src: nuts.burntAlmonds },
             { name: "Дым", src: natural.smoke },
           ],
           base: [
-            { name: "Пепел", src: "" },
+            { name: "Пепел", src: natural.ash },
           ],
         },
         textStory: {
