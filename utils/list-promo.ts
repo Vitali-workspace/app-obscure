@@ -172,7 +172,7 @@ import {
               base: [
                 { name: "Клубничная жевательная резинка", src: gourmand.bubbleGum },
                 { name: "Дым перегретого компьютера", src: objects.computerSmoke },
-                { name: "Свежее бельё", src: "" },
+                { name: "Свежее бельё", src: objects.freshLinen },
                 { name: "Амброценид", src: synthetics.ambrocenide },
               ],
             },
@@ -313,8 +313,8 @@ import {
             top: [
               { name: "Лайм", src: fruits.lime },
               { name: "Клубника", src: berries.strawberry },
-              { name: "Виноград", src: "" },
-              { name: "Кайпироска", src: "" },
+              { name: "Виноград", src: berries.grape },
+              { name: "Кайпироска", src: drinks.caipiroska },
               { name: "Розовая соль", src: "" },
               { name: "Мандарин", src: fruits.mandarin },
               { name: "Соль", src: natural.salt },
@@ -325,7 +325,7 @@ import {
               { name: "Розовый перец", src: spices.pinkPepper },
               { name: "Цветок миндаля", src: "" },
               { name: "Имбирь", src: spices.ginger },
-              { name: "Цветок вишни", src: "" },
+              { name: "Цветок вишни", src: flowers.cheeryBlossom },
               { name: "Красная икра", src: "" },
               { name: "Икра", src: "" },
             ],
@@ -335,7 +335,7 @@ import {
               { name: "Зелёные листья", src: "" },
               { name: "Амбра", src: animalistic.amber },
               { name: "Серая амбра", src: animalistic.ambergris },
-              { name: "Гурманские ноты", src: "" },
+              { name: "Гурманские ноты", src: gourmand.gourmandAccord },
             ],
           },
           textStory: {
