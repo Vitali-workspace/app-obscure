@@ -10,6 +10,9 @@ import { perfumesTierSoon } from "../utils/list-tier-soon";
 
 import { usePerfumeStore } from '../stores/usePerfumeStore';
 
+type BrandsMode = 'sidebar' | 'modal';
+const props = withDefaults(defineProps<{ mode?: BrandsMode }>(), { mode: 'sidebar' });
+
 const perfumeStore = usePerfumeStore();
 
 // save store
@@ -21,7 +24,14 @@ function handleSelect(perfumes: any[]) {
 
 <template>
   <div>
-    <section class="min-w-[240px] h-[520px] bg-[#FFF1E8] border-4 border-black rounded-xl max-[1001px]:hidden">
+    <section
+      :class="[
+        'min-w-[240px] bg-[#FFF1E8] border-4 border-black rounded-xl',
+        props.mode === 'sidebar'
+          ? 'h-[520px] max-[1001px]:hidden'
+          : 'h-auto max-h-[80vh] overflow-y-auto'
+      ]"
+    >
       <h3 class="border-b-4 border-black py-2 text-lg text-center font-semibold">Уровни</h3>
 
       <ul class="text-center">
@@ -69,7 +79,7 @@ function handleSelect(perfumes: any[]) {
         </li>
 
         <li class="py-2 border-b-2 border-black">
-          <button @click="">Остатки во флаконах</button>
+          <button @click="handleSelect(perfumesTierIDK)">Остатки во флаконах (test)</button>
         </li>
 
         <li class="py-2">

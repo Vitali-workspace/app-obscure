@@ -2,6 +2,9 @@
 import { computed } from 'vue';
 import { usePerfumeStore } from '../stores/usePerfumeStore';
 
+type CartMode = 'sidebar' | 'modal';
+const props = withDefaults(defineProps<{ mode?: CartMode }>(), { mode: 'sidebar' });
+
 const imageUrl = 'https://lulua.pl/wp-content/uploads/2024/10/perfumeria_lulua_naked_laundry_btso-900x900.jpg';
 
 const perfumeStore = usePerfumeStore();
@@ -20,7 +23,7 @@ const placeOrder = () => {
 
 
 <template>
-    <section class="max-[1001px]:hidden">
+    <section :class="[ props.mode === 'sidebar' ? 'max-[1001px]:hidden' : '' ]">
         <div class="w-[320px] min-h-[400px] h-fit bg-[#FFF1E8] border-4 border-black rounded-xl">
 
             <h3 class="border-b-4 border-black py-2 text-lg text-center">Корзина</h3>
