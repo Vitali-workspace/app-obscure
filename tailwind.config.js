@@ -6,6 +6,7 @@ export default {
     "./components/Brands.vue",
     "./components/ShoppingCart.vue",
     "./components/ModalCard.vue",
+    "./components/Testscreen.vue",
   ],
   theme: {
     extend: {},
