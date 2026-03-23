@@ -530,6 +530,7 @@ const snow = "../public/notes/natural-atmospheric/snow.webp";
 const solarNotes = "../public/notes/natural-atmospheric/solar-notes.webp";
 const stone = "../public/notes/natural-atmospheric/stone.webp";
 const sulphur = "../public/notes/natural-atmospheric/sulphur.webp";
+const wetPlaster = "../public/notes/natural-atmospheric/wet-plaster.webp";
 const wind = "../public/notes/natural-atmospheric/wind.webp";
 
 const natural = {
@@ -559,6 +560,7 @@ const natural = {
   solarNotes,
   stone,
   sulphur,
+  wetPlaster,
   wind,
 };
 
