@@ -139,16 +139,18 @@ const closeModal = () => {
 
                     <div class="">
                         
-                       <div class="flex items-center justify-center w-full">
-                        <h3 class="perfume-title text-center font-bold mb-2">
-                            {{ selectedPerfume.brand }} - {{ selectedPerfume.perfumeName }}
-                        </h3>
-                       </div> 
+
 
 
                         
                         <!-- <h3 class="text-lg font-bold text-center mb-2">Пирамида нот</h3> -->
                         <div class="max-w-fit  flex flex-col text-center ml-4">
+                        
+                        <div class="flex items-center justify-center w-full">
+                        <h3 class="perfume-title text-center font-bold mb-2">
+                            {{ selectedPerfume.brand }} - {{ selectedPerfume.perfumeName }}
+                        </h3>
+                        </div> 
 
                             <div class="flex items-center w-full">
                             <hr class="flex-1 border-t-2 border-black" />
