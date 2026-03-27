@@ -67,7 +67,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeyDown));
         </button>
 
         <div class="mt-4">
-          <Brands v-if="activeModal === 'brands'" mode="modal" />
+          <Brands v-if="activeModal === 'brands'" mode="modal" @select="closeModal" />
           <Cart v-else-if="activeModal === 'cart'" mode="modal" />
         </div>
       </section>

@@ -12,12 +12,14 @@ import { usePerfumeStore } from '../stores/usePerfumeStore';
 
 type BrandsMode = 'sidebar' | 'modal';
 const props = withDefaults(defineProps<{ mode?: BrandsMode }>(), { mode: 'sidebar' });
+const emit = defineEmits<{ select: [] }>();
 
 const perfumeStore = usePerfumeStore();
 
 // save store
 function handleSelect(perfumes: any[]) {
   perfumeStore.setPerfumes(perfumes);
+  emit('select');
 }
 </script>
 
