@@ -94,7 +94,7 @@ const closeModal = () => {
     <!-- <Shop /> -->
 
     <section
-        class=" mx-4 bg-[#FFF1E8] border-4 border-black rounded-xl over">
+        class=" mx-4 bg-[#FFF1E8] border-4 border-black rounded-xl overflow-auto">
 
         <div class="flex flex-col py-2 px-4">
             <h2 class="text-xl text-center">Тестовая</h2>

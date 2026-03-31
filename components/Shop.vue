@@ -46,7 +46,7 @@ const closeModal = () => {
 
 <template>
     <section
-        class="w-[clamp(320px,100vw,1200px)] max-[801px]:mx-0 mx-4 bg-[#FFF1E8] border-4 border-black rounded-xl over">
+        class="w-[clamp(320px,100vw,1200px)] max-[801px]:mx-0 mx-4 bg-[#FFF1E8] border-4 border-black rounded-xl overflow-auto max-[1000px]:pb-28">
 
         <div class="flex flex-col py-2 px-4">
             <h2 class="text-xl text-center">Borntostandout</h2>
@@ -86,7 +86,7 @@ const closeModal = () => {
 
 <style>
 .over {
-    overflow: auto;
+    /* overflow: auto; */
 }
 </style>
 
