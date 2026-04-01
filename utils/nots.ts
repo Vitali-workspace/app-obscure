@@ -124,6 +124,7 @@ const champagne = "../public/notes/drinks/champagne.webp";
 const cocaCola = "../public/notes/drinks/coca-cola.webp";
 const coconutMilk = "../public/notes/drinks/coconut-milk.webp";
 const coffee = "../public/notes/drinks/coffee.webp";
+const creamSoda = "../public/notes/drinks/cream-soda.webp";
 const energyDrink = "../public/notes/drinks/energy-drink.jpg";
 const goatMilk = "../public/notes/drinks/goat-s-milk.webp";
 const greenCoffee = "../public/notes/drinks/green-coffee.webp";
@@ -151,6 +152,7 @@ const drinks = {
   cocaCola,
   coconutMilk,
   coffee,
+  creamSoda,
   energyDrink,
   goatMilk,
   greenCoffee,
@@ -294,6 +296,7 @@ const metalCitrus = "../public/notes/fruits/metallic-citrus.webp";
 const orange = "../public/notes/fruits/orange.webp";
 const papaya = "../public/notes/fruits/papaya.webp";
 const passionfruit = "../public/notes/fruits/passionfruit.webp";
+const pear = "../public/notes/fruits/pear.webp";
 const peach = "../public/notes/fruits/peach.webp";
 const pineapple = "../public/notes/fruits/pineapple.webp";
 const pitahaya = "../public/notes/fruits/pitahaya.webp";
@@ -328,6 +331,7 @@ const fruits = {
   orange,
   papaya,
   passionfruit,
+  pear,
   peach,
   pineapple,
   pitahaya,
@@ -366,6 +370,7 @@ const liveYeast = "../public/notes/gourmand/live-yeast.webp";
 const meringues = "../public/notes/gourmand/meringues.webp";
 const milkMousse = "../public/notes/gourmand/milk-mousse.webp";
 const nutella = "../public/notes/gourmand/nutella.webp";
+const pancake = "../public/notes/gourmand/pancake.webp";
 const pearIceCream = "../public/notes/gourmand/pear-ice-cream.webp";
 const popcorn = "../public/notes/gourmand/popcorn.webp";
 const ricePowder = "../public/notes/gourmand/rice-powder.webp";
@@ -402,6 +407,7 @@ const gourmand = {
   meringues,
   milkMousse,
   nutella,
+  pancake,
   pearIceCream,
   popcorn,
   ricePowder,
@@ -513,6 +519,7 @@ const dust = "../public/notes/natural-atmospheric/dust.webp";
 const earthyNotes = "../public/notes/natural-atmospheric/earthy-notes.webp";
 const ice = "../public/notes/natural-atmospheric/ice.webp";
 const iodine = "../public/notes/natural-atmospheric/iodine.webp";
+const limestones = "../public/notes/natural-atmospheric/limestones.webp";
 const marble = "../public/notes/natural-atmospheric/marble.webp";
 const marineNotes = "../public/notes/natural-atmospheric/marine-notes.webp";
 const metallicNotes = "../public/notes/natural-atmospheric/metallic-notes.webp";
@@ -528,8 +535,10 @@ const silver = "../public/notes/natural-atmospheric/silver.webp";
 const smoke = "../public/notes/natural-atmospheric/smoke.jpg";
 const snow = "../public/notes/natural-atmospheric/snow.webp";
 const solarNotes = "../public/notes/natural-atmospheric/solar-notes.webp";
+const steam = "../public/notes/natural-atmospheric/steam.webp";
 const stone = "../public/notes/natural-atmospheric/stone.webp";
 const sulphur = "../public/notes/natural-atmospheric/sulphur.webp";
+const waterCave = "../public/notes/natural-atmospheric/water-cave.webp";
 const wetPlaster = "../public/notes/natural-atmospheric/wet-plaster.webp";
 const wind = "../public/notes/natural-atmospheric/wind.webp";
 
@@ -543,6 +552,7 @@ const natural = {
   earthyNotes,
   ice,
   iodine,
+  limestones,
   marble,
   marineNotes,
   metallicNotes,
@@ -558,8 +568,10 @@ const natural = {
   smoke,
   snow,
   solarNotes,
+  steam,
   stone,
   sulphur,
+  waterCave,
   wetPlaster,
   wind,
 };
@@ -604,6 +616,7 @@ const dampRoom = "../public/notes/objects/damp-room.jpg";
 const danceClub = "../public/notes/objects/dance-club.jpg";
 const dvdCase = "../public/notes/objects/dvd-case.jpg";
 const excavator = "../public/notes/objects/excavator.webp";
+const facePowder = "../public/notes/objects/face-powder.webp";
 const fallenConcrete = "../public/notes/objects/fallen-concrete.jpg";
 const freshLinen = "../public/notes/objects/fresh-linen.webp";
 const gasoline = "../public/notes/objects/gasoline.jpg";
@@ -614,6 +627,7 @@ const ink = "../public/notes/objects/ink.webp";
 const latex = "../public/notes/objects/latex.webp";
 const lipstick = "../public/notes/objects/lipstick.webp";
 const money = "../public/notes/objects/money.jpg";
+const motherSweater = "../public/notes/objects/mother-sweater.webp";
 const motorOil = "../public/notes/objects/motor-oil.webp";
 const newspaper = "../public/notes/objects/newspaper.webp";
 const oldBooks = "../public/notes/objects/old-books.webp";
@@ -660,6 +674,7 @@ const objects = {
   danceClub,
   dvdCase,
   excavator,
+  facePowder,
   fallenConcrete,
   freshLinen,
   gasoline,
@@ -670,6 +685,7 @@ const objects = {
   latex,
   lipstick,
   money,
+  motherSweater,
   motorOil,
   newspaper,
   oldBooks,
@@ -852,6 +868,7 @@ const masticTree = "../public/notes/woods/mastic-tree.jpg";
 const palisander = "../public/notes/woods/palisander-rosewood.webp"; // Rosewood
 const papyrus = "../public/notes/woods/papyrus.webp";
 const pine = "../public/notes/woods/pine-tree.webp";
+const pineCones = "../public/notes/woods/pine-cones.webp";
 const sakura = "../public/notes/woods/sakura.jpg";
 const sandalwood = "../public/notes/woods/sandalwood.webp";
 const whiteOud = "../public/notes/woods/white-oud.webp";
@@ -879,6 +896,7 @@ const woods = {
   palisander,
   papyrus,
   pine,
+  pineCones,
   sakura,
   sandalwood,
   whiteOud,
