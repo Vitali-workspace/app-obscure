@@ -229,6 +229,68 @@ const perfumesTierB: PerfumesTierType = [
       },
 
       {
+        brand: "Caeleste",
+        perfumeName: "Principalities",
+        promoText: "Миниральное печенье",
+        imagePerfume: NotIMG,
+        price05ml: 24.9,
+        price1ml: 49.9,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Минеральные ноты", src: natural.mineralNotes },
+            { name: "Петрикор", src: natural.petrichor },
+            { name: "Шипы розы", src: green.roseThorns },
+            { name: "Фиалка", src: flowers.violet },
+            { name: "Иссоп", src: flowers.hyssop },
+            { name: "Чёрный чай", src: drinks.blackTea },
+            { name: "Иланг-иланг", src: flowers.ylangYlang },
+
+          ],
+          middle: [
+            { name: "Уд Ассафи", src: woods.agarwoodOud },
+            { name: "Сухие листья", src: natural.dryLeaves },
+            { name: "Пепел", src: natural.ash },
+            { name: "Корень женьшеня", src: vegetables.ginseng },
+            { name: "Элеми", src: resins.elemi },
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Гальбанум", src: green.galbanum },
+            { name: "Бессмертник", src: green.immortelle },               
+            { name: "Семена чили", src: vegetables.carrotSeeds },
+            { name: "Шафран", src: spices.saffron },
+          ],
+          base: [
+            { name: "Печёное миндальное печенье", src: gourmand.cookie },
+            { name: "Звёздная пыль", src: natural.dust },
+            { name: "Порох", src: objects.gunpowder },                             
+            { name: "Ладан", src: resins.incense },
+            { name: "Горячий металл", src: objects.hotIron },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Цветок космея", src: flowers.cosmosFlower },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
         brand: "Nasomatto",
         perfumeName: "Fantomas",
         promoText: "Призрак дыни",

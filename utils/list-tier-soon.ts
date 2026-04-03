@@ -174,67 +174,7 @@ const perfumesTierSoon: PerfumesTierType = [
             ],
         },
         
-        {
-            brand: "Caeleste",
-            perfumeName: "Principalities",
-            promoText: "Космическая пыль",
-            imagePerfume: NotIMG,
-            price05ml: 0,
-            price1ml: 0,
-            price2ml: 0,
-            price5ml: 50,
-            price10ml: 100,
-            priceFull: 190,
-            visibility: "visible",
-            volumeMl: 10,
-            notes: {
-              top: [
-                { name: "Минеральные ноты", src: natural.mineralNotes },
-                { name: "Петрикор", src: natural.petrichor },
-                { name: "Шипы розы", src: green.roseThorns },
-                { name: "Фиалка", src: flowers.violet },
-                { name: "Иссоп", src: flowers.hyssop },
-                { name: "Чёрный чай", src: drinks.blackTea },
-                { name: "Иланг-иланг", src: flowers.ylangYlang },
-
-              ],
-              middle: [
-                { name: "Уд Ассафи", src: woods.agarwoodOud },
-                { name: "Сухие листья", src: natural.dryLeaves },
-                { name: "Пепел", src: natural.ash },
-                { name: "Корень женьшеня", src: vegetables.ginseng },
-                { name: "Элеми", src: resins.elemi },
-                { name: "Кожа", src: animalistic.leather },
-                { name: "Гальбанум", src: green.galbanum },
-                { name: "Бессмертник", src: green.immortelle },               
-                { name: "Семена чили", src: vegetables.carrotSeeds },
-                { name: "Шафран", src: spices.saffron },
-              ],
-              base: [
-                { name: "Печёное миндальное печенье", src: gourmand.cookie },
-                { name: "Звёздная пыль", src: natural.dust },
-                { name: "Порох", src: objects.gunpowder },                             
-                { name: "Ладан", src: resins.incense },
-                { name: "Горячий металл", src: objects.hotIron },
-                { name: "Сандал", src: woods.sandalwood },
-                { name: "Цветок космея", src: flowers.cosmosFlower },
-              ],
-            },
-            textStory: {
-              brandHistory: [
-                { text: "Первый абзац" },
-                { text: "Второй абзац" },
-                { text: "Третий абзац" },
-              ],
-              perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-              review: [{ text: "Первый абзац" }],
-            },
-            vibe: [
-              { name: "Мрачное здание", src: "" },
-              { name: "Влажный", src: "" },
-              { name: "Тёмный", src: "" },
-            ],
-          },
+        
     
           {
             brand: "Paris Corner",
@@ -671,6 +611,98 @@ const perfumesTierSoon: PerfumesTierType = [
               { name: "Кожа", src: animalistic.leather },
               { name: "Стиракс", src: resins.styrax },
               { name: "Земля", src: natural.dirt },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+        },
+
+        {
+          brand: "Zoologist",
+          perfumeName: "Portuguese Man O'War",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Имбирь", src: spices.ginger },
+              { name: "Шафран", src: spices.saffron },
+              { name: "Бессмертник", src: green.immortelle },
+            ],
+            middle: [
+              { name: "Карибский порох", src: objects.gunpowder },
+              { name: "Жасмин самбак", src: flowers.jasmine },
+              { name: "Герань", src: flowers.geranium },
+            ],
+            base: [
+              { name: "Абсолют морских водорослей", src: balsamsOil.absolutePlants },
+              { name: "Сандал", src: woods.sandalwood },
+              { name: "Бобы тонка", src: spices.tonkaBean },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+        },
+  
+        {
+          brand: "Zoologist",
+          perfumeName: "Olm",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Аккорд водной пещеры", src: natural.waterCave },
+              { name: "Известняки", src: natural.limestones },
+              { name: "Йод", src: natural.iodine },
+            ],
+            middle: [
+              { name: "Водоросли", src: green.laminaria },
+              { name: "Мягкий янтарь", src: "" },
+              { name: "Сандал", src: woods.sandalwood },
+            ],
+            base: [
+              { name: "Жирные мускусы", src: animalistic.musk },
+              { name: "Кашмеран", src: synthetics.cashmeran },
+              { name: "Iso E Super", src: synthetics.isoSuper },
             ],
           },
           textStory: {

@@ -68,7 +68,7 @@ const perfumesTierC: PerfumesTierType = [
             { name: "Амбра", src: animalistic.amber },
           ],
           base: [
-            { name: "Кленовый сироп", src: drinks.mapleSyrup },
+            { name: "Кленовый сироп", src: drinks.syrup },
             { name: "Древесный аккорд", src: woods.woodyNotes },
             { name: "Дымный аккорд", src: natural.smoke },
           ],
