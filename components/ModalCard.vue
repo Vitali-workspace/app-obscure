@@ -58,9 +58,9 @@ const handleBuy = (volume: string, price: number) => {
                         <div class="flex flex-col text-center">
 
                             <div class="flex items-center w-full">
-                            <div class="flex-1 h-px bg-black"></div>
+                            <div class="flex-1 border-t-2 border-black"></div>
                             <h4 class="font-semibold p-2 text-lg">Верхние ноты</h4>
-                            <div class="flex-1 h-px bg-black"></div>
+                            <div class="flex-1 border-t-2 border-black"></div>
                             </div>
                             
                             <ul class="flex flex-wrap justify-center gap-4">
