@@ -721,7 +721,53 @@ const perfumesTierSoon: PerfumesTierType = [
           ],
         },
   
-  
+        {
+          brand: "Filippo Sorcinelli",
+          perfumeName: "Chi lo vuole, lo puo riscoprire...",
+          promoText: "Новогодний дух",
+          imagePerfume: NotIMG,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 50,
+          price10ml: 100,
+          priceFull: 190,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Металлические ноты", src: natural.metallicNotes },
+              { name: "Грейпфрут", src: fruits.grapefruit },
+              { name: "Чёрный перец", src: spices.blackPepper },
+              { name: "Гальбанум", src: green.galbanum },
+            ],
+            middle: [
+              { name: "Олибанум", src: resins.olibanum },
+              { name: "Чёрная роза", src: flowers.blackRose },
+              { name: "Лабданум", src: resins.labdanum },
+              { name: "Пудровые ноты", src: gourmand.ediblePowder },
+            ],
+            base: [
+              { name: "Кожа", src: animalistic.leather },
+              { name: "Масло яванского ветивера", src: balsamsOil.absolutePlants },
+              { name: "Дубовый мох", src: green.moss },
+            ],
+          },
+          textStory: {
+            brandHistory: [
+              { text: "Первый абзац" },
+              { text: "Второй абзац" },
+              { text: "Третий абзац" },
+            ],
+            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "Мрачное здание", src: "" },
+            { name: "Влажный", src: "" },
+            { name: "Тёмный", src: "" },
+          ],
+        },
         
       ],
     },

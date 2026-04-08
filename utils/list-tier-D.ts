@@ -259,6 +259,53 @@ const perfumesTierD: PerfumesTierType = [
           { name: "Тёмный", src: imgVibe },
         ],
       },
+
+      {
+        brand: "OHTOP",
+        perfumeName: "Ohsphalte",
+        promoText: "Замшево-ирисовый асфальт",
+        imagePerfume: NotIMG,
+        price05ml: 0,
+        price1ml: 4,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Ирис", src: flowers.iris },
+          ],
+          middle: [
+            { name: "Бетон", src: natural.concrete },
+            { name: "Ветивер", src: green.vetiver },
+            { name: "Пачули", src: green.patchouli },
+          ],
+          base: [
+            { name: "Асфальт", src: objects.asphalt },
+            { name: "Замша", src: animalistic.leather },
+
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+    },
+
+
     ],
   },
 ];
