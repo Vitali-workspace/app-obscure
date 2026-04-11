@@ -11,6 +11,7 @@ import {
   natural,
   nuts,
   objects,
+  rare,
   resins,
   spices,
   synthetics,

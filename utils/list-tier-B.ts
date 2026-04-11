@@ -11,6 +11,7 @@ import {
   natural,
   nuts,
   objects,
+  rare,
   resins,
   spices,
   synthetics,
@@ -235,7 +236,7 @@ const perfumesTierB: PerfumesTierType = [
         imagePerfume: NotIMG,
         price05ml: 24.9,
         price1ml: 49.9,
-        price2ml: 0,
+        price2ml: 99.9,
         price5ml: 0,
         price10ml: 0,
         priceFull: 0,
@@ -310,7 +311,7 @@ const perfumesTierB: PerfumesTierType = [
           ],
           middle: [
             { name: "Кровь", src: animalistic.blood },
-            { name: "Бинты", src: objects.bandages },
+            { name: "Бинты", src: rare.bandages },
             { name: "Йод", src: natural.iodine },
             { name: "Горящие цветы", src: flowers.burningFlowers },
             { name: "Гваяк", src: woods.guaiacWood },
@@ -318,7 +319,7 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Нагармота", src: green.nagarmotha },
           ],
           base: [
-            { name: "Обломки бетона", src: objects.fallenConcrete },
+            { name: "Обломки бетона", src: rare.fallenConcrete },
             { name: "Дождь", src: natural.rain },
             { name: "Ладан", src: resins.incense },
             { name: "Сандаловое дерево", src: woods.sandalwood },
@@ -357,11 +358,11 @@ const perfumesTierB: PerfumesTierType = [
           top: [
             { name: "Ослепительный свет", src: natural.solarNotes },
             { name: "Молоко", src: drinks.milk },
-            { name: "Фитиль", src: objects.wick },
+            { name: "Фитиль", src: rare.wick },
             { name: "Растворимое какао", src: gourmand.cocoa },
             { name: "Мирная лилия", src: flowers.lily },
             { name: "Горький миндаль", src: nuts.almond },
-            { name: "Пробка", src: objects.cork },
+            { name: "Пробка", src: rare.cork },
             { name: "Солод", src: vegetables.malt },
           ],
           middle: [
@@ -373,8 +374,8 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Сладкий клевер", src: green.clover },
           ],
           base: [
-            { name: "Веревочное ожерелье", src: objects.ropeNecklace },
-            { name: "Ружьё Чехова", src: objects.chekhovGun },
+            { name: "Веревочное ожерелье", src: rare.ropeNecklace },
+            { name: "Ружьё Чехова", src: rare.chekhovGun },
             { name: "Стиракс", src: resins.styrax },
             { name: "Кожа", src: animalistic.skin },
             { name: "Толуанский бальзам", src: balsamsOil.toluBalsam },
@@ -419,11 +420,11 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Клубника", src: berries.strawberry },
           ],
           middle: [
-            { name: "Скрежет металла", src: objects.screechingMetal },
+            { name: "Скрежет металла", src: rare.screechingMetal },
             { name: "Резина", src: objects.rubber },
             { name: "Бензин", src: objects.gasoline },
             { name: "Роза", src: flowers.rose },
-            { name: "Автомобильные сиденья", src: objects.carSeats },
+            { name: "Автомобильные сиденья", src: rare.carSeats },
           ],
           base: [
             { name: "Натуральный уд", src: woods.agarwoodOud },
@@ -463,7 +464,7 @@ const perfumesTierB: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Бросание ржавой монеты", src: objects.rustyCoin },
+            { name: "Бросание ржавой монеты", src: rare.rustyCoin },
           ],
           middle: [
             { name: "Петрикор", src: natural.petrichor },
