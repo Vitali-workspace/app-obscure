@@ -3,8 +3,6 @@ const TestBottle3 = "/assets/TEST-bottle/Mansa-900x900.png";
 const TestBottle4 = "/assets/TEST-bottle/burning-barbershop.webp";
 const TestBottle5 = "/assets/TEST-bottle/naked_laundry-900x900.jpg";
 
-const TestPyramid1 = "";
-const TestPyramid2 = "";
 
 import {
   animalistic,
@@ -19,6 +17,7 @@ import {
   natural,
   nuts,
   objects,
+  rare,
   resins,
   spices,
   synthetics,
@@ -27,6 +26,11 @@ import {
 } from "./nots.ts";
 
 //==============================
+
+
+const parfMeeting = [{}];
+
+
 
 const discoverySets = [
   {
@@ -46,7 +50,6 @@ const discoverySets = [
             promoText:
               "Древние костры и густая смола. Глубокий, дымный, пряный аромат.",
             imagePerfume: TestBottle5,
-            imageTest: "TestPyramid1",
             notes: {
               top: [
                 { name: "Листва", src: green.foliage },
@@ -78,7 +81,6 @@ const discoverySets = [
             perfumeName: "Light",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: "TestPyramid2",
             notes: {
               top: [
                 { name: "Хиноки", src: woods.hinokiWood },
@@ -104,7 +106,6 @@ const discoverySets = [
             perfumeName: "Us",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Бергамот", src: fruits.bergamot },
@@ -145,7 +146,6 @@ const discoverySets = [
             perfumeName: "Them",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Грейпфрут", src: fruits.grapefruit },
@@ -173,7 +173,6 @@ const discoverySets = [
             perfumeName: "is",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Мускатный орех", src: spices.nutmeg },
@@ -203,7 +202,6 @@ const discoverySets = [
             perfumeName: "was",
             promoText: "Луч солнечного тепла.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Мате", src: drinks.mate },
@@ -247,7 +245,6 @@ const discoverySets = [
             perfumeName: "Bear",
             promoText: "Древние костры",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid1,
             notes: {
               top: [
                 { name: "Корица", src: spices.cinnamon },
@@ -272,7 +269,6 @@ const discoverySets = [
             perfumeName: "Boar",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Яблоко", src: fruits.apple },
@@ -296,7 +292,6 @@ const discoverySets = [
             perfumeName: "Deer",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Мускатный шалфей", src: green.clarySage },
@@ -322,7 +317,6 @@ const discoverySets = [
             perfumeName: "Goat",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Лист фиалки", src: green.violetLeaf },
@@ -353,7 +347,6 @@ const discoverySets = [
             perfumeName: "Wisent",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Грейпфрут", src: fruits.grapefruit },
@@ -373,7 +366,6 @@ const discoverySets = [
             perfumeName: "Wolf",
             promoText: "Луч солнечного тепла и влажная листва после дождя.",
             imagePerfume: TestBottle5,
-            imageTest: TestPyramid2,
             notes: {
               top: [
                 { name: "Розовый перец", src: spices.pinkPepper },
@@ -415,7 +407,6 @@ const discoverySets = [
             promoText:
               "Тёплый шоколад, специи и ваниль — как визит в монастырскую кухню XVII века.",
             imagePerfume: TestBottle4,
-            imageTest: TestPyramid2,
             notes: {
               top: [{ name: "Семена моркови", src: vegetables.carrotSeeds }],
               middle: [
@@ -430,7 +421,6 @@ const discoverySets = [
             promoText:
               "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
             imagePerfume: TestBottle4,
-            imageTest: TestPyramid1,
             notes: {
               top: [
                 { name: "Бессмертник", src: green.immortelle },
@@ -449,7 +439,6 @@ const discoverySets = [
             promoText:
               "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
             imagePerfume: TestBottle4,
-            imageTest: TestPyramid1,
             notes: {
               top: [{ name: "Рисовая мука", src: gourmand.ricePowder }],
               middle: [
@@ -468,7 +457,6 @@ const discoverySets = [
             promoText:
               "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
             imagePerfume: TestBottle4,
-            imageTest: TestPyramid1,
             notes: {
               top: [
                 { name: "Цветок апельсина", src: flowers.orangeBlossom },
@@ -491,7 +479,6 @@ const discoverySets = [
             promoText:
               "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
             imagePerfume: TestBottle4,
-            imageTest: TestPyramid1,
             notes: {
               top: [{ name: "Гальбанум", src: green.galbanum }],
               middle: [
@@ -507,7 +494,6 @@ const discoverySets = [
             promoText:
               "Тяжёлое дерево, дым, специи — дух морских путешествий и восточных портов.",
             imagePerfume: TestBottle4,
-            imageTest: TestPyramid1,
             notes: {
               top: [
                 { name: "Ирис", src: flowers.iris },
@@ -523,12 +509,512 @@ const discoverySets = [
               ],
             },
           },
-
-
-
-          
         ],
       },
+
+
+      //====  BeauFort London ==========
+
+      {
+        brand: "BeauFort London",
+        descriptionBrand: "Дымные",
+        imageSet: TestBottle3,
+        priceSet: "80",
+
+        perfumes: [
+          {
+            perfumeName: "Tonnerre",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Лимон", src: fruits.lemon },
+                { name: "Бренди", src: drinks.bourbonWhiskey },
+                { name: "Порох", src: objects.gunpowder },
+              ],
+              middle: [
+                { name: "Лайм", src: fruits.lime },
+                { name: "Бергамот", src: fruits.bergamot },
+              ],
+              base: [
+                { name: "Тёмная амбра", src: animalistic.amber },
+                { name: "Пихтовый бальзам", src: balsamsOil.firBalsam },
+                { name: "Берёза", src: woods.birch },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Coeur De Noir",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Чёрные чернила", src: objects.ink },
+                { name: "Пряный ром", src: drinks.rum },
+              ],
+              middle: [
+                { name: "Бумага", src: objects.paper },
+                { name: "Кожа", src: animalistic.leather },
+                { name: "Ванильный табак", src: green.tobacco },
+              ],
+              base: [
+                { name: "Берёзовый дёготь", src: balsamsOil.birchTar },
+                { name: "Лабданум", src: resins.labdanum },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Fathom V",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Можжевельник", src: green.juniper },
+                { name: "Чёрная смородина", src: berries.blackCurrant },
+                { name: "Зелёные листья", src: green.foliage },
+                { name: "Акватическая нота", src: natural.marineNotes },
+              ],
+              middle: [
+                { name: "Лилия", src: flowers.lily },
+                { name: "Жасмин", src: flowers.jasmine },
+                { name: "Тмин", src: "" },
+              ],
+              base: [
+                { name: "Ветивер", src: green.vetiver },
+                { name: "Мох", src: green.moss },
+                { name: "Соль", src: natural.salt },
+                { name: "Атласский кедр", src: woods.cedarWood },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Lignum Vitae",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Чёрный перец", src: spices.blackPepper },
+                { name: "Пирожное Мадлен", src: gourmand.madeleine },
+                { name: "Мандарин", src: fruits.mandarin },
+              ],
+              middle: [
+                { name: "Можжевельник", src: green.juniper },
+                { name: "Имбирь", src: spices.ginger },
+                { name: "Гваяк", src: woods.guaiacWood },
+              ],
+              base: [
+                { name: "Ладан", src: resins.incense },
+                { name: "Амбра", src: animalistic.amber },
+                { name: "Мох", src: green.moss },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Vi Et Armis",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Кардамон", src: spices.cardamom },
+                { name: "Чёрный чай", src: drinks.blackTea },
+                { name: "Виски", src: drinks.bourbonWhiskey },
+              ],
+              middle: [
+                { name: "Ладан", src: resins.incense },
+                { name: "Цветок опиума", src: green.opium },
+                { name: "Иланг-иланг", src: flowers.ylangYlang },
+              ],
+              base: [
+                { name: "Табак", src: green.tobacco },
+                { name: "Уд", src: woods.agarwoodOud },
+                { name: "Амбра", src: animalistic.amber },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Absent Presence",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Бергамот", src: fruits.bergamot },
+                { name: "Гальбанум", src: green.galbanum },
+                { name: "Перец", src: spices.blackPepper },
+              ],
+              middle: [
+                { name: "Жасмин", src: flowers.jasmine },
+                { name: "Фиалка", src: flowers.violet },
+              ],
+              base: [
+                { name: "Кожа", src: animalistic.leather },
+                { name: "Сандал", src: woods.sandalwood },
+                { name: "Мускус", src: animalistic.musk },
+                { name: "Амбра", src: animalistic.amber },
+                { name: "Кедр", src: woods.cedarWood },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Acrasia",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Сицилийский лимон", src: fruits.lemon },
+                { name: "Вино", src: drinks.redWine },
+                { name: "Бергамот", src: fruits.bergamot },
+              ],
+              middle: [
+                { name: "Корица", src: spices.cinnamon },
+                { name: "Ладан", src: resins.incense },
+                { name: "Роза", src: flowers.rose },
+                { name: "Герань", src: flowers.geranium },
+                { name: "Жасмин", src: flowers.jasmine },
+              ],
+              base: [
+                { name: "Амбра", src: animalistic.amber },
+                { name: "Ваниль", src: spices.vanilla },
+                { name: "Мускус", src: animalistic.musk },
+                { name: "Пачули", src: green.patchouli },
+                { name: "Ветивер", src: green.vetiver },
+                { name: "Кедр", src: woods.cedarWood },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Iron Duke",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Табак", src: green.tobacco },
+                { name: "Металл", src: natural.metallicNotes },
+                { name: "Алкоголь", src: drinks.bourbonWhiskey },
+                { name: "Камбоджийский уд", src: woods.agarwoodOud },
+                { name: "Звёздный анис", src: spices.anise },
+              ],
+              middle: [
+                { name: "Животные ноты", src: animalistic.animalNotes },
+                { name: "Седловое мыло", src: objects.soap },
+                { name: "Кожа", src: animalistic.leather },
+                { name: "Металл", src: natural.metallicNotes },
+                { name: "Жжёная древесина", src: "" },
+              ],
+              base: [
+                { name: "Порох", src: objects.gunpowder },
+                { name: "Сено", src: green.hay },
+                { name: "Тёмный мускус", src: animalistic.blackMusk },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Rake & Ruin",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Анжелика", src: green.angelica },
+                { name: "Лакрица", src: spices.licorice },
+                { name: "Можжевельник", src: green.juniper },
+                { name: "Кориандр", src: spices.coriander },
+                { name: "Сычуаньский перец", src: spices.sichuanPepper },
+                { name: "Розовый перец", src: spices.pinkPepper },
+                { name: "Апельсин", src: fruits.orange },
+                { name: "Лимон", src: fruits.lemon },
+              ],
+              middle: [
+                { name: "Кипарис", src: woods.cypress },
+                { name: "Сосновая хвоя", src: green.conifer },
+                { name: "Кастореум", src: animalistic.castoreum },
+                { name: "Лабданум", src: resins.labdanum },
+                { name: "Можжевеловое масло", src: "" },
+                { name: "Костус", src: green.costus },
+                { name: "Фиалковый ирис (Violet Orris)", src: "" },
+              ],
+              base: [
+                { name: "Тёмные древесные ноты (Dark Woods)", src: "" },
+                { name: "Амбраром (Ambrarome)", src: "" },
+                { name: "Сандал", src: woods.sandalwood },
+                { name: "Мускус", src: animalistic.musk },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Terror & Magnificence",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Шафран", src: spices.saffron },
+                { name: "Чёрный перец", src: spices.blackPepper },
+                { name: "Берёзовый дёготь", src: balsamsOil.birchTar },
+              ],
+              middle: [
+                { name: "Ладан", src: resins.incense },
+                { name: "Табачный абсолют", src: balsamsOil.absolutePlants },
+                { name: "Кифи", src: resins.elemi },
+              ],
+              base: [
+                { name: "Мирра", src: resins.myrrh },
+                { name: "Бензоин", src: resins.benzoin },
+                { name: "Лабданум", src: resins.labdanum },
+                { name: "Ветивер", src: green.vetiver },
+                { name: "Аккорд влажного камня", src: natural.pebbles },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Cape Wrath",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Розовый перец", src: spices.pinkPepper },
+                { name: "Элеми", src: resins.elemi },
+                { name: "Гальбанум", src: green.galbanum },
+                { name: "Корень анжелики", src: green.plantRoot },
+              ],
+              middle: [
+                { name: "Ладан", src: resins.incense },
+                { name: "Мастиковая смола", src: resins.mastic },
+                { name: "Герань", src: flowers.geranium },
+              ],
+              base: [
+                { name: "Серая амбра", src: animalistic.ambergris },
+                { name: "Ветивер", src: green.vetiver },
+                { name: "Амбретта", src: animalistic.ambrette },
+                { name: "Морские водоросли", src: green.laminaria },
+                { name: "Абсолют дубового мха", src: balsamsOil.absolutePlants },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Pyroclasm",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Ржавчина", src: rare.rust },
+                { name: "Чёрный перец", src: spices.blackPepper },
+                { name: "Шафран", src: spices.saffron },
+                { name: "Грейпфрут", src: fruits.grapefruit },
+              ],
+              middle: [
+                { name: "Ладан", src: resins.incense },
+                { name: "Элеми", src: resins.elemi },
+                { name: "Минеральные ноты", src: natural.marineNotes },
+              ],
+              base: [
+                { name: "Серая амбра", src: animalistic.ambergris },
+                { name: "Можжевеловое масло", src: balsamsOil.greenOil },
+                { name: "Сандал", src: woods.sandalwood },
+                { name: "Стиракс", src: resins.styrax },
+                { name: "Ладанник", src: green.costus },
+                { name: "Абсолют атласского кедра", src: balsamsOil.woodOil },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "Sirenide",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Голубые ирисы", src: flowers.iris },
+                { name: "Водяной боярышник", src: green.hawthorn },
+                { name: "Горький миндаль", src: nuts.almond },
+                { name: "Анис", src: spices.anise },
+              ],
+              middle: [
+                { name: "Кувшинка", src: flowers.waterLily },
+                { name: "Розовый лотос", src: flowers.lotus },
+              ],
+              base: [
+                { name: "Серая амбра", src: animalistic.ambergris },
+                { name: "Атласский кедр", src: woods.cedarWood },
+                { name: "Подмаренник душистый", src: green.myrtle },
+                { name: "pinseal", src: "" },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "The Grudge",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "Полынь", src: green.wormwood },
+                { name: "Ладан", src: resins.incense },
+                { name: "Копаловая смола", src: resins.copal },
+              ],
+              middle: [
+                { name: "Чай", src: drinks.blackTea },
+                { name: "Морские водоросли", src: green.laminaria },
+                { name: "Каламус", src: green.calamus },
+              ],
+              base: [
+                { name: "Серая амбра", src: animalistic.ambergris },
+                { name: "Табак", src: green.tobacco },
+                { name: "Уд", src: woods.agarwoodOud },
+                { name: "Мускус", src: animalistic.musk },
+                { name: "Дубовый мох", src: green.moss },
+                { name: "Абсолют лабданума", src: balsamsOil.absoluteLabdanum },
+              ],
+            },
+          },
+
+
+          // ========= Spiritica
+
+          {
+            brand: "Spiritica",
+            descriptionBrand: "xxxx",
+            imageSet: TestBottle3,
+            priceSet: "520",
+    
+            perfumes: [
+              {
+                perfumeName: "xxx",
+                promoText: "xxx",
+                imagePerfume: TestBottle4,
+                notes: {
+                  top: [
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                  ],
+                  middle: [
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                  ],
+                  base: [
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                  ],
+                },
+              },
+    
+              {
+                perfumeName: "xxx",
+                promoText: "xxx",
+                imagePerfume: TestBottle4,
+                notes: {
+                  top: [
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                  ],
+                  middle: [
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                  ],
+                  base: [
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                    { name: "xxx", src: "" },
+                  ],
+                },
+              },
+    
+            ],
+          },
+
+
+
+
+
+        ],
+      },
+
+
+// ==========================
+
+      {
+        brand: "xxx",
+        descriptionBrand: "xxxx",
+        imageSet: TestBottle3,
+        priceSet: "520",
+
+        perfumes: [
+          {
+            perfumeName: "xxx",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+              ],
+              middle: [
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+              ],
+              base: [
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+              ],
+            },
+          },
+
+          {
+            perfumeName: "xxx",
+            promoText: "xxx",
+            imagePerfume: TestBottle4,
+            notes: {
+              top: [
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+              ],
+              middle: [
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+              ],
+              base: [
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+                { name: "xxx", src: "" },
+              ],
+            },
+          },
+
+        ],
+      },
+
+
+
     ],
   },
 ];
