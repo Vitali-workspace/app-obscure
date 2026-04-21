@@ -301,9 +301,9 @@ const perfumesTierA: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Домашнее мыло", src: objects.soapBlood },
+            { name: "Домашнее мыло", src: rare.soapBlood },
             { name: "Кровавый апельсин", src: fruits.bloodOrange },
-            { name: "Акорд каустической соды", src: objects.causticSoda },
+            { name: "Акорд каустической соды", src: rare.causticSoda },
             { name: "Чёрный перец", src: spices.blackPepper },
             { name: "Кровь", src: animalistic.blood },
           ],
@@ -358,11 +358,11 @@ const perfumesTierA: PerfumesTierType = [
             { name: "Кислотные альдегиды", src: synthetics.aldehydes },
           ],
           middle: [
-            { name: "Грязный ковёр", src: objects.carpet },
+            { name: "Грязный ковёр", src: rare.carpet },
             { name: "Цветок гвоздики", src: flowers.carnation },
             { name: "Свёрнувшаяся кровь", src: animalistic.blood },
             { name: "Человеческий пот", src: animalistic.sweat },
-            { name: "Острый нож", src: objects.sharpKnife },
+            { name: "Острый нож", src: rare.sharpKnife },
           ],
           base: [
             { name: "Расплавленный пластик", src: objects.plastic },

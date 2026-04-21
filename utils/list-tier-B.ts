@@ -30,6 +30,11 @@ const ventoForteBottle =
 const bombardeBottle = "../public/bottles/brands/sorcinelli/musique-2.jpg";
 const fantomasBottle = "../public/bottles/tier-b/fantomas.jpg";
 
+const inexcusableBottle = "../public/bottles/brands/toskovat/inexcusable-evil.webp";
+const birthdayBottle = "../public/bottles/brands/toskovat/last-birthday-cake.webp";
+
+const principalitiesBottle = "../public/bottles/brands/caeleste/principalities.webp";
+
 const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
@@ -233,7 +238,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Caeleste",
         perfumeName: "Principalities",
         promoText: "Миниральное печенье",
-        imagePerfume: NotIMG,
+        imagePerfume: principalitiesBottle,
         price05ml: 24.9,
         price1ml: 49.9,
         price2ml: 99.9,
@@ -295,7 +300,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Toskovat",
         perfumeName: "Inexcusable Evil",
         promoText: "Запах войны",
-        imagePerfume: NotIMG,
+        imagePerfume: inexcusableBottle,
         price05ml: 19.9,
         price1ml: 39.9,
         price2ml: 0,
@@ -345,10 +350,10 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Toskovat",
         perfumeName: "Last Birthday Cake",
         promoText: "Вкус последнего торта",
-        imagePerfume: NotIMG,
+        imagePerfume: birthdayBottle,
         price05ml: 19.9,
         price1ml: 39.9,
-        price2ml: 0,
+        price2ml: 79.9,
         price5ml: 0,
         price10ml: 0,
         priceFull: 0,
@@ -368,7 +373,7 @@ const perfumesTierB: PerfumesTierType = [
           middle: [
             { name: "Арманьяк", src: drinks.bourbonWhiskey },
             { name: "Штоллен", src: gourmand.cake },
-            { name: "Коричневый сахар", src: gourmand.sugar },
+            { name: "Коричневый сахар", src: gourmand.palmSugar },
             { name: "Ванильный крем", src: gourmand.cream },
             { name: "Бобы тонка", src: spices.tonkaBean },
             { name: "Сладкий клевер", src: green.clover },
@@ -464,7 +469,7 @@ const perfumesTierB: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Бросание ржавой монеты", src: rare.rustyCoin },
+            { name: "Брошенная ржавая монета", src: rare.rustyCoin },
           ],
           middle: [
             { name: "Петрикор", src: natural.petrichor },
@@ -480,6 +485,54 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Амирис", src: woods.amyris },
             { name: "Гальбанум", src: green.galbanum },
             { name: "Семена моркови", src: vegetables.carrot },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Toskovat",
+        perfumeName: "Generation Godard",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Старый кинотеатр", src: rare.cinema },
+            { name: "Кислые конфеты", src: gourmand.bubbleGum },
+          ],
+          middle: [
+            { name: "Попкорн застрявший в зубах", src: rare.popcornMouth },
+            { name: "Кока-кола", src: drinks.cocaCola },
+            { name: "Картонные стаканчики", src: rare.cardboardCups },
+            { name: "Роза", src: flowers.rose },
+          ],
+          base: [
+            { name: "Газета", src: rare.newspaper },
+            { name: "Сигаретные фильтры", src: rare.cigarettes },
+            { name: "Мускус", src: animalistic.musk },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Амбретта", src: animalistic.ambrette },
           ],
         },
         textStory: {
@@ -527,6 +580,112 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Кашмеран", src: synthetics.cashmeran },
             { name: "Тропические фрукты", src: fruits.fruityNotes },
             { name: "Пачули", src: green.patchouli },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Bohoboco",
+        perfumeName: "Plum Spray Paint",
+        promoText: "Слива в краске",
+        imagePerfume: "",
+        price05ml: 9.9,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Розовый перец", src: spices.pinkPepper },
+            { name: "Слива", src: fruits.plum },
+            { name: "Аэрозольная краска", src: objects.sprayPaint },
+            { name: "Корица", src: spices.cinnamon },
+          ],
+          middle: [
+            { name: "Шафран", src: spices.saffron },
+            { name: "Магнолия", src: flowers.magnolia },
+            { name: "Красные ягоды", src: berries.redBerries },
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Ром", src: drinks.rum },
+          ],
+          base: [
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Виски", src: drinks.bourbonWhiskey },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Дым", src: natural.smoke },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Bohoboco",
+        perfumeName: "Mango Yuzu Gasoline",
+        promoText: "Манго в бензине",
+        imagePerfume: "",
+        price05ml: 9.9,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Мандарин", src: fruits.mandarin },
+            { name: "Юдзу", src: fruits.yuzu },
+            { name: "Каламондин", src: fruits.calamondin },
+            { name: "Манго", src: fruits.mango },
+            { name: "Ананас", src: fruits.pineapple },
+            { name: "Чёрная смородина", src: berries.blackCurrant },
+          ],
+          middle: [
+            { name: "Ландыш", src: flowers.lilyValley },
+            { name: "Ирис", src: flowers.iris },
+            { name: "Жасминовый чай", src: drinks.jasmineTea },
+            { name: "Бразильское манго", src: fruits.mango },
+          ],
+          base: [
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Мшистые ноты", src: green.moss },
+            { name: "Замша", src: animalistic.suede },
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Ладан", src: resins.incense },
+            { name: "Бензин", src: objects.gasoline },
+            { name: "Ветивер", src: green.vetiver },
+            { name: "Амбра", src: animalistic.amber },
           ],
         },
         textStory: {
