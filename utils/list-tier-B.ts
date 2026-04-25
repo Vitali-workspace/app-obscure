@@ -20,6 +20,7 @@ import {
 } from "./nots";
 
 import type { PerfumesTierType } from "./constants";
+import { storyB } from "./stories";
 
 //============ флаконы ========================
 
@@ -86,13 +87,9 @@ const perfumesTierB: PerfumesTierType = [
           ],
         },
         textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
+          brandHistory: storyB.reliqvia.brandHistory,
+          perfumeHistory: storyB.reliqvia.perfumeHistory,
+          review: storyB.reliqvia.review,
         },
         vibe: [
           { name: "Мрачное здание", src: imgVibe },

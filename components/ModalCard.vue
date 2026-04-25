@@ -111,9 +111,22 @@ const handleBuy = (volume: string, price: number) => {
                         <h4 class="text-lg italic">{{ selectedPerfume.perfumeName }}</h4>
 
                         <p class="text-gray-600 mt-2">{{ selectedPerfume.promoText }}</p>
-                        <p class="mt-2">
-                            Этот аромат — уникальное сочетание чувственных нот и изящной композиции.
+                        
+                        <p class="mt-2 whitespace-pre">
+                            <!-- Описание парфюма textStory.perfumeHistory -->
+                            {{ selectedPerfume.textStory.perfumeHistory }}
                         </p>
+
+                        <p class="mt-2 whitespace-pre">
+                            <!-- Описание запаха textStory.review -->
+                            {{ selectedPerfume.textStory.review }}
+                        </p>
+
+                        <p class="mt-2 whitespace-pre">
+                            <!-- Описание бренда textStory.brandHistory -->
+                            {{ selectedPerfume.textStory.brandHistory }}
+                        </p>
+
                     </div>
 
                     <div class="flex gap-4 mt-4">
