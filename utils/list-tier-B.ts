@@ -132,13 +132,9 @@ const perfumesTierB: PerfumesTierType = [
           ],
         },
         textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
+          brandHistory: storyB.lavs.brandHistory,
+          perfumeHistory: storyB.lavs.brandHistory,
+          review: storyB.lavs.brandHistory,
         },
         vibe: [
           { name: "Мрачное здание", src: imgVibe },
@@ -661,11 +657,11 @@ const perfumesTierB: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
+            { name: "Манго", src: fruits.mango },
+            { name: "Ананас", src: fruits.pineapple },
             { name: "Мандарин", src: fruits.mandarin },
             { name: "Юдзу", src: fruits.yuzu },
             { name: "Каламондин", src: fruits.calamondin },
-            { name: "Манго", src: fruits.mango },
-            { name: "Ананас", src: fruits.pineapple },
             { name: "Чёрная смородина", src: berries.blackCurrant },
           ],
           middle: [
@@ -675,12 +671,12 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Бразильское манго", src: fruits.mango },
           ],
           base: [
-            { name: "Кедр", src: woods.cedarWood },
-            { name: "Мшистые ноты", src: green.moss },
+            { name: "Бензин", src: objects.gasoline },
+            { name: "Ладан", src: resins.incense },
             { name: "Замша", src: animalistic.suede },
             { name: "Кожа", src: animalistic.leather },
-            { name: "Ладан", src: resins.incense },
-            { name: "Бензин", src: objects.gasoline },
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Мшистые ноты", src: green.moss },
             { name: "Ветивер", src: green.vetiver },
             { name: "Амбра", src: animalistic.amber },
           ],

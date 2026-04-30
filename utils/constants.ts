@@ -17,6 +17,11 @@ export type PerfumeType = {
       middle: Array<{ name: string; src: string }>;
       base: Array<{ name: string; src: string }>;
   };
+  textStory: {
+    brandHistory: { text: string }[];
+    perfumeHistory: { text: string }[];
+    review: { text: string }[];
+  };
 };
 
 
