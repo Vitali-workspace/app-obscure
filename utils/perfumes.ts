@@ -42,6 +42,7 @@ type PerfumesTierType = {
     perfumeName: string;
     promoText: string;
     imagePerfume: string;
+    price01ml: number;
     price05ml: number;
     price1ml: number;
     price2ml: number;
