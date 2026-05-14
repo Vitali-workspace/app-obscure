@@ -1035,7 +1035,7 @@ const listParf = [
         notes: {
           top: [
             { name: "Магнолия", src: flowers.magnolia },
-            { name: "Цифровой бассейн", src: "" },
+            { name: "Цифровой бассейн", src: rare.digitalPool },
           ],
           middle: [
             { name: "Мускус T", src: animalistic.musk },
@@ -1085,8 +1085,8 @@ const listParf = [
             { name: "Молекулярный мускус", src: animalistic.musk },
           ],
           base: [
-            { name: "Холодное пустое пространство", src: "" },
-            { name: "Иллюзия 4 утра", src: "" },
+            { name: "Холодное пустое пространство", src: rare.emptyRoom },
+            { name: "Иллюзия 4 утра", src: rare.earlyMorning },
           ],
         },
         textStory: {
@@ -1121,7 +1121,7 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Кожа", src: "" },
+            { name: "Кожа", src: animalistic.leather },
             { name: "Газировка", src: "" },
           ],
           middle: [
@@ -1222,12 +1222,12 @@ const listParf = [
             { name: "Гранат", src: "" },
           ],
           middle: [
-            { name: "Водные ноты", src: "" },
-            { name: "Аккорд белого клея", src: "" },
-            { name: "Миндаль", src: "" },
+            { name: "Водные ноты", src: natural.marineNotes },
+            { name: "Аккорд белого клея", src: objects.glue },
+            { name: "Миндаль", src: nuts.almond },
           ],
           base: [
-            { name: "Эссенция пачули", src: "" },
+            { name: "Эссенция пачули", src: green.patchouli },
             { name: "Современная древесина", src: "" },
             { name: "Амброксан", src: "" },
             { name: "Мускус", src: animalistic.musk },
@@ -1273,15 +1273,15 @@ const listParf = [
           middle: [
             { name: "Чёрная смородина", src: berries.blackCurrant },
             { name: "Эссенция элеми", src: resins.elemi },
-            { name: "Скипидарная эссенция", src: "" },
-            { name: "Эссенция шалфея", src: "" },
+            { name: "Скипидарная эссенция", src: rare.turpentine },
+            { name: "Эссенция шалфея", src: green.clarySage },
           ],
           base: [
             { name: "Ваниль", src: spices.vanilla },
             { name: "Абсолют лабданума", src: balsamsOil.absoluteLabdanum },
-            { name: "Эссенция папируса", src: "" },
+            { name: "Эссенция папируса", src: woods.papyrus },
             { name: "Эссенция сибирской сосны", src: "" },
-            { name: "Современные древесные ноты", src: "" },
+            { name: "Современные древесные ноты", src: woods.cashmirWood },
           ],
         },
         textStory: {
@@ -1321,16 +1321,16 @@ const listParf = [
             { name: "Шафран", src: spices.saffron },
           ],
           middle: [
-            { name: "Карамель", src: "" },
-            { name: "Шалфей", src: "" },
-            { name: "Кожа", src: "" },
-            { name: "Дым", src: "" },
+            { name: "Карамель", src: gourmand.caramel },
+            { name: "Шалфей", src: green.clarySage },
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Дым", src: natural.smoke },
           ],
           base: [
-            { name: "Амбра", src: "" },
-            { name: "Абсолют бобов тонка", src: "" },
-            { name: "Древесина кашемира", src: "" },
-            { name: "Замша", src: "" },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Абсолют бобов тонка", src: balsamsOil.absolutePlants },
+            { name: "Древесина кашемира", src: woods.cashmirWood },
+            { name: "Замша", src: animalistic.suede },
           ],
         },
         textStory: {
@@ -2084,7 +2084,7 @@ const listParf = [
           top: [
             { name: "Апельсин", src: fruits.orange },
             { name: "Имбирный сироп", src: drinks.syrup },
-            { name: "Пчелиное маточное молоко", src: "" },
+            { name: "Пчелиное маточное молоко", src: animalistic.royalJelly },
           ],
           middle: [
             { name: "Дрок", src: flowers.genista },
@@ -2153,7 +2153,7 @@ const listParf = [
           ],
           base: [
             { name: "Амбра", src: animalistic.amber },
-            { name: "Древесные ноты", src: "" },
+            { name: "Древесные ноты", src: woods.mahogany },
             { name: "Мускусы", src: animalistic.musk },
             { name: "Опопонакс", src: resins.opoponax },
             { name: "Пачули", src: green.patchouli },
@@ -2201,7 +2201,7 @@ const listParf = [
           ],
           middle: [
             { name: "Давана", src: green.davana },
-            { name: "Абсолют сена", src: "" },
+            { name: "Абсолют сена", src: green.hay },
             { name: "Бензоин", src: resins.benzoin },
             { name: "Опопонакс", src: resins.opoponax },
             { name: "Абсолют розы", src: balsamsOil.absolutePlants },
@@ -3129,9 +3129,9 @@ const listParf = [
           ],
           middle: [
             { name: "Мята", src: green.mint },
-            { name: "Металлический нероли", src: "" },
-            { name: "Болгарская роза", src: "" },
-            { name: "Аккорд гоночного трека", src: "" },
+            { name: "Металлический нероли", src: flowers.neroli },
+            { name: "Болгарская роза", src: flowers.rose },
+            { name: "Аккорд гоночного трека", src: rare.raceTrack },
           ],
           base: [
             { name: "Асфальт", src: objects.asphalt },
@@ -3223,7 +3223,7 @@ const listParf = [
             { name: "Цветок гвоздики", src: flowers.carnation },
             { name: "Пачули", src: green.patchouli },
             { name: "Амбра", src: animalistic.amber },
-            { name: "Орегано", src: "" },
+            { name: "Орегано", src: spices.oregano },
           ],
           base: [
             { name: "Кастореум", src: animalistic.castoreum },
@@ -3247,177 +3247,7 @@ const listParf = [
 
       //====== Pictura Fragrans
 
-      {
-        brand: "Pictura Fragrans",
-        perfumeName: "Le Reveil",
-        promoText: "Земляничный йогурт",
-        imagePerfume: "",
-        price01ml: 5.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Лесная земляника", src: berries.wildStrawberry },
-            { name: "Белый шоколад", src: gourmand.whiteChocolate },
-            { name: "Лаванда", src: flowers.lavender },
-            { name: "Ром", src: drinks.rum },
-            { name: "Стебли зелени", src: green.stemsGreenery },
-          ],
-          middle: [
-            { name: "Козья шерсть", src: animalistic.goatHair },
-            { name: "Трюфель", src: mushrooms.truffle },
-            { name: "Этилмальтол", src: synthetics.ethylMaltol },
-            { name: "Животные ноты", src: animalistic.animalNotes },
-            { name: "Гелиотроп", src: flowers.heliotrope },
-            { name: "Гвоздика", src: spices.cloves },
-          ],
-          base: [
-            { name: "Белый уд", src: woods.agarwoodOud },
-            { name: "Митти аттар", src: synthetics.mittiAttar },
-            { name: "Перуанский бальзам", src: balsamsOil.peruBalsam },
-            { name: "Ванильная икра", src: spices.vanillaCaviar },
-            { name: "Тоналид", src: synthetics.tonalide },
-            { name: "Козье молоко", src: drinks.goatMilk },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
-
-      {
-        brand: "Pictura Fragrans",
-        perfumeName: "Elysee Liminaire",
-        promoText: "Индустриальная зелень",
-        imagePerfume: "",
-        price01ml: 5.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Металлические ноты", src: natural.metallicNotes },
-            { name: "Водка", src: drinks.vodka },
-            { name: "Сгоревшая спичка", src: objects.burntMatch },
-            { name: "Помело", src: fruits.pomelo },
-            { name: "Порох", src: objects.gunpowder },
-            { name: "Резина", src: objects.rubber },
-          ],
-          middle: [
-            { name: "Магнолан", src: synthetics.magnolan },
-            { name: "Вода", src: natural.marineNotes },
-            { name: "Гексенил зелёный", src: synthetics.hexenylGreen },
-            { name: "Борония", src: flowers.boronia },
-            { name: "Жасмин", src: flowers.jasmine },
-            { name: "Шисо", src: green.shiso },
-            { name: "Белый лотос", src: flowers.lotus },
-            { name: "Кардамон", src: spices.cardamom },
-          ],
-          base: [
-            { name: "Прополис", src: resins.propolis },
-            { name: "Уд", src: woods.agarwoodOud },
-            { name: "Сандал", src: woods.sandalwood },
-            { name: "Животные ноты", src: animalistic.animalNotes },
-            { name: "Парадизон", src: synthetics.paradisone },
-            { name: "Мускус", src: animalistic.musk },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
-
-      {
-        brand: "Pictura Fragrans",
-        perfumeName: "L'esprit Impur - Baba Yaga",
-        promoText: "Мятное лесное обморожение",
-        imagePerfume: "",
-        price01ml: 5.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Белый перец", src: spices.whitePepper },
-            { name: "Кипарис", src: woods.cypress },
-            { name: "Элеми", src: resins.elemi },
-            { name: "Мята", src: green.mint },
-            { name: "Снег", src: natural.snow },
-            { name: "Литцея", src: green.litsea },
-          ],
-          middle: [
-            { name: "Свекла", src: vegetables.beetroot },
-            { name: "Грибы", src: mushrooms.mushroom },
-            { name: "Ячмень", src: vegetables.wheat },
-            { name: "Бекон", src: gourmand.bacon },
-            { name: "Тост", src: gourmand.toast },
-            { name: "Укроп", src: green.dill },
-            { name: "Мох", src: green.moss },
-          ],
-          base: [
-            { name: "Пачули", src: green.patchouli },
-            { name: "Лабданум", src: resins.labdanum },
-            { name: "Олибанум", src: resins.olibanum },
-            { name: "Можжевеловое масло", src: balsamsOil.absoluteLabdanum },
-            { name: "Геосмин", src: synthetics.geosmin },
-            { name: "Мускус", src: animalistic.musk },
-            { name: "Норлиманол", src: synthetics.norlimanol },
-            { name: "Киприол", src: balsamsOil.cypriolOil },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
+      
 
       {
         brand: "Pictura Fragrans",
@@ -3479,66 +3309,7 @@ const listParf = [
         ],
       },
 
-      {
-        brand: "Pictura Fragrans",
-        perfumeName: "Qetora Zohar",
-        promoText: "xxxxx",
-        imagePerfume: "",
-        price01ml: 5.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Инжирное дерево", src: woods.figWood },
-            { name: "Сычуаньский перец", src: spices.sichuanPepper },
-            { name: "Финики", src: fruits.dates },
-            { name: "Юдзу", src: fruits.yuzu },
-            { name: "Кардамон", src: spices.cardamom },
-            { name: "Элеми", src: resins.elemi },
-            { name: "Мацис", src: spices.mace },
-          ],
-          middle: [
-            { name: "Дикий ассаамский уд", src: woods.agarwoodOud },
-            { name: "Инжир", src: fruits.fig },
-            { name: "Мирра", src: resins.myrrh },
-            { name: "Гиацинт", src: flowers.hyacinth },
-            { name: "Ладан", src: resins.incense },
-            { name: "Сухофрукты", src: fruits.driedFruits },
-            { name: "Бобы тонка", src: spices.tonkaBean },
-            { name: "Кориандр", src: spices.coriander },
-            { name: "Опопонакс", src: resins.opoponax },
-            { name: "Тост", src: gourmand.toast },
-          ],
-          base: [
-            { name: "Ладан", src: resins.incense },
-            { name: "Рожковое дерево", src: woods.carob },
-            { name: "Сандал из Майсура", src: woods.sandalwood },
-            { name: "Серая амбра", src: animalistic.ambergris },
-            { name: "Амбретта", src: animalistic.ambrette },
-            { name: "Мускус", src: animalistic.musk },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
+      
 
       
       {
@@ -3686,8 +3457,8 @@ const listParf = [
           ],
           base: [
             { name: "Белая амбра", src: animalistic.amber },
-            { name: "Лес", src: "" },
-            { name: "Родниковая вода", src: "" },
+            { name: "Лес", src: woods.forestTrees },
+            { name: "Родниковая вода", src: natural.waterCave },
           ],
         },
         textStory: {
@@ -3884,7 +3655,7 @@ const listParf = [
             { name: "Аккорд лесного зверя", src: animalistic.nocturnalAnimals },
           ],
           base: [
-            { name: "Тёмные леса", src: "" },
+            { name: "Тёмные леса", src: woods.forestTrees },
             { name: "Мускус", src: animalistic.musk },
             { name: "Табак", src: green.tobacco },
           ],
@@ -4014,51 +3785,7 @@ const listParf = [
 
 
 
-      {
-        brand: "Comme des Garcons",
-        perfumeName: "CDG",
-        promoText: "Парфюмерный клей",
-        imagePerfume: NotIMG,
-        price01ml: 4.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Альдегиды", src: synthetics.aldehydes },
-            { name: "Сафралейн", src: "" },
-            { name: "Боярышник", src: "" },
-          ],
-          middle: [
-            { name: "Промышленный клей", src: "" },
-            { name: "Скотч", src: "" },
-            { name: "Оксид цветов сирени", src: balsamsOil.absolutePlants },
-          ],
-          base: [
-            { name: "Мускус", src: animalistic.musk },
-            { name: "Стиракс", src: resins.styrax },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
+
 
       // ===== Filippo Sorcinelli ======
 
@@ -4079,7 +3806,7 @@ const listParf = [
         notes: {
           top: [
             { name: "Засахаренный лимон", src: fruits.candiedLemon },
-            { name: "Копчёная древесина", src: "" },
+            { name: "Копчёная древесина", src: woods.smokedWood },
           ],
           middle: [
             { name: "Хлебная корка", src: gourmand.bread },
@@ -4176,7 +3903,7 @@ const listParf = [
           middle: [
             { name: "Жасмин", src: flowers.jasmine },
             { name: "Кедр", src: woods.cedarWood },
-            { name: "Фруктовая роса", src: "" },
+            { name: "Фруктовая роса", src: natural.dew },
           ],
           base: [
             { name: "Бергамот", src: fruits.bergamot },
@@ -4219,7 +3946,7 @@ const listParf = [
             { name: "Можжевельник", src: green.juniper },
             { name: "Розмарин", src: spices.rosemary },
             { name: "Полынь", src: green.wormwood },
-            { name: "Абсент", src: "" },
+            { name: "Абсент", src: drinks.absinthe },
           ],
           middle: [
             { name: "Кедр", src: woods.cedarWood },
@@ -4529,10 +4256,10 @@ const listParf = [
           ],
           middle: [
             { name: "Растительный мускус", src: animalistic.musk },
-            { name: "Пало санто", src: "" },
+            { name: "Пало санто", src: woods.paloSanto },
           ],
           base: [
-            { name: "Роса", src: "" },
+            { name: "Роса", src: natural.dew },
           ],
         },
         textStory: {
@@ -4608,7 +4335,7 @@ const listParf = [
           ],
           middle: [
             { name: "Жасмин", src: flowers.jasmine },
-            { name: "Виргинский кедр", src: "" },
+            { name: "Виргинский кедр", src: woods.virginiaCedar },
           ],
           base: [
             { name: "Бензоин", src: resins.benzoin },
@@ -4923,7 +4650,7 @@ const listParf = [
             { name: "Мате", src: drinks.mate },
           ],
           base: [
-            { name: "Виргинский кедр", src: "" },
+            { name: "Виргинский кедр", src: woods.virginiaCedar },
             { name: "Бергамот", src: fruits.bergamot },
             { name: "Кедр", src: woods.cedarWood },
           ],
@@ -5013,7 +4740,7 @@ const listParf = [
             { name: "Жасмин", src: flowers.jasmine },
           ],
           base: [
-            { name: "Виргинский кедр", src: "" },
+            { name: "Виргинский кедр", src: woods.virginiaCedar },
           ],
         },
         textStory: {

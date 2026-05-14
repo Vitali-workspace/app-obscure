@@ -20,6 +20,7 @@ const musk = "../public/notes/animalistic/musk.webp";
 const nocturnalAnimals = "../public/notes/animalistic/nocturnal-animals.jpg";
 const oysters = "../public/notes/animalistic/oysters.webp";
 const pus = "../public/notes/animalistic/pus.jpg";
+const royalJelly  = "../public/notes/animalistic/royal-jelly.webp";
 const saliva = "../public/notes/animalistic/saliva.jpg";
 const seaShells = "../public/notes/animalistic/sea-shells.webp";
 const skin = "../public/notes/animalistic/skin.webp";
@@ -50,6 +51,7 @@ const animalistic = {
   nocturnalAnimals,
   oysters,
   pus,
+  royalJelly,
   saliva,
   seaShells,
   skin,
@@ -577,6 +579,7 @@ const basil = "../public/notes/green/basil.webp";
 const blackberryLeaf = "../public/notes/green/blackberry-leaf.webp";
 const blackCurrantLeaf = "../public/notes/green/black-currant-leaf.webp";
 const blackMint = "../public/notes/green/black-mint.webp";
+const boxwood  = "../public/notes/green/boxwood.webp";
 const bushmanCandle = "../public/notes/green/bushman-candle.webp";
 const calamus = "../public/notes/green/calamus.webp";
 const cannabis = "../public/notes/green/cannabis.webp";
@@ -629,6 +632,7 @@ const green = {
   blackberryLeaf,
   blackCurrantLeaf,
   blackMint,
+  boxwood,
   bushmanCandle,
   calamus,
   cannabis,
@@ -871,9 +875,12 @@ const cork = "../public/notes/rare-objects/cork.webp";
 const creditCards = "../public/notes/rare-objects/credit-cards.webp";
 const curtains = "../public/notes/rare-objects/curtains.webp";
 const danceClub = "../public/notes/rare-objects/dance-club.webp";
+const digitalPool  = "../public/notes/rare-objects/digital-pool.webp";
 const dustyClothes = "../public/notes/rare-objects/dusty-clothes.webp";
 const dvdCase = "../public/notes/rare-objects/dvd-case.webp";
+const earlyMorning  = "../public/notes/rare-objects/early-morning.webp";
 const chair = "../public/notes/rare-objects/electric-chair.webp";
+const emptyRoom  = "../public/notes/rare-objects/empty-room.webp";
 const excavator = "../public/notes/rare-objects/excavator.webp";
 const facePowder = "../public/notes/rare-objects/face-powder.webp";
 const fallenConcrete = "../public/notes/rare-objects/fallen-concrete.webp";
@@ -893,6 +900,7 @@ const popcornMouth = "../public/notes/rare-objects/popcorn-mouth.webp";
 const poppedBalloon = "../public/notes/rare-objects/popped-balloon.webp";
 const postageStamp = "../public/notes/rare-objects/postage-stamp.webp";
 const priestClothes = "../public/notes/rare-objects/priest-s-clothes.webp";
+const raceTrack  = "../public/notes/rare-objects/race-track.webp";
 const ropeNecklace = "../public/notes/rare-objects/rope-necklace.webp";
 const rottenFlesh = "../public/notes/rare-objects/rotten-flesh.webp";
 const rust = "../public/notes/rare-objects/rust.webp";
@@ -929,9 +937,12 @@ const rare = {
   creditCards,
   curtains,
   danceClub,
+  digitalPool,
   dustyClothes,
   dvdCase,
+  earlyMorning,
   chair,
+  emptyRoom,
   excavator,
   facePowder,
   fallenConcrete,
@@ -951,6 +962,7 @@ const rare = {
   poppedBalloon,
   postageStamp,
   priestClothes,
+  raceTrack,
   ropeNecklace,
   rottenFlesh,
   rust,
@@ -1198,6 +1210,7 @@ const poplarBuds = "../public/notes/woods/poplar-buds.webp";
 const sakura = "../public/notes/woods/sakura.jpg";
 const sandalwood = "../public/notes/woods/sandalwood.webp";
 const smokedWood  = "../public/notes/woods/smoked-wood.webp";
+const virginiaCedar  = "../public/notes/woods/virginia-cedar.webp";
 const whiteOud = "../public/notes/woods/white-oud.webp";
 const woodyNotes = "../public/notes/woods/woody-notes.webp";
 
@@ -1236,6 +1249,7 @@ const woods = {
   sakura,
   sandalwood,
   smokedWood,
+  virginiaCedar,
   whiteOud,
   woodyNotes,
 };
