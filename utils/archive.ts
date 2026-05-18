@@ -3391,7 +3391,7 @@ const listParf = [
             { name: "Юдзу", src: fruits.yuzu },
             { name: "Пчелиный воск", src: animalistic.beeswax },
             { name: "Кровавый апельсин", src: fruits.bloodOrange },
-            { name: "Самшит", src: "" },
+            { name: "Самшит", src: green.boxwood },
           ],
           middle: [
             { name: "Душистый колосок", src: vegetables.wheat },

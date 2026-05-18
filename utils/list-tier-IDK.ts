@@ -303,58 +303,7 @@ const perfumesTierIDK: PerfumesTierType = [
 
 
 
-      {
-        brand: "Filippo Sorcinelli",
-        perfumeName: "cyber-sex",
-        promoText: "xxxxx",
-        imagePerfume: NotIMG,
-        price01ml: 0,
-        price05ml: 1,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Мандарин", src: fruits.mandarin },
-            { name: "Розовый грейпфрут", src: fruits.grapefruit },
-            { name: "Ягоды можжевельника", src: green.juniper },
-            { name: "Нероли", src: flowers.neroli },
-          ],
-          middle: [
-            { name: "Цветы розмарина", src: flowers.hyssop },
-            { name: "Лаванда", src: flowers.lavender },
-            { name: "Цикламен", src: flowers.cyclamen },
-            { name: "Цветы миндаля", src: flowers.cheeryBlossom },
-            { name: "Специи", src: spices.spicyNotes },
-          ],
-          base: [
-            { name: "Стручок ванили", src: spices.vanillaPod },
-            { name: "Бобы тонка", src: spices.tonkaBean },
-            { name: "Амбретта", src: animalistic.ambrette },
-            { name: "Ветивер", src: green.vetiver },
-            { name: "Ценные сорта древесины", src: woods.palisander },
-            { name: "Кедр", src: woods.cedarWood },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
+      
 
       {
         brand: "Filippo Sorcinelli",

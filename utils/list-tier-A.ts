@@ -396,6 +396,54 @@ const perfumesTierA: PerfumesTierType = [
       },
 
       {
+        brand: "Meo Fusciuni",
+        perfumeName: "Varanasi",
+        promoText: "Мутные воды Ганг",
+        imagePerfume: NotIMG,
+        price01ml: 4.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Амбретта", src: animalistic.ambrette },
+            { name: "Кардамон", src: spices.cardamom },
+            { name: "Циприол", src: balsamsOil.cypriolOil },
+            { name: "Мускатный орех", src: spices.nutmeg },
+          ],
+          middle: [
+            { name: "Ветивер", src: green.vetiver },
+            { name: "Роза", src: flowers.rose },
+            { name: "Шафран", src: spices.saffron },
+            { name: "Нард", src: green.nard },
+            { name: "Гурьюнский бальзам", src: balsamsOil.gurjunBalsam },
+          ],
+          base: [
+            { name: "Ладан", src: resins.incense },
+            { name: "Уд", src: woods.agarwoodOud },
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Кожаный аккорд", src: animalistic.leather },     
+            { name: "Серая амбра", src: animalistic.ambergris },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
         brand: "Senyoko",
         perfumeName: "Hora de la Verdad Sombra",
         promoText: "Кровавая кожа",
