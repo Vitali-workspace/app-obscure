@@ -1377,6 +1377,93 @@ const perfumesTierSoon: PerfumesTierType = [
             { name: "Тёмный", src: "" },
           ],
         },
+
+        {
+          brand: "Voyager",
+          perfumeName: "Golden Hour",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price01ml: 1,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Дуриан", src: fruits.durian },
+              { name: "Лист пандана", src: "" },
+              { name: "Жёлтые бобы мунг", src: "" },
+            ],
+            middle: [
+              { name: "Спелое манго", src: fruits.mango },
+              { name: "Жасмин", src: flowers.jasmine },
+              { name: "Липкий рис", src: gourmand.rice },
+            ],
+            base: [
+              { name: "Кокосовое молоко", src: drinks.coconutMilk },
+              { name: "Сахар", src: gourmand.sugar },
+              { name: "Сандал", src: woods.sandalwood },
+            ],
+          },
+          textStory: {
+            brandHistory: [{ text: "Первый абзац" }],
+            perfumeHistory: [{ text: "Первый абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
+
+        {
+          brand: "Voyager",
+          perfumeName: "Star Trails",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price01ml: 1,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Кока-Кола", src: drinks.cocaCola },
+              { name: "Лайм", src: fruits.lime },
+            ],
+            middle: [
+              { name: "Анис", src: spices.anise },
+              { name: "Корица", src: spices.cinnamon },
+              { name: "Герань", src: flowers.geranium },
+            ],
+            base: [
+              { name: "Амбра", src: animalistic.amber },
+              { name: "Кедр", src: woods.cedarWood },
+              { name: "Фиалка", src: flowers.violet },
+            ],
+          },
+          textStory: {
+            brandHistory: [{ text: "Первый абзац" }],
+            perfumeHistory: [{ text: "Первый абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
+  
+  
   
 
   
