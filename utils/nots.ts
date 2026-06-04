@@ -161,6 +161,7 @@ const milk = "../public/notes/drinks/milk.webp";
 const mulledWine = "../public/notes/drinks/mulled-wine.webp";
 const pinaColada = "../public/notes/drinks/pina-colada.webp";
 const redWine = "../public/notes/drinks/red-wine.webp";
+const roseWater  = "../public/notes/drinks/rose-water.webp";
 const rum = "../public/notes/drinks/rum.webp";
 const sangria = "../public/notes/drinks/sangria.webp";
 const sodaFrutti = "../public/notes/drinks/soda-frutti.webp";
@@ -197,6 +198,7 @@ const drinks = {
   mulledWine,
   pinaColada,
   redWine,
+  roseWater,
   rum,
   sangria,
   sodaFrutti,
@@ -479,6 +481,7 @@ const caramel = "../public/notes/gourmand/caramel.webp";
 const cheese  = "../public/notes/gourmand/cheese.webp";
 const cherryPie = "../public/notes/gourmand/cherry-pie.jpg";
 const cocoa = "../public/notes/gourmand/cocoa.webp";
+const condensedMilk  = "../public/notes/gourmand/condensed-milk.webp";
 const cookie = "../public/notes/gourmand/cookie.webp";
 const cookieDough = "../public/notes/gourmand/cookie-dough.webp";
 const cottonCandy = "../public/notes/gourmand/cotton-candy.webp";
@@ -487,7 +490,7 @@ const croissant = "../public/notes/gourmand/croissant.webp";
 const custard = "../public/notes/gourmand/custard.jpg";
 const darkChocolate = "../public/notes/gourmand/dark-chocolate.webp";
 const ediblePowder = "../public/notes/gourmand/edible-powder.jpg";
-const fish  = "../public/notes/";
+const fish  = "../public/notes/gourmand/fish.webp";
 const gourmandAccord = "../public/notes/gourmand/gourmand-accord.webp";
 const halva = "../public/notes/gourmand/halva.webp";
 const honey = "../public/notes/gourmand/honey.webp";
@@ -502,6 +505,7 @@ const marshmallow = "../public/notes/gourmand/marshmallow.webp";
 const mascarponeCheese = "../public/notes/gourmand/mascarpone-cheese.webp";
 const meringues = "../public/notes/gourmand/meringues.webp";
 const milkMousse = "../public/notes/gourmand/milk-mousse.webp";
+const nectar  = "../public/notes/gourmand/nectar.webp";
 const nutella = "../public/notes/gourmand/nutella.webp";
 const palmSugar = "../public/notes/gourmand/palm-sugar.webp";
 const pancake = "../public/notes/gourmand/pancake.webp";
@@ -538,6 +542,7 @@ const gourmand = {
   cheese,
   cherryPie,
   cocoa,
+  condensedMilk,
   cookie,
   cookieDough,
   cottonCandy,
@@ -561,6 +566,7 @@ const gourmand = {
   mascarponeCheese,
   meringues,
   milkMousse,
+  nectar,
   nutella,
   palmSugar,
   pancake,
@@ -602,6 +608,7 @@ const dill = "../public/notes/green/dill.webp";
 const figLeaf = "../public/notes/green/fig-leaf.webp";
 const foliage = "../public/notes/green/foliage.webp";
 const galbanum = "../public/notes/green/galbanum.webp";
+const ganja  = "../public/notes/green/ganja.webp";
 const grass = "../public/notes/green/grass.webp";
 const greenNotes = "../public/notes/green/green-notes.webp";
 const hawthorn = "../public/notes/green/hawthorn.webp";
@@ -656,6 +663,7 @@ const green = {
   figLeaf,
   foliage,
   galbanum,
+  ganja,
   grass,
   greenNotes,
   hawthorn,
@@ -716,6 +724,7 @@ const dust = "../public/notes/natural-atmospheric/dust.webp";
 const earthyNotes = "../public/notes/natural-atmospheric/earthy-notes.webp";
 const electricity  = "../public/notes/natural-atmospheric/electricity.webp";
 const fire = "../public/notes/natural-atmospheric/fire.webp";
+const gold  = "../public/notes/natural-atmospheric/gold.webp";
 const ice = "../public/notes/natural-atmospheric/ice.webp";
 const iodine = "../public/notes/natural-atmospheric/iodine.webp";
 const lava  = "../public/notes/natural-atmospheric/lava.webp";
@@ -739,6 +748,7 @@ const solarNotes = "../public/notes/natural-atmospheric/solar-notes.webp";
 const steam = "../public/notes/natural-atmospheric/steam.webp";
 const stone = "../public/notes/natural-atmospheric/stone.webp";
 const sulphur = "../public/notes/natural-atmospheric/sulphur.webp";
+const water  = "../public/notes/natural-atmospheric/water.webp";
 const waterCave = "../public/notes/natural-atmospheric/water-cave.webp";
 const wetPlaster = "../public/notes/natural-atmospheric/wet-plaster.webp";
 const wind = "../public/notes/natural-atmospheric/wind.webp";
@@ -754,6 +764,7 @@ const natural = {
   earthyNotes,
   electricity,
   fire,
+  gold,
   ice,
   iodine,
   lava,
@@ -777,6 +788,7 @@ const natural = {
   steam,
   stone,
   sulphur,
+  water,
   waterCave,
   wetPlaster,
   wind,
@@ -822,10 +834,12 @@ const lipstick = "../public/notes/objects/lipstick.webp";
 const money = "../public/notes/objects/money.jpg";
 const motherSweater = "../public/notes/objects/mother-sweater.webp";
 const motorOil = "../public/notes/objects/motor-oil.webp";
+const nailPolish  = "../public/notes/objects/nail-polish.webp";
 const oldBooks = "../public/notes/objects/old-books.webp";
 const oldHouse = "../public/notes/objects/old-house.webp";
 const paper = "../public/notes/objects/paper.webp";
 const plastic = "../public/notes/objects/plastic.webp";
+const poison  = "../public/notes/objects/poison.webp";
 const poppers = "../public/notes/objects/poppers.jpg";
 const rubber = "../public/notes/objects/rubber.webp";
 const scotch = "../public/notes/objects/scotch.webp";
@@ -853,10 +867,12 @@ const objects = {
   money,
   motherSweater,
   motorOil,
+  nailPolish,
   oldBooks,
   oldHouse,
   paper,
   plastic,
+  poison,
   poppers,
   rubber,
   scotch,
@@ -870,10 +886,12 @@ const objects = {
 
 // rare-objects
 const adultToys = "../public/notes/rare-objects/adult-toys.webp";
+const aluminum  = "../public/notes/rare-objects/aluminum.webp";
 const antiqueStore = "../public/notes/rare-objects/antique-store.webp";
 const bandages = "../public/notes/rare-objects/bandages.webp";
 const batteries = "../public/notes/rare-objects/batteries.webp";
 const bone = "../public/notes/rare-objects/bone.webp";
+const burningOil  = "../public/notes/rare-objects/burning-oil.webp";
 const calciumOxide = "../public/notes/rare-objects/calcium-oxide.webp";
 const cannedPineapple = "../public/notes/rare-objects/canned-pineapple.webp";
 const cardboardCups = "../public/notes/rare-objects/cardboard-cups.webp";
@@ -885,12 +903,14 @@ const chess = "../public/notes/rare-objects/chess.webp";
 const chlorine = "../public/notes/rare-objects/chlorine.webp";
 const cigarettes = "../public/notes/rare-objects/cigarettes.webp";
 const cinema = "../public/notes/rare-objects/cinema.webp";
+const coldPillow  = "../public/notes/rare-objects/cold-pillow.webp";
 const computerSmoke = "../public/notes/rare-objects/confessional.webp";
 const confessional = "../public/notes/rare-objects/confessional.webp";
 const cork = "../public/notes/rare-objects/cork.webp";
 const creditCards = "../public/notes/rare-objects/credit-cards.webp";
 const curtains = "../public/notes/rare-objects/curtains.webp";
 const danceClub = "../public/notes/rare-objects/dance-club.webp";
+const danger  = "../public/notes/rare-objects/danger.webp";
 const digitalPool  = "../public/notes/rare-objects/digital-pool.webp";
 const dryingLaundry  = "../public/notes/rare-objects/drying-laundry.webp";
 const dustyClothes = "../public/notes/rare-objects/dusty-clothes.webp";
@@ -903,16 +923,21 @@ const facePowder = "../public/notes/rare-objects/face-powder.webp";
 const fallenConcrete = "../public/notes/rare-objects/fallen-concrete.webp";
 const fatherJacket = "../public/notes/rare-objects/father-jacket.webp";
 const fermentedPineapple = "../public/notes/rare-objects/fermented-pineapple.webp";
+const flashMetal  = "../public/notes/rare-objects/flash-metal.webp";
 const forbiddenFruit = "../public/notes/rare-objects/forbidden-fruit.webp";
 const foundation = "../public/notes/rare-objects/foundation.webp";
+const goldenMusks  = "../public/notes/rare-objects/golden-musks.webp";
 const graveFlowers = "../public/notes/rare-objects/grave-flowers.webp";
 const hangover = "../public/notes/rare-objects/hangover.webp";
 const holyWater = "../public/notes/rare-objects/holy-water.webp";
+const loudMusic  = "../public/notes/rare-objects/loud-music.webp";
 const nails = "../public/notes/rare-objects/nails.webp";
 const naphthalene  = "../public/notes/rare-objects/naphthalene.webp";
 const newspaper = "../public/notes/rare-objects/newspaper.webp";
 const pain = "../public/notes/rare-objects/pain.webp";
 const pearlNecklace = "../public/notes/rare-objects/pearl-necklace.jpg";
+const pencilShavings  = "../public/notes/rare-objects/pencil-shavings.webp";
+const pinkLight  = "../public/notes/rare-objects/pink-light.webp";
 const plasticBag = "../public/notes/rare-objects/plastic-bag.webp";
 const poetry = "../public/notes/rare-objects/poetry.webp";
 const popcornMouth = "../public/notes/rare-objects/popcorn-mouth.webp";
@@ -921,6 +946,7 @@ const postageStamp = "../public/notes/rare-objects/postage-stamp.webp";
 const priestClothes = "../public/notes/rare-objects/priest-s-clothes.webp";
 const raceTrack  = "../public/notes/rare-objects/race-track.webp";
 const ropeNecklace = "../public/notes/rare-objects/rope-necklace.webp";
+const roseTornado  = "../public/notes/rare-objects/rose-tornado.webp";
 const rottenFlesh = "../public/notes/rare-objects/rotten-flesh.webp";
 const rust = "../public/notes/rare-objects/rust.webp";
 const rustyCoin = "../public/notes/rare-objects/rusty-coin.webp";
@@ -928,16 +954,23 @@ const screechingMetal = "../public/notes/rare-objects/screeching-metal.webp";
 const sharpKnife = "../public/notes/rare-objects/sharp-knife.jpg";
 const soapBlood = "../public/notes/rare-objects/soap-blood.webp";
 const sofa = "../public/notes/rare-objects/sofa.webp";
+const solvent  = "../public/notes/rare-objects/solvent.webp";
 const spinalFluid = "../public/notes/rare-objects/spinal-fluid.webp";
 const tears = "../public/notes/rare-objects/tears.webp";
+const toaster  = "../public/notes/rare-objects/toaster.webp";
+const transparentFlowers  = "../public/notes/rare-objects/transparent-flowers.webp";
 const turpentine = "../public/notes/rare-objects/turpentine.webp";
 const wick = "../public/notes/rare-objects/wick.jpg";
+const windowsVista  = "../public/notes/rare-objects/windows-vista.webp";
+const woodTrim  = "../public/notes/rare-objects/wood-trim.webp";
 
 const rare = {
   adultToys,
+  aluminum,
   antiqueStore,
   bandages,
   batteries,
+  burningOil,
   bone,
   calciumOxide,
   cannedPineapple,
@@ -950,12 +983,14 @@ const rare = {
   chlorine,
   cigarettes,
   cinema,
+  coldPillow,
   computerSmoke,
   confessional,
   cork,
   creditCards,
   curtains,
   danceClub,
+  danger,
   digitalPool,
   dryingLaundry,
   dustyClothes,
@@ -968,16 +1003,21 @@ const rare = {
   fallenConcrete,
   fatherJacket,
   fermentedPineapple,
+  flashMetal,
   forbiddenFruit,
   foundation,
+  goldenMusks,
   graveFlowers,
   hangover,
   holyWater,
+  loudMusic,
   nails,
   naphthalene,
   newspaper,
   pain,
   pearlNecklace,
+  pencilShavings,
+  pinkLight,
   plasticBag,
   poetry,
   popcornMouth,
@@ -986,6 +1026,7 @@ const rare = {
   priestClothes,
   raceTrack,
   ropeNecklace,
+  roseTornado,
   rottenFlesh,
   rust,
   rustyCoin,
@@ -993,10 +1034,15 @@ const rare = {
   sharpKnife,
   soapBlood,
   sofa,
+  solvent,
   spinalFluid,
   tears,
+  toaster,
+  transparentFlowers,
   turpentine,
   wick,
+  windowsVista,
+  woodTrim,
 }
 
 // resins
@@ -1007,6 +1053,7 @@ const dragonBlood = "../public/notes/resins/dragon-blood.webp";
 const elemi = "../public/notes/resins/elemi.webp";
 const greenResin = "../public/notes/resins/green-resin.webp";
 const incense = "../public/notes/resins/incense.webp";
+const incenseSticks  = "../public/notes/resins/incense-sticks.webp";
 const labdanum = "../public/notes/resins/labdanum.webp";
 const mastic = "../public/notes/resins/mastic.webp";
 const myrrh = "../public/notes/resins/myrrh.webp";
@@ -1024,6 +1071,7 @@ const resins = {
   elemi,
   greenResin,
   incense,
+  incenseSticks,
   labdanum,
   mastic,
   myrrh,
@@ -1166,6 +1214,7 @@ const bellPepper = "../public/notes/vegetables-cereals/bell-pepper.webp";
 const carrot = "../public/notes/vegetables-cereals/carrot.webp";
 const carrotSeeds = "../public/notes/vegetables-cereals/carrot-seeds.webp";
 const cucumber = "../public/notes/vegetables-cereals/cucumber.webp";
+const differentSeeds  = "../public/notes/vegetables-cereals/different-seeds.webp";
 const corn = "../public/notes/vegetables-cereals/corn.webp";
 const fennel = "../public/notes/vegetables-cereals/fennel.webp";
 const ginseng = "../public/notes/vegetables-cereals/ginseng.webp";
@@ -1185,6 +1234,7 @@ const vegetables = {
   carrot,
   carrotSeeds,
   cucumber,
+  differentSeeds,
   corn,
   fennel,
   ginseng,

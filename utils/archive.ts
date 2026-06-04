@@ -129,7 +129,7 @@ const listParf = [
           middle: [
             { name: "Консервная банка ананаса", src: rare.cannedPineapple },
             { name: "Чистые цветы", src: flowers.gardenia },
-            { name: "Клей", src: "" },
+            { name: "Клей", src: objects.glue },
             { name: "Ржавчина", src: rare.rust },
             { name: "Протекающие батарейки", src: rare.batteries },
           ],
@@ -526,7 +526,7 @@ const listParf = [
             { name: "Сумах", src: spices.sumac },
             { name: "Каламус", src: green.calamus },
             { name: "Ромашка", src: flowers.chamomile },
-            { name: "Масло петигрейн", src: balsamsOil.absolutePlants },
+            { name: "Масло петигрейна", src: balsamsOil.absolutePlants },
             { name: "Медовый пирог", src: gourmand.bakery },
             { name: "Пустынное солнце", src: natural.solarNotes },
           ],
@@ -597,12 +597,12 @@ const listParf = [
           ],
           base: [
             { name: "Натуральный уд", src: woods.agarwoodOud },
-            { name: "Наг чампа (Nag Champa)", src: "" },
+            { name: "Благовоние Наг Чампа", src: resins.incenseSticks },
             { name: "Ладан", src: resins.incense },
             { name: "Смола кровь дракона", src: resins.blackResin },
-            { name: "Лакавуд", src: "" },
+            { name: "Древесина лака", src: woods.mahogany },
             { name: "Смола Халмадди", src: resins.elemi },
-            { name: "Гидрокарборесма (Hydrocarboresin)", src: "" },
+            { name: "Гидрокарборезин", src: resins.benzoin },
           ],
         },
         textStory: {
@@ -652,7 +652,7 @@ const listParf = [
             { name: "Корневое пиво", src: drinks.beer },
           ],
           base: [
-            { name: "Какао-боб", src: "" },
+            { name: "Какао бобы", src: gourmand.cocoa },
             { name: "Эдамамэ", src: vegetables.soybean },
             { name: "Фисташка", src: nuts.pistachio },
             { name: "Старая книга", src: objects.oldBooks },
@@ -795,22 +795,22 @@ const listParf = [
         notes: {
           top: [
             { name: "Мёд", src: gourmand.honey },
-            { name: "Японская слива", src: "" },
-            { name: "Вишнёвый джем", src: "" },
+            { name: "Японская слива", src: fruits.plum },
+            { name: "Вишнёвый джем", src: gourmand.jam },
             { name: "Крем Шантийи", src: gourmand.cream },
             { name: "Физалис", src: berries.physalis },
           ],
           middle: [
-            { name: "Сгущённое молоко", src: "" },
-            { name: "Абсолют табака", src: "" },
-            { name: "Светлый табак", src: "" },
+            { name: "Сгущённое молоко", src: gourmand.condensedMilk },
+            { name: "Абсолют табака", src: balsamsOil.absolutePlants },
+            { name: "Светлый табак", src: green.tobacco },
             { name: "Масло какао", src: gourmand.cacaoButter },
             { name: "Абсолют пчелиного воска", src: animalistic.beeswax },
             { name: "Подснежники", src: flowers.snowdrops },
           ],
           base: [
-            { name: "Абсолют олибанума", src: "" },
-            { name: "Абсолют лабданума", src: "" },
+            { name: "Абсолют олибанума", src: resins.olibanum },
+            { name: "Абсолют лабданума", src: resins.labdanum },
             { name: "Тёмное какао", src: gourmand.cocoa },
             { name: "Ваниль", src: spices.vanilla },
             { name: "Бобы тонка", src: spices.tonkaBean },
@@ -818,10 +818,10 @@ const listParf = [
             { name: "Бензоин", src: resins.benzoin },
             { name: "Элеми", src: resins.elemi },
             { name: "Мирра", src: resins.myrrh },
-            { name: "Золото", src: "" },
+            { name: "Золото", src: natural.gold },
             { name: "Пачули", src: green.patchouli },
             { name: "Финики", src: fruits.dates },
-            { name: "Нектар", src: "" },
+            { name: "Нектар", src: gourmand.nectar },
           ],
         },
         textStory: {
@@ -878,7 +878,7 @@ const listParf = [
             { name: "Мускус", src: animalistic.musk },
             { name: "Уд", src: woods.agarwoodOud },
             { name: "Куркума", src: spices.curcuma },
-            { name: "Семена тмина", src: "" },
+            { name: "Семена тмина", src: spices.caraway },
           ],
         },
         textStory: {
@@ -933,7 +933,7 @@ const listParf = [
             { name: "Сосновая смола", src: resins.resin },
             { name: "Пачули", src: green.patchouli },
             { name: "Мох", src: green.moss },
-            { name: "Тиковое дерево", src: "" },
+            { name: "Тиковое дерево", src: woods.mahogany },
             { name: "Абсолют кофе", src: drinks.coffee },
           ],
         },
@@ -953,74 +953,7 @@ const listParf = [
         ],
       },
 
-      {
-        brand: "Prin",
-        perfumeName: "Homa",
-        promoText: "xxxxx",
-        imagePerfume: "",
-        price01ml: 0,
-        price05ml: 1,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Корица", src: spices.cinnamon },
-            { name: "Имбирь", src: spices.ginger },
-            { name: "Чёрный перец", src: spices.blackPepper },
-            { name: "Кардамон", src: spices.cardamom },
-            { name: "Кассия", src: "" },
-            { name: "Семена тмина", src: "" },
-            { name: "Куркума", src: spices.curcuma },
-            { name: "Тмин", src: "" },
-            { name: "Мускатный орех", src: spices.nutmeg },
-            { name: "Гвоздика", src: spices.cloves },
-            { name: "Шафран", src: spices.saffron },
-          ],
-          middle: [
-            { name: "Абсолют сена", src: green.hay },
-            { name: "Листья кафрского лайма", src: green.foliage },
-            { name: "Уд из Индии", src: woods.agarwoodOud },
-            { name: "Гальбанум", src: green.galbanum },
-            { name: "Топленое масло", src: gourmand.butter },
-            { name: "Абсолют жасмина", src: flowers.jasmine },
-            { name: "Абсолют чампаки", src: flowers.champaca },
-            { name: "Тубероза", src: flowers.tuberose },
-            { name: "Пчелиный воск", src: animalistic.beeswax },
-            { name: "Благовония", src: "" },
-          ],
-          base: [
-            { name: "Мирра", src: resins.myrrh },
-            { name: "Нарди (Spikenard)", src: "" },
-            { name: "Костус", src: green.costus },
-            { name: "Бензоин", src: resins.benzoin },
-            { name: "Пепел", src: natural.ash },
-            { name: "Настойка козьей шерсти", src: animalistic.goatHair },
-            { name: "Уд из Лаоса", src: woods.whiteOud },
-            { name: "Грибы", src: mushrooms.mushroom },
-            { name: "Циветта", src: animalistic.civet },
-            { name: "Хирацеум", src: animalistic.hyraceum },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
+
 
       {
         brand: "Strangers Parfumerie",
@@ -1038,25 +971,25 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Сангрия", src: "" },
-            { name: "Розовая вода", src: "" },
-            { name: "Клубника", src: "" },
-            { name: "Коричневый сахар", src: "" },
-            { name: "Мёд", src: "" },
+            { name: "Сангрия", src: drinks.sangria },
+            { name: "Розовая вода", src: drinks.roseWater },
+            { name: "Клубника", src: berries.strawberry },
+            { name: "Коричневый сахар", src: gourmand.palmSugar },
+            { name: "Мёд", src: gourmand.honey },
           ],
           middle: [
-            { name: "Корица", src: "" },
-            { name: "Табак", src: "" },
-            { name: "Гранат", src: "" },
-            { name: "Иланг-иланг", src: "" },
-            { name: "Бензоин", src: "" },
+            { name: "Корица", src: spices.cinnamon },
+            { name: "Табак", src: green.tobacco },
+            { name: "Гранат", src: fruits.pomegranate },
+            { name: "Иланг-иланг", src: flowers.ylangYlang },
+            { name: "Бензоин", src: resins.benzoin },
           ],
           base: [
-            { name: "Перуанский бальзам", src: "" },
-            { name: "Кленовый сироп", src: "" },
-            { name: "Цибетин", src: "" },
-            { name: "Пачули", src: "" },
-            { name: "Кровавый апельсин", src: "" },
+            { name: "Перуанский бальзам", src: balsamsOil.peruBalsam },
+            { name: "Кленовый сироп", src: drinks.syrup },
+            { name: "Цибетин", src: animalistic.civet },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Кровавый апельсин", src: fruits.bloodOrange },
           ],
         },
         textStory: {
@@ -1101,7 +1034,7 @@ const listParf = [
             { name: "Цикламен", src: flowers.cyclamen },
           ],
           base: [
-            { name: "Windows Vista", src: "" },
+            { name: "Windows Vista", src: rare.windowsVista },
             { name: "Акватические ноты", src: natural.marineNotes },
           ],
         },
@@ -1181,14 +1114,14 @@ const listParf = [
         notes: {
           top: [
             { name: "Кожа", src: animalistic.leather },
-            { name: "Газировка", src: "" },
+            { name: "Газировка", src: drinks.sodaFrutti },
           ],
           middle: [
-            { name: "Кокаин", src: "" },
-            { name: "Флуоресцентный розовый", src: "" },
+            { name: "Кокаин", src: rare.calciumOxide },
+            { name: "Флуоресцентный розовый", src: rare.pinkLight },
           ],
           base: [
-            { name: "Громкая музыка", src: "" },
+            { name: "Громкая музыка", src: rare.loudMusic },
             { name: "Искажённые голоса", src: "" },
           ],
         },
@@ -1209,8 +1142,8 @@ const listParf = [
       },
 
       {
-        brand: "xxxxxxx",
-        perfumeName: "xxxx",
+        brand: "Pour Toi",
+        perfumeName: "Katz!",
         promoText: "xxxxx",
         imagePerfume: "",
         price01ml: 0,
@@ -1224,22 +1157,237 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
+            { name: "Цветы", src: flowers.azalea },
+            { name: "Сандал", src: woods.sandalwood },
           ],
           middle: [
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
+            { name: "Бархатные красные шторы", src: rare.curtains },
+            { name: "Опасность", src: rare.danger },
+          ],
+          base: [
+            { name: "Яд", src: objects.poison },
+            { name: "Токсин", src: "" },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pour Toi",
+        perfumeName: "Citrus Kawaii",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Лимон", src: fruits.lemon },
+            { name: "Бергамот", src: fruits.bergamot },
+          ],
+          middle: [
+            { name: "Морская соль", src: natural.salt },
+          ],
+          base: [
+            { name: "Гурманский аккорд", src: gourmand.gourmandAccord },
+            { name: "Сахарная вата", src: gourmand.cottonCandy },
+
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pour Toi",
+        perfumeName: "Simple Math",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Розовый торнадо", src: rare.roseTornado },
+          ],
+          middle: [
+            { name: "Электричество", src: natural.electricity },
+            { name: "Пыль", src: natural.dust },
+            { name: "Металлические ноты", src: natural.metallicNotes },
+          ],
+          base: [
+            { name: "Мускусы", src: animalistic.musk },
+            { name: "Древесные ноты", src: woods.woodyNotes },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pour Toi",
+        perfumeName: "Liquid Light",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Солнечные ноты", src: natural.solarNotes },
+          ],
+          middle: [
+            { name: "Прозрачные цветы", src: rare.transparentFlowers },
+            { name: "Мягкие золотистые мускусы", src: rare.goldenMusks },
+          ],
+          base: [
+            { name: "Вода", src: natural.water },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pour Toi",
+        perfumeName: "Duvet",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Тубероза", src: flowers.tuberose },
+          ],
+          middle: [
+            { name: "Пыль", src: natural.dust },
+            { name: "Тёплый весенний воздух", src: "" },
+          ],
+          base: [
+            { name: "Холодная подушка", src: rare.coldPillow },
+            { name: "Мускус", src: animalistic.musk },
+            { name: "Фисташки", src: nuts.pistachio },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pour Toi",
+        perfumeName: "Miere De Viespi",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Мёд", src: gourmand.honey },
+            { name: "Абсолют пчелиного воска", src: animalistic.beeswax },
+            { name: "Аккорд яда", src: objects.poison },
+          ],
+          middle: [
+            { name: "Чай", src: drinks.blackTea },
+            { name: "Жар", src: "" },
             { name: "xxx", src: "" },
           ],
           base: [
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
-            { name: "xxx", src: "" },
+            { name: "Животные ноты", src: animalistic.animalNotes },
+            { name: "Индустриальный мускус", src: "" },
           ],
         },
         textStory: {
@@ -1278,7 +1426,7 @@ const listParf = [
         notes: {
           top: [
             { name: "Дикая чёрная вишня", src: berries.blackCherry },
-            { name: "Гранат", src: "" },
+            { name: "Гранат", src: fruits.pomegranate },
           ],
           middle: [
             { name: "Водные ноты", src: natural.marineNotes },
@@ -1287,7 +1435,7 @@ const listParf = [
           ],
           base: [
             { name: "Эссенция пачули", src: green.patchouli },
-            { name: "Современная древесина", src: "" },
+            { name: "Современная древесина", src: woods.hinokiWood },
             { name: "Амброксан", src: "" },
             { name: "Мускус", src: animalistic.musk },
           ],
@@ -1324,7 +1472,7 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Растворитель", src: "" },
+            { name: "Растворитель", src: rare.solvent },
             { name: "Металл", src: natural.metallicNotes },
             { name: "Amber Xtrem", src: "" },
             { name: "Груша", src: fruits.pear },
@@ -1339,7 +1487,7 @@ const listParf = [
             { name: "Ваниль", src: spices.vanilla },
             { name: "Абсолют лабданума", src: balsamsOil.absoluteLabdanum },
             { name: "Эссенция папируса", src: woods.papyrus },
-            { name: "Эссенция сибирской сосны", src: "" },
+            { name: "Эссенция сибирской сосны", src: balsamsOil.absolutePlants },
             { name: "Современные древесные ноты", src: woods.cashmirWood },
           ],
         },
@@ -2310,7 +2458,7 @@ const listParf = [
             { name: "Чёрный перец", src: spices.blackPepper },
             { name: "Корица", src: spices.cinnamon },
             { name: "Гвоздика", src: spices.cloves },
-            { name: "Тмин", src: "" },
+            { name: "Тмин", src: spices.caraway },
             { name: "Лимон", src: fruits.lemon },
             { name: "Мускатный орех", src: spices.nutmeg },
             { name: "Шафран", src: spices.saffron },
@@ -2427,16 +2575,16 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Масло петигрейн", src: balsamsOil.absolutePlants },
+            { name: "Масло петигрейна", src: balsamsOil.absolutePlants },
             { name: "Мандарин", src: fruits.mandarin },
             { name: "Лист инжира", src: green.figLeaf },
             { name: "Камфора", src: "" },
             { name: "Помело", src: fruits.pomelo },
-            { name: "Аккорд ганджи", src: "" },
+            { name: "Ганджа", src: green.ganja },
           ],
           middle: [
             { name: "Чёрный чай", src: drinks.blackTea },
-            { name: "Тмин", src: "" },
+            { name: "Тмин", src: spices.caraway },
             { name: "Кожа", src: animalistic.leather },
             { name: "Аккорд почвы", src: natural.earthyNotes },
           ],
@@ -3048,7 +3196,7 @@ const listParf = [
             { name: "Металлические дорожки эскалатора", src: rare.excavator },
           ],
           base: [
-            { name: "Древесная смолистость старинной отделки", src: "" },
+            { name: "Древесная смолистость старинной отделки", src: rare.woodTrim },
           ],
         },
         textStory: {
@@ -4062,7 +4210,7 @@ const listParf = [
             { name: "Герань", src: flowers.geranium },
           ],
           base: [
-            { name: "Чёрные оливки", src: "" },
+            { name: "Чёрные оливки", src: berries.blackOlives },
             { name: "Цикламен", src:  flowers.cyclamen },
             { name: "Сибирская сосна", src: woods.pine },
           ],
@@ -4081,7 +4229,7 @@ const listParf = [
 
       {
         brand: "Filippo Sorcinelli",
-        perfumeName: "Arancia e Camino",
+        perfumeName: "Arancia e Camino (Scented Home)",
         promoText: "Копчёный апельсин",
         imagePerfume: NotIMG,
         price01ml: 5,
@@ -4126,7 +4274,7 @@ const listParf = [
 
       {
         brand: "Filippo Sorcinelli",
-        perfumeName: "Fico e Ferro",
+        perfumeName: "Fico e Ferro (Scented Home)",
         promoText: "xxxxx",
         imagePerfume: NotIMG,
         price01ml: 5,
@@ -4169,7 +4317,7 @@ const listParf = [
 
       {
         brand: "Filippo Sorcinelli",
-        perfumeName: "Pane | Pace",
+        perfumeName: "Pane | Pace (Scented Home)",
         promoText: "xxxxx",
         imagePerfume: NotIMG,
         price01ml: 5,
@@ -4206,7 +4354,7 @@ const listParf = [
 
       {
         brand: "Filippo Sorcinelli",
-        perfumeName: "Santa Giustina",
+        perfumeName: "Santa Giustina (Scented Home)",
         promoText: "xxxxx",
         imagePerfume: NotIMG,
         price01ml: 5,
@@ -4253,6 +4401,99 @@ const listParf = [
 
       {
         brand: "Filippo Sorcinelli",
+        perfumeName: "Haec Dies (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Мускус", src: animalistic.musk },
+          ],
+          middle: [
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Персик", src: fruits.peach },
+            { name: "Роза", src: flowers.rose },
+            { name: "Мирра", src: resins.myrrh },
+          ],
+          base: [
+            { name: "Алоэ вера", src: green.aloeVera },
+            { name: "Бергамот", src: fruits.bergamot },
+            { name: "Апельсин", src: fruits.orange },
+            { name: "Жасмин", src: flowers.jasmine },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Basilica di Assisi (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Бобы тонка", src: spices.tonkaBean },
+            { name: "Бензоин", src: resins.benzoin },
+            { name: "Стиракс", src: resins.styrax },
+            { name: "Амбра", src: animalistic.amber },
+          ],
+          middle: [
+            { name: "Белая роза", src: flowers.whiteRose },
+            { name: "Сухофрукты", src: fruits.driedFruits },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Лабданум", src: resins.labdanum },
+          ],
+          base: [
+            { name: "Лимон", src: fruits.lemon },
+            { name: "Бергамот", src: fruits.bergamot },
+            { name: "Масло петигрейна", src: balsamsOil.absolutePlants },
+            { name: "Ладан", src: resins.incense },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
         perfumeName: "Vento Impetuoso",
         promoText: "xxxxx",
         imagePerfume: NotIMG,
@@ -4278,7 +4519,7 @@ const listParf = [
           ],
           base: [
             { name: "Стиракс", src: resins.styrax },
-            { name: "Можжевеловое масло", src: "" },
+            { name: "Можжевеловое масло", src: balsamsOil.absolutePlants },
             { name: "Ветер", src: natural.wind },
           ],
         },
@@ -4333,43 +4574,7 @@ const listParf = [
         ],
       },
 
-      {
-        brand: "Filippo Sorcinelli",
-        perfumeName: "Nebbia Fitta",
-        promoText: "Пыльный дождь",
-        imagePerfume: NotIMG,
-        price01ml: 5,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Амбра", src: animalistic.amber },
-            { name: "Пачули", src: green.patchouli },
-          ],
-          middle: [
-            { name: "Ценные сорта древесины", src: woods.palisander },
-          ],
-          base: [
-            { name: "Сырая земля", src: natural.mud },
-          ],
-        },
-        textStory: {
-          brandHistory: [{ text: "Первый абзац" }],
-          perfumeHistory: [{ text: "Первый абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "xxx", src: "" },
-          { name: "xxx", src: "" },
-          { name: "xxx", src: "" },
-        ],
-      },
+      
 
       {
         brand: "Filippo Sorcinelli",
@@ -5072,7 +5277,7 @@ const listParf = [
             { name: "Иланг-иланг", src: flowers.ylangYlang },
           ],
           base: [
-            { name: "Масло петигрейн", src: balsamsOil.absolutePlants },
+            { name: "Масло петигрейна", src: balsamsOil.absolutePlants },
             { name: "Бергамот", src: fruits.bergamot },
             { name: "Гальбанум", src: green.galbanum },
             { name: "Мирра", src: resins.myrrh },
@@ -5119,7 +5324,7 @@ const listParf = [
           base: [
             { name: "Мирра", src: resins.myrrh },
             { name: "Кровавый кедр", src: woods.cedarWood },
-            { name: "Сухая хвоя", src: "" },
+            { name: "Сухая хвоя", src: green.conifer },
             { name: "Уд", src: woods.agarwoodOud },
           ],
         },
@@ -5198,7 +5403,7 @@ const listParf = [
         notes: {
           top: [
             { name: "Розмарин", src: spices.rosemary },
-            { name: "Хризантема", src: "" },
+            { name: "Хризантема", src: flowers.chrysanthemum },
             { name: "Нероли", src: flowers.neroli },
           ],
           middle: [
@@ -5207,7 +5412,7 @@ const listParf = [
             { name: "Ландыш", src: flowers.lilyValley },
           ],
           base: [
-            { name: "Нафталин", src: "" },
+            { name: "Нафталин", src: rare.naphthalene },
             { name: "Цибетин", src: animalistic.civet },
             { name: "Пчелиный воск", src: animalistic.beeswax },
           ],
@@ -5240,19 +5445,19 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Лавровое масло", src: "" },
+            { name: "Лавровое масло", src: spices.bayLeaf },
             { name: "Герань", src: flowers.geranium },
             { name: "Олибанум", src: resins.olibanum },
           ],
           middle: [
             { name: "Масло семян моркови", src: vegetables.carrotSeeds },
             { name: "Грибы", src: mushrooms.mushroom },
-            { name: "Абсолют мирры", src: "" },
+            { name: "Абсолют мирры", src: resins.myrrh },
             { name: "Лабданум", src: resins.labdanum },
           ],
           base: [
             { name: "Пачули", src: green.patchouli },
-            { name: "Минеральная древесина", src: "" },
+            { name: "Минеральная древесина", src: woods.whiteOud },
             { name: "Сандал", src: woods.sandalwood },
           ],
         },
@@ -5331,20 +5536,20 @@ const listParf = [
             { name: "Запах пыли на горячей лампочке", src: "" },
             { name: "Тёплый тонер принтера", src: "" },
             { name: "Горячий металл", src: objects.hotIron },
-            { name: "Тостер", src: "" },
+            { name: "Тостер", src: rare.toaster },
           ],
           middle: [
-            { name: "Свежесваренный алюминий", src: "" },
+            { name: "Свежесваренный алюминий", src: rare.aluminum },
             { name: "Чернила в авторучке", src: objects.ink },
-            { name: "Свежие стружки карандаша", src: "" },
-            { name: "Древесина и мох", src: "" },
+            { name: "Свежие стружки карандаша", src: rare.pencilShavings },
+            { name: "Древесина и мох", src: green.moss },
           ],
           base: [
             { name: "Лавровый лист", src: spices.bayLeaf },
-            { name: "Бамбук", src: "" },
+            { name: "Бамбук", src: woods.bamboo },
             { name: "Белый перец", src: spices.whitePepper },
             { name: "Гиацинт", src: flowers.hyacinth },
-            { name: "Сок салата-латука", src: "" },
+            { name: "Сок салата-латука", src: vegetables.lettuce },
           ],
         },
         textStory: {
@@ -5375,18 +5580,18 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Свежий кислород", src: "" },
-            { name: "Пылающая скала", src: "" },
+            { name: "Свежий кислород", src: natural.ozone },
+            { name: "Пылающая скала", src: natural.lava },
             { name: "Свежескошенная трава", src: green.grass },
           ],
           middle: [
-            { name: "Бельё, сохнущее на ветру", src: "" },
-            { name: "Песчаные дюны", src: "" },
+            { name: "Бельё, сохнущее на ветру", src: rare.dryingLaundry },
+            { name: "Песчаные дюны", src: natural.sand },
           ],
           base: [
-            { name: "Чистый высокогорий воздух", src: "" },
-            { name: "Вспышка металла", src: "" },
-            { name: "Лак для ногтей", src: "" },
+            { name: "Чистый высокогорий воздух", src: natural.mountainAir },
+            { name: "Вспышка металла", src: rare.flashMetal },
+            { name: "Лак для ногтей", src: objects.nailPolish },
           ],
         },
         textStory: {
@@ -5417,7 +5622,7 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Электричество", src: "" },
+            { name: "Электричество", src: natural.electricity },
             { name: "Трава", src: green.grass },
           ],
           middle: [
@@ -5467,7 +5672,7 @@ const listParf = [
             { name: "Турецкая роза", src: flowers.rose },
           ],
           base: [
-            { name: "Горелое масло", src: "" },
+            { name: "Горелое масло", src: rare.burningOil },
             { name: "Ваниль", src: spices.vanilla },
             { name: "Сено", src: green.hay },
           ],
@@ -5585,10 +5790,10 @@ const listParf = [
           ],
           middle: [
             { name: "Анис", src: spices.anise },
-            { name: "Сыр", src: "" },
+            { name: "Сыр", src: gourmand.cheese },
           ],
           base: [
-            { name: "Рыба", src: "" },
+            { name: "Рыба", src: gourmand.fish },
           ],
         },
         textStory: {
@@ -5659,8 +5864,8 @@ const listParf = [
             { name: "Кока-кола", src: drinks.cocaCola },
           ],
           middle: [
-            { name: "Нарцисс", src: "" },
-            { name: "Луговой цветок", src: "" },
+            { name: "Нарцисс", src: flowers.narcissus },
+            { name: "Луговой цветок", src: flowers.wildflowers },
           ],
           base: [
             { name: "Картофель", src: vegetables.potatoes },
@@ -5746,7 +5951,7 @@ const listParf = [
             { name: "Мирра", src: resins.myrrh },
           ],
           base: [
-            { name: "Алоэ вера", src: "" },
+            { name: "Алоэ вера", src: green.aloeVera },
             { name: "Бергамот", src: fruits.bergamot },
             { name: "Апельсин", src: fruits.orange },
             { name: "Жасмин", src: flowers.jasmine },
@@ -5780,7 +5985,7 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Влажный воздух", src: "" },
+            { name: "Влажный воздух", src: natural.petrichor },
             { name: "Банан", src: fruits.banana },
             { name: "Тропические фрукты", src: fruits.tropicalFruits },
             { name: "Сандал", src: woods.sandalwood },
@@ -5809,6 +6014,242 @@ const listParf = [
           { name: "xxx", src: "" },
         ],
       },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Reliqvia (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Пачули", src: green.patchouli },
+            { name: "Ладан", src: resins.incense },
+            { name: "Кашмеран", src: synthetics.cashmeran },
+            { name: "Гваяк", src: woods.guaiacWood },
+            { name: "Сандал", src: woods.sandalwood },
+          ],
+          middle: [
+            { name: "Мастиковое дерево", src: woods.masticTree },
+            { name: "Сосна", src: woods.pine },
+            { name: "Гвоздика", src: spices.cloves },
+            { name: "Цветок апельсина", src: flowers.orangeBlossom },
+            { name: "Амирис", src: woods.amyris },
+          ],
+          base: [
+            { name: "Элеми", src: resins.elemi },
+            { name: "Сладкий апельсин", src: fruits.orange },
+            { name: "Чёрная смородина", src: berries.blackCurrant },
+            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Дым", src: natural.smoke },
+            { name: "Табак", src: green.tobacco },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Lentezza Carezza (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Бензоин", src: resins.benzoin },
+            { name: "Мускус", src: animalistic.musk },
+          ],
+          middle: [
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Цикламен", src: flowers.cyclamen },
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Зелёные ноты", src: green.greenNotes },
+          ],
+          base: [
+            { name: "Мирра", src: resins.myrrh },
+            { name: "Кактус опунция", src: green.pricklyPear },
+            { name: "Бергамот", src: fruits.bergamot },
+            { name: "Апельсин", src: fruits.orange },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Ambrosivs (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Элеми", src: resins.elemi },
+            { name: "Лимон", src: fruits.lemon },
+            { name: "Грейпфрут", src: fruits.grapefruit },
+            { name: "Ладан", src: resins.incense },
+            { name: "Можжевельник", src: green.juniper },
+            { name: "Розмарин", src: spices.rosemary },
+            { name: "Полынь", src: green.wormwood },
+            { name: "Абсент", src: drinks.absinthe },
+          ],
+          middle: [
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Цикламен", src: flowers.cyclamen },
+            { name: "Гвоздика", src: spices.cloves },
+            { name: "Берёза", src: woods.birch },
+          ],
+          base: [
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Ветивер", src: green.vetiver },
+            { name: "Ладанник", src: flowers.cistus },
+            { name: "Амбра", src: animalistic.amber },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Tu Es Petrus (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Мускусы", src: animalistic.musk },
+          ],
+          middle: [
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Фруктовая роса", src: natural.dew },
+          ],
+          base: [
+            { name: "Бергамот", src: fruits.bergamot },
+            { name: "Апельсин", src: fruits.orange },
+            { name: "Мандарин", src: fruits.mandarin },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Zarkoperfume",
+        perfumeName: "The Muse",
+        promoText: "Стиральный порошок",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Цветок хлопка", src: "" },
+            { name: "xxx", src: "" },
+          ],
+          middle: [
+            { name: "Пудра", src: "" },
+            { name: "Пыль", src: "" },
+          ],
+          base: [
+            { name: "Белый мускус", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      
 
 
 
