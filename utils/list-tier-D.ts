@@ -384,7 +384,7 @@ const perfumesTierD: PerfumesTierType = [
           ],
           middle: [
             { name: "Бензоин", src: resins.benzoin },
-            { name: "Циприол", src: balsamsOil.cypriolOil },
+            { name: "Киприол", src: balsamsOil.cypriolOil },
             { name: "Кофе", src: drinks.coffee },
           ],
           base: [

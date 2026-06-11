@@ -71,8 +71,8 @@ const perfumesTierC: PerfumesTierType = [
           ],
           base: [
             { name: "Кленовый сироп", src: drinks.syrup },
-            { name: "Древесный аккорд", src: woods.woodyNotes },
-            { name: "Дымный аккорд", src: natural.smoke },
+            { name: "Древесина", src: woods.woodyNotes },
+            { name: "Дым", src: natural.smoke },
           ],
         },
         textStory: {
@@ -145,7 +145,7 @@ const perfumesTierC: PerfumesTierType = [
 
       {
         brand: "Filippo Sorcinelli",
-        perfumeName: "Una Noia Sul Mare d'Inverno",
+        perfumeName: "Una Noia Sul Mare d'Inverno (Scented Home)",
         promoText: "Зимний Ennui-noir",
         imagePerfume: unaNoiaSulBottle,
         price01ml: 0,
@@ -166,7 +166,7 @@ const perfumesTierC: PerfumesTierType = [
           ],
           middle: [
             { name: "Ландыш", src: flowers.lilyValley },
-            { name: "Зеленые ноты", src: green.greenNotes },
+            { name: "Зелень", src: green.greenNotes },
           ],
           base: [
             { name: "Пачули", src: green.patchouli },
@@ -213,7 +213,7 @@ const perfumesTierC: PerfumesTierType = [
           middle: [
             { name: "Волшебные грибы", src: mushrooms.magicMushrooms },
             { name: "Чёрная смородина", src: berries.blackCurrant },
-            { name: "Травянистые ноты", src: green.grass },
+            { name: "Трава", src: green.grass },
             { name: "Тимьян", src: spices.thyme },
             { name: "Лаванда", src: flowers.lavender },
             { name: "Гвоздика", src: spices.cloves },
@@ -223,7 +223,7 @@ const perfumesTierC: PerfumesTierType = [
             { name: "Каннабис", src: green.cannabis },
           ],
           base: [
-            { name: "Ликёрные ноты", src: drinks.liquor },
+            { name: "Ликёр", src: drinks.liquor },
             { name: "Пачули", src: green.patchouli },
             { name: "Ветивер", src: green.vetiver },
             { name: "Мох", src: green.moss },
@@ -271,13 +271,13 @@ const perfumesTierC: PerfumesTierType = [
             { name: "Роза", src: flowers.rose },
             { name: "Гелиотроп", src: flowers.heliotrope },
             { name: "Гвоздика", src: spices.cloves },
-            { name: "Польский картофель", src: vegetables.potatoes },
+            { name: "Польская картошка", src: vegetables.potatoes },
           ],
           base: [
             { name: "Пачули", src: green.patchouli },
             { name: "Берёза", src: woods.birch },
             { name: "Почва", src: natural.dirt },
-            { name: "Земляные ноты", src: natural.earthyNotes },
+            { name: "Земля", src: natural.earthyNotes },
             { name: "Уд", src: woods.agarwoodOud },
             { name: "Амбра", src: animalistic.amber },
             { name: "Ваниль", src: spices.vanilla },

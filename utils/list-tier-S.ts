@@ -60,12 +60,12 @@ const perfumesTierS: PerfumesTierType = [
         notes: {
           top: [
             { name: "Морской аккорд", src: natural.marineNotes },
-            { name: "Солёный аккорд", src: natural.salt },
+            { name: "Соль", src: natural.salt },
             { name: "Альдегиды", src: synthetics.aldehydes },
           ],
           middle: [
-            { name: "Кровавый аккорд", src: animalistic.blood },
-            { name: "Молочный аккорд", src: drinks.milk },
+            { name: "Кровь", src: animalistic.blood },
+            { name: "Молоко", src: drinks.milk },
             { name: "Адреналиновый аккорд", src: synthetics.diviniris },
           ],
           base: [

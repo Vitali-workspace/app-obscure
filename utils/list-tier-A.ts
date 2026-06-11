@@ -308,10 +308,11 @@ const perfumesTierA: PerfumesTierType = [
         notes: {
           top: [
             { name: "Домашнее мыло", src: rare.soapBlood },
-            { name: "Кровавый апельсин", src: fruits.bloodOrange },
             { name: "Акорд каустической соды", src: rare.causticSoda },
-            { name: "Чёрный перец", src: spices.blackPepper },
             { name: "Кровь", src: animalistic.blood },
+            { name: "Красный апельсин", src: fruits.bloodOrange },  
+            { name: "Чёрный перец", src: spices.blackPepper },
+            
           ],
           middle: [
             { name: "Крем шантийи", src: gourmand.cream },
@@ -365,11 +366,11 @@ const perfumesTierA: PerfumesTierType = [
             { name: "Кислотные альдегиды", src: synthetics.aldehydes },
           ],
           middle: [
-            { name: "Грязный ковёр", src: rare.carpet },
-            { name: "Цветок гвоздики", src: flowers.carnation },
+            { name: "Грязный ковёр", src: rare.carpet },    
             { name: "Свёрнувшаяся кровь", src: animalistic.blood },
             { name: "Человеческий пот", src: animalistic.sweat },
             { name: "Острый нож", src: rare.sharpKnife },
+            { name: "Цветок гвоздики", src: flowers.carnation },
           ],
           base: [
             { name: "Расплавленный пластик", src: objects.plastic },
@@ -413,7 +414,7 @@ const perfumesTierA: PerfumesTierType = [
           top: [
             { name: "Амбретта", src: animalistic.ambrette },
             { name: "Кардамон", src: spices.cardamom },
-            { name: "Циприол", src: balsamsOil.cypriolOil },
+            { name: "Киприол", src: balsamsOil.cypriolOil },
             { name: "Мускатный орех", src: spices.nutmeg },
           ],
           middle: [
@@ -427,7 +428,7 @@ const perfumesTierA: PerfumesTierType = [
             { name: "Ладан", src: resins.incense },
             { name: "Уд", src: woods.agarwoodOud },
             { name: "Жасмин", src: flowers.jasmine },
-            { name: "Кожаный аккорд", src: animalistic.leather },     
+            { name: "Кожа", src: animalistic.leather },     
             { name: "Серая амбра", src: animalistic.ambergris },
           ],
         },
@@ -462,7 +463,7 @@ const perfumesTierA: PerfumesTierType = [
             { name: "Белый перец", src: spices.whitePepper },
             { name: "Тимьян", src: spices.thyme },
             { name: "Испанский шафран", src: spices.saffron },
-            { name: "Кровавый аккорд", src: animalistic.blood },
+            { name: "Кровь", src: animalistic.blood },
           ],
           middle: [
             { name: "Абсолют турецкой розы", src: balsamsOil.absolutePlants },

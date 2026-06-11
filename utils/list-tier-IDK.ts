@@ -79,18 +79,18 @@ const perfumesTierIDK: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
+            { name: "Глина", src: natural.clay },
             { name: "Порох", src: objects.gunpowder },
             { name: "Копчёная паприка", src: spices.pinkPepper },
-            { name: "Глина", src: natural.clay },
-            { name: "Аккорд дождя", src: natural.rain },
-            { name: "Кровь", src: animalistic.blood },
             { name: "Йод", src: natural.iodine },
+            { name: "Дождь", src: natural.rain },
+            { name: "Кровь", src: animalistic.blood },         
             { name: "Имбирь", src: spices.ginger },
             { name: "Лист магнолии", src: green.foliage },
           ],
           middle: [
-            { name: "Пачули", src: green.patchouli },
             { name: "Мак", src: flowers.poppy },
+            { name: "Пачули", src: green.patchouli },         
             { name: "Клирвуд", src: woods.clearwood },
             { name: "Гвоздика", src: flowers.carnation },
             { name: "Шафран", src: spices.saffron },
@@ -99,10 +99,10 @@ const perfumesTierIDK: PerfumesTierType = [
             { name: "Цветок чёрной смородины", src: flowers.cheeryBlossom },
           ],
           base: [
+            { name: "Деревянная бочка", src: objects.barrel },
             { name: "Акигалавуд", src: synthetics.akigalawood },
             { name: "Абсолют сандала", src: balsamsOil.woodOil },
-            { name: "Орканокс", src: synthetics.orcanox },
-            { name: "Деревянная бочка", src: objects.barrel },
+            { name: "Орканокс", src: synthetics.orcanox },     
             { name: "Опопонакс", src: resins.opoponax },
           ],
         },
@@ -149,7 +149,7 @@ const perfumesTierIDK: PerfumesTierType = [
           ],
           base: [
             { name: "Валериана", src: green.valerian },
-            { name: "Землистые ноты", src: natural.earthyNotes },
+            { name: "Земля", src: natural.earthyNotes },
           ],
         },
         textStory: {
