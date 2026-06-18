@@ -568,6 +568,89 @@ const perfumesTierC: PerfumesTierType = [
           { name: "Тёмный", src: "" },
         ],
       },
+
+      {
+        brand: "Rammstein",
+        perfumeName: "Gasolin",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Асфальт", src: objects.asphalt },
+            { name: "Жжёная спичка", src: objects.burntMatch },
+          ],
+          middle: [
+            { name: "Берёзовый дёготь", src: balsamsOil.birchTar },
+            { name: "Кожа", src: animalistic.leather },
+          ],
+          base: [
+            { name: "Амброценид", src: synthetics.ambrocenide },
+            { name: "Мускус", src: animalistic.musk },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Biblioteka Aromatov",
+        perfumeName: "Moscow Subway",
+        promoText: "Запах метро",
+        imagePerfume: "",
+        price01ml: 4.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 30,
+        notes: {
+          top: [
+            { name: "Холодный пыльный мрамор", src: natural.marble },
+          ],
+          middle: [
+            { name: "Металлические дорожки эскалатора", src: rare.excavator },
+          ],
+          base: [
+            { name: "Древесная смолистость старинной отделки", src: rare.woodTrim },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+
     ],
   },
 ];

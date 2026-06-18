@@ -394,6 +394,145 @@ const perfumesTierS: PerfumesTierType = [
         ],
       },
 
+      {
+        brand: "Ataraxia",
+        perfumeName: "Spinal Fluid",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Пар", src: natural.steam },
+            { name: "Огонь", src: natural.fire },
+            { name: "Солёные слёзы", src: rare.tears },
+            { name: "Бензин", src: objects.gasoline },
+          ],
+          middle: [
+            { name: "Гниющая плоть", src: rare.rottenFlesh },
+            { name: "Высохшая кровь", src: animalistic.blood },
+            { name: "Спинномозговая жидкость", src: rare.spinalFluid },
+          ],
+          base: [
+            { name: "Пепел", src: natural.ash },
+            { name: "Ясное небо", src: natural.ozone },
+            { name: "Цветы колокольчика", src: flowers.driedBellflowers },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Maqueda",
+        perfumeName: "Rigor Mortis",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Розмарин", src: spices.rosemary },
+            { name: "Хризантема", src: flowers.chrysanthemum },
+            { name: "Нероли", src: flowers.neroli },
+          ],
+          middle: [
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Ландыш", src: flowers.lilyValley },
+          ],
+          base: [
+            { name: "Нафталин", src: rare.naphthalene },
+            { name: "Цибетин", src: animalistic.civet },
+            { name: "Пчелиный воск", src: animalistic.beeswax },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Maqueda",
+        perfumeName: "V.I.T.R.I.O.L.",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Жжёная резина", src: objects.rubber },
+            { name: "Цибетин", src: animalistic.civet },
+            { name: "Огурец", src: vegetables.cucumber },
+            { name: "Индол", src: synthetics.indole },
+          ],
+          middle: [
+            { name: "Оливковое масло", src: berries.blackOlives },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Груша", src: fruits.pear },
+            { name: "Роза", src: flowers.rose },
+          ],
+          base: [
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Клубника", src: berries.strawberry },
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Фиалковый лист", src: green.violetLeaf },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+
+
 
 
     ],

@@ -604,6 +604,55 @@ const perfumesTierB: PerfumesTierType = [
       },
 
       {
+        brand: "Toskovat",
+        perfumeName: "Anarchist A_",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 0,
+        price05ml: 19.9,
+        price1ml: 39.9,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Кредитные карты", src: rare.creditCards },
+            { name: "Снег", src: natural.snow },
+            { name: "Виски", src: drinks.bourbonWhiskey },
+          ],
+          middle: [
+            { name: "Грязные доллары", src: objects.money },
+            { name: "Чернила", src: objects.ink },
+            { name: "Воск свечи", src: objects.candle },
+          ],
+          base: [
+            { name: "Зелёная сакральная смола", src: resins.greenResin },
+            { name: "Святая вода", src: rare.holyWater },
+            { name: "Старая исповедальня", src: rare.confessional },
+            { name: "Одежда священника", src: rare.priestClothes },
+            { name: "Полиэтиленовый пакет", src: rare.plasticBag },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
         brand: "Nasomatto",
         perfumeName: "Fantomas",
         promoText: "Призрак дыни",
@@ -629,7 +678,7 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Карамель", src: gourmand.caramel },
           ],
           base: [
-            { name: "Земляные ноты", src: natural.earthyNotes },
+            { name: "Земля", src: natural.earthyNotes },
             { name: "Кашмеран", src: synthetics.cashmeran },
             { name: "Тропические фрукты", src: fruits.fruityNotes },
             { name: "Пачули", src: green.patchouli },
@@ -718,7 +767,7 @@ const perfumesTierB: PerfumesTierType = [
         notes: {
           top: [
             { name: "Гуава", src: fruits.guava },
-            { name: "Зелёные ноты", src: green.greenNotes },
+            { name: "Зелень", src: green.greenNotes },
             { name: "Маракуйя", src: fruits.passionfruit },
             { name: "Кокосовая вода", src: drinks.coconutMilk },
             { name: "Бензин", src: objects.gasoline },
@@ -732,7 +781,7 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Гелиотроп", src: flowers.heliotrope },
             { name: "Зелёный лес", src: woods.forestTrees },
             { name: "Гардения", src: flowers.gardenia },
-            { name: "Землистые ноты", src: natural.earthyNotes },
+            { name: "Земля", src: natural.earthyNotes },
             { name: "Петрикор", src: natural.petrichor },
           ],
           base: [
@@ -743,6 +792,65 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Ночной жасмин", src: flowers.jasmine },
             { name: "Мускус", src: animalistic.musk },
             { name: "Кашмеран", src: synthetics.cashmeran },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pictura Fragrans",
+        perfumeName: "Lux Obscura",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Глина", src: natural.clay },
+            { name: "Порох", src: objects.gunpowder },
+            { name: "Копчёная паприка", src: spices.pinkPepper },
+            { name: "Йод", src: natural.iodine },
+            { name: "Дождь", src: natural.rain },
+            { name: "Кровь", src: animalistic.blood },         
+            { name: "Имбирь", src: spices.ginger },
+            { name: "Лист магнолии", src: green.foliage },
+          ],
+          middle: [
+            { name: "Мак", src: flowers.poppy },
+            { name: "Пачули", src: green.patchouli },         
+            { name: "Клирвуд", src: woods.clearwood },
+            { name: "Гвоздика", src: flowers.carnation },
+            { name: "Шафран", src: spices.saffron },
+            { name: "Чёрный чай", src: drinks.blackTea },
+            { name: "Табак", src: green.tobacco },
+            { name: "Цветок чёрной смородины", src: flowers.cheeryBlossom },
+          ],
+          base: [
+            { name: "Деревянная бочка", src: objects.barrel },
+            { name: "Акигалавуд", src: synthetics.akigalawood },
+            { name: "Абсолют сандала", src: balsamsOil.woodOil },
+            { name: "Орканокс", src: synthetics.orcanox },     
+            { name: "Опопонакс", src: resins.opoponax },
           ],
         },
         textStory: {
@@ -841,7 +949,7 @@ const perfumesTierB: PerfumesTierType = [
           ],
           middle: [
             { name: "Магнолан", src: synthetics.magnolan },
-            { name: "Вода", src: natural.marineNotes },
+            { name: "Вода", src: natural.water },
             { name: "Гексенил зелёный", src: synthetics.hexenylGreen },
             { name: "Борония", src: flowers.boronia },
             { name: "Жасмин", src: flowers.jasmine },

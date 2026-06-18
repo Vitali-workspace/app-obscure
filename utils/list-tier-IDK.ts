@@ -63,64 +63,7 @@ const perfumesTierIDK: PerfumesTierType = [
     listPerfumes: [
 
 
-      {
-        brand: "Pictura Fragrans",
-        perfumeName: "Lux Obscura",
-        promoText: "xxxxx",
-        imagePerfume: NotIMG,
-        price01ml: 0,
-        price05ml: 1,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Глина", src: natural.clay },
-            { name: "Порох", src: objects.gunpowder },
-            { name: "Копчёная паприка", src: spices.pinkPepper },
-            { name: "Йод", src: natural.iodine },
-            { name: "Дождь", src: natural.rain },
-            { name: "Кровь", src: animalistic.blood },         
-            { name: "Имбирь", src: spices.ginger },
-            { name: "Лист магнолии", src: green.foliage },
-          ],
-          middle: [
-            { name: "Мак", src: flowers.poppy },
-            { name: "Пачули", src: green.patchouli },         
-            { name: "Клирвуд", src: woods.clearwood },
-            { name: "Гвоздика", src: flowers.carnation },
-            { name: "Шафран", src: spices.saffron },
-            { name: "Чёрный чай", src: drinks.blackTea },
-            { name: "Табак", src: green.tobacco },
-            { name: "Цветок чёрной смородины", src: flowers.cheeryBlossom },
-          ],
-          base: [
-            { name: "Деревянная бочка", src: objects.barrel },
-            { name: "Акигалавуд", src: synthetics.akigalawood },
-            { name: "Абсолют сандала", src: balsamsOil.woodOil },
-            { name: "Орканокс", src: synthetics.orcanox },     
-            { name: "Опопонакс", src: resins.opoponax },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
+      
 
 
       {
