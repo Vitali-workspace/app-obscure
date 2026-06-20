@@ -499,6 +499,54 @@ const perfumesTierA: PerfumesTierType = [
           { name: "Тёмный", src: imgVibe },
         ],
       },
+
+      {
+        brand: "Pineward",
+        perfumeName: "Funerie",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Дым", src: natural.smoke },
+            { name: "Увядшая роза", src: flowers.driedRose },
+            { name: "Грибы", src: mushrooms.mushroom },
+          ],
+          middle: [
+            { name: "Ладан", src: resins.incense },
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Табак", src: green.tobacco },
+            { name: "Сосна", src: woods.pine },
+          ],
+          base: [
+            { name: "Мирра", src: resins.myrrh },
+            { name: "Кровавый кедр", src: woods.cedarWood },
+            { name: "Сухая хвоя", src: green.conifer },
+            { name: "Уд", src: woods.agarwoodOud },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+
+
     ],
   },
 ];

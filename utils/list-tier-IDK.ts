@@ -202,51 +202,6 @@ const perfumesTierIDK: PerfumesTierType = [
         ],
       },
 
-      {
-        brand: "Eau de Space",
-        perfumeName: "The Smell of the Moon",
-        promoText: "Запах лунной пыли",
-        imagePerfume: NotIMG,
-        price01ml: 0,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 50,
-        price10ml: 100,
-        priceFull: 190,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Отработанный порох", src: objects.gunpowder },
-          ],
-          middle: [
-            { name: "Горелый миндаль", src: nuts.burntAlmonds },
-            { name: "Дым", src: natural.smoke },
-          ],
-          base: [
-            { name: "Пепел", src: natural.ash },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
-
-
-
-      
 
       {
         brand: "Filippo Sorcinelli",
