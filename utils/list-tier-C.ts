@@ -474,6 +474,46 @@ const perfumesTierC: PerfumesTierType = [
       },
 
       {
+        brand: "D.S. & Durga",
+        perfumeName: "Concrete Lightning",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Электричество", src: natural.electricity },
+            { name: "Трава", src: green.grass },
+          ],
+          middle: [
+            { name: "Летний дождь", src: natural.rain },
+            { name: "Озон", src: natural.ozone },
+          ],
+          base: [
+            { name: "Бетон", src: natural.concrete },
+            { name: "Пар", src: natural.steam },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
         brand: "ASMR Fragrances",
         perfumeName: "Bonfire Whisper",
         promoText: "Листья в костре",
@@ -502,6 +542,55 @@ const perfumesTierC: PerfumesTierType = [
             { name: "Кедр", src: woods.cedarWood },
             { name: "Можжевельник", src: green.juniper },
             { name: "Серая амбра", src: animalistic.ambergris },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Olympic Orchids Perfumes",
+        perfumeName: "Woodcut",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 4.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Сосна", src: woods.pine },
+            { name: "Кедр", src: woods.cedarWood },
+            {
+              name: "Абсолют дубовой древесины",
+              src: balsamsOil.absoluteLabdanum,
+            },
+          ],
+          middle: [
+            { name: "Толуанский бальзам", src: balsamsOil.toluBalsam },
+            { name: "Олибанум", src: resins.olibanum },
+          ],
+          base: [
+            { name: "Карамель", src: gourmand.caramel },
+            { name: "Жжёный сахар", src: gourmand.burntSugar },
+            { name: "Ваниль", src: spices.vanilla },
           ],
         },
         textStory: {
@@ -993,6 +1082,50 @@ const perfumesTierC: PerfumesTierType = [
           base: [
             { name: "Белый мускус", src: animalistic.musk },
             { name: "xxx", src: "" },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Comme des Garcons",
+        perfumeName: "DIA [ ] x Meg Webster",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Лавровое масло", src: spices.bayLeaf },
+            { name: "Герань", src: flowers.geranium },
+            { name: "Олибанум", src: resins.olibanum },
+          ],
+          middle: [
+            { name: "Масло семян моркови", src: vegetables.carrotSeeds },
+            { name: "Грибы", src: mushrooms.mushroom },
+            { name: "Абсолют мирры", src: resins.myrrh },
+            { name: "Лабданум", src: resins.labdanum },
+          ],
+          base: [
+            { name: "Пачули", src: green.patchouli },
+            { name: "Минеральная древесина", src: woods.whiteOud },
+            { name: "Сандал", src: woods.sandalwood },
           ],
         },
         textStory: {

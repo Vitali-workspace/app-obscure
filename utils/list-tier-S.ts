@@ -30,6 +30,9 @@ const secretionsBottle =
 const fakhirBottle = "../public/bottles/tier-s/khalis-oud-fakhir.jpg";
 const sadonasoBottle = "../public/bottles/tier-s/sadonaso.jpg";
 
+const areaBottle = "../public/bottles/brands/sorcinelli/area-2.webp";
+const quickieBottle = "../public/bottles/brands/sorcinelli/quickie-2.webp";
+
 const NotIMG = "../public/bottles/not-bottle.webp";
 
 //================ Вайб ====================
@@ -343,6 +346,107 @@ const perfumesTierS: PerfumesTierType = [
 
       {
         brand: "Filippo Sorcinelli",
+        perfumeName: "Cruising-Areas",
+        promoText: "Аромат ночи",
+        imagePerfume: areaBottle,
+        price01ml: 0,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Дым", src: natural.smoke },
+            { name: "Тёплые специи", src: spices.spicyNotes },
+            { name: "Гвоздика", src: spices.cloves },
+          ],
+          middle: [
+            { name: "Пачули", src: green.patchouli },
+            { name: "Амирис", src: woods.amyris },
+            { name: "Чёрный перец", src: spices.blackPepper },
+            { name: "Ветивер", src: green.vetiver },
+          ],
+          base: [
+            { name: "Копайский бальзам", src: balsamsOil.copaibaBalsam },
+            { name: "Гурьюновый бальзам", src: balsamsOil.gurjunBalsam },
+            { name: "Гваяк", src: woods.guaiacWood },
+            { name: "Кедровое дерево", src: woods.cedarWood },
+            {
+              name: "Ценные сорта древесины",
+              src: woods.palisander,
+            },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: imgVibe },
+          { name: "Влажный", src: imgVibe },
+          { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "Quickie and Coffee",
+        promoText: "Анималистичный кофе",
+        imagePerfume: quickieBottle,
+        price01ml: 0,
+        price05ml: 0,
+        price1ml: 1,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Амбретта", src: animalistic.ambrette },
+            { name: "Мускус", src: animalistic.musk },
+          ],
+          middle: [
+            { name: "Животные ноты", src: animalistic.animalNotes },
+            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Шафран", src: spices.saffron },
+          ],
+          base: [
+            { name: "Сосна", src: woods.pine },
+            { name: "Кофе", src: drinks.coffee },
+            { name: "Мёд", src: gourmand.honey },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: imgVibe },
+          { name: "Влажный", src: imgVibe },
+          { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
         perfumeName: "cyber-sex",
         promoText: "xxxxx",
         imagePerfume: NotIMG,
@@ -531,7 +635,48 @@ const perfumesTierS: PerfumesTierType = [
         ],
       },
 
-
+      {
+        brand: "Bogue",
+        perfumeName: "Douleur!2",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Аккорд боли", src: rare.pain },
+            { name: "Металлическая роза", src: flowers.rose },
+            { name: "Жасмин", src: flowers.jasmine },
+          ],
+          middle: [
+            { name: "Мятная конфета", src: gourmand.bubbleGum },
+            { name: "Чайное дерево", src: woods.masticTree },
+          ],
+          base: [
+            { name: "Вода", src: natural.water },
+            { name: "Устрицы", src: animalistic.oysters },
+            { name: "Циветта", src: animalistic.civet },
+            { name: "Смолы", src: resins.resin },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
 
 
 
