@@ -26,7 +26,7 @@ import type { PerfumesTierType } from "./constants";
 const xBottle = "../public/bottles";
 
 
-const grigiaBottle = "../public/bottles/brands/maqueda/grigia.webp";
+
 const macchiaBottle = "../public/bottles/brands/maqueda/macchia.jpg";
 const salomeBottle = "../public/bottles";
 const cherryColaBottle = "../public/bottles";
@@ -48,102 +48,6 @@ const perfumesTierSoon: PerfumesTierType = [
       descriptionPage: "Приедут в этом месяце",
       listPerfumes: [
 
-        
-
-        
-
-        {
-          brand: "Adi Ale Van",
-          perfumeName: "Urma Vie - Extrait de Ceaslov",
-          promoText: "xxxxx",
-          imagePerfume: "",
-          price01ml: 0,
-          price05ml: 1,
-          price1ml: 0,
-          price2ml: 0,
-          price5ml: 0,
-          price10ml: 0,
-          priceFull: 0,
-          visibility: "visible",
-          volumeMl: 10,
-          notes: {
-            top: [
-              { name: "Виски", src: drinks.bourbonWhiskey },
-              { name: "Соль", src: natural.salt },
-            ],
-            middle: [
-              { name: "Ладан", src: resins.incense },
-              { name: "Амбра", src: animalistic.amber },
-              { name: "Смолы", src: resins.resin },
-              { name: "Ветивер", src: green.vetiver },
-            ],
-            base: [
-              { name: "Ладан", src: resins.incense },
-              { name: "Дубовый мох", src: green.moss },
-              { name: "Пачули", src: green.patchouli },
-            ],
-          },
-          textStory: {
-            brandHistory: [
-              { text: "Первый абзац" },
-              { text: "Второй абзац" },
-              { text: "Третий абзац" },
-            ],
-            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-            review: [{ text: "Первый абзац" }],
-          },
-          vibe: [
-            { name: "Мрачное здание", src: "" },
-            { name: "Влажный", src: "" },
-            { name: "Тёмный", src: "" },
-          ],
-        },
-  
-        {
-          brand: "Adi Ale Van",
-          perfumeName: "Journey of Life - Extrait of Dreams",
-          promoText: "xxxxx",
-          imagePerfume: "",
-          price01ml: 0,
-          price05ml: 1,
-          price1ml: 0,
-          price2ml: 0,
-          price5ml: 0,
-          price10ml: 0,
-          priceFull: 0,
-          visibility: "visible",
-          volumeMl: 10,
-          notes: {
-            top: [
-              { name: "Виноград", src: berries.grape },
-              { name: "Мускатный шалфей", src: green.clarySage },
-            ],
-            middle: [
-              { name: "Киприол", src: balsamsOil.cypriolOil },
-              { name: "Слива", src: fruits.plum },
-            ],
-            base: [
-              { name: "Какао", src: gourmand.cocoa },
-              { name: "Абсолют ветивера", src: balsamsOil.absolutePlants },
-              { name: "Кастореум", src: animalistic.castoreum },
-            ],
-          },
-          textStory: {
-            brandHistory: [
-              { text: "Первый абзац" },
-              { text: "Второй абзац" },
-              { text: "Третий абзац" },
-            ],
-            perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-            review: [{ text: "Первый абзац" }],
-          },
-          vibe: [
-            { name: "Мрачное здание", src: "" },
-            { name: "Влажный", src: "" },
-            { name: "Тёмный", src: "" },
-          ],
-        },
-
         {
           brand: "Eau de Space",
           perfumeName: "The Smell of the Moon",
@@ -151,16 +55,17 @@ const perfumesTierSoon: PerfumesTierType = [
           imagePerfume: NotIMG,
           price01ml: 0,
           price05ml: 0,
-          price1ml: 0,
-          price2ml: 0,
-          price5ml: 50,
-          price10ml: 100,
-          priceFull: 190,
+          price1ml: 5,
+          price2ml: 10,
+          price5ml: 25,
+          price10ml: 50,
+          priceFull: 0,
           visibility: "visible",
           volumeMl: 10,
           notes: {
             top: [
               { name: "Отработанный порох", src: objects.gunpowder },
+              { name: "Минеральный", src: natural.mineralNotes },
             ],
             middle: [
               { name: "Горелый миндаль", src: nuts.burntAlmonds },
@@ -227,47 +132,7 @@ const perfumesTierSoon: PerfumesTierType = [
             ],
           },
     
-          {
-            brand: "Maqueda",
-            perfumeName: "Grigia",
-            promoText: "Страшное путешествие амбры",
-            imagePerfume: grigiaBottle,
-            price01ml: 0,
-            price05ml: 0,
-            price1ml: 0,
-            price2ml: 0,
-            price5ml: 50,
-            price10ml: 100,
-            priceFull: 190,
-            visibility: "visible",
-            volumeMl: 10,
-            notes: {
-              top: [{ name: "Какао", src: gourmand.cocoa }],
-              middle: [
-                { name: "Жасмин", src: flowers.jasmine },
-                { name: "Соль", src: natural.salt },
-                { name: "Можжевельник", src: green.juniper },
-              ],
-              base: [
-                { name: "Животные ноты", src: animalistic.animalNotes },
-                { name: "Серая амбра", src: animalistic.ambergris },
-              ],
-            },
-            textStory: {
-              brandHistory: [
-                { text: "Первый абзац" },
-                { text: "Второй абзац" },
-                { text: "Третий абзац" },
-              ],
-              perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-              review: [{ text: "Первый абзац" }],
-            },
-            vibe: [
-              { name: "Мрачное здание", src: "" },
-              { name: "Влажный", src: "" },
-              { name: "Тёмный", src: "" },
-            ],
-          },
+          
     
           {
             brand: "Maqueda",
@@ -297,7 +162,7 @@ const perfumesTierSoon: PerfumesTierType = [
               base: [
                 { name: "Дубовый мох", src: green.moss },
                 { name: "Мускус", src: animalistic.musk },
-                { name: "Животные ноты", src: animalistic.animalNotes },
+                { name: "Животный мускус", src: animalistic.animalNotes },
                 { name: "Тинктура козьей шерсти", src: animalistic.fur },
               ],
             },
@@ -514,7 +379,7 @@ const perfumesTierSoon: PerfumesTierType = [
           notes: {
             top: [
               { name: "Элеми", src: resins.elemi },
-              { name: "Минеральные ноты", src: natural.mineralNotes },
+              { name: "Минеральный", src: natural.mineralNotes },
               { name: "Ландыш", src: flowers.lilyValley },
               { name: "Жасмин", src: flowers.jasmine },
             ],
@@ -572,7 +437,7 @@ const perfumesTierSoon: PerfumesTierType = [
             ],
             middle: [
               { name: "Лист инжира", src: green.figLeaf },
-              { name: "Морские ноты", src: natural.marineNotes },
+              { name: "Морской", src: natural.marineNotes },
               { name: "Озон", src: natural.ozone },
               { name: "Сушеные фрукты", src: fruits.driedFruits },
               { name: "Гибискус", src: flowers.hibiscus },
@@ -670,7 +535,7 @@ const perfumesTierSoon: PerfumesTierType = [
             top: [
               { name: "Ром", src: drinks.rum },
               { name: "Мате", src: drinks.mate },
-              { name: "Зелёные ноты", src: green.greenNotes },
+              { name: "Зелень", src: green.greenNotes },
               { name: "Белый перец", src: spices.whitePepper },
               { name: "Белая имбирная лилия", src: flowers.lily },
               { name: "Хиндинол", src: synthetics.hindinol },
@@ -748,7 +613,7 @@ const perfumesTierSoon: PerfumesTierType = [
             base: [             
               { name: "Ладанник", src: flowers.cistus },
               { name: "Абсолют сандала", src: balsamsOil.absolutePlants },
-              { name: "Животные ноты", src: animalistic.animalNotes },
+              { name: "Животный мускус", src: animalistic.animalNotes },
               { name: "Амберин", src: synthetics.ambreine },
               { name: "Орканокс", src: synthetics.orcanox },
             ],
@@ -858,7 +723,7 @@ const perfumesTierSoon: PerfumesTierType = [
               { name: "Козья шерсть", src: animalistic.goatHair },
               { name: "Трюфель", src: mushrooms.truffle },
               { name: "Этилмальтол", src: synthetics.ethylMaltol },
-              { name: "Животные ноты", src: animalistic.animalNotes },
+              { name: "Животный мускус", src: animalistic.animalNotes },
               { name: "Гелиотроп", src: flowers.heliotrope },
               { name: "Гвоздика", src: spices.cloves },
             ],
@@ -942,8 +807,8 @@ const perfumesTierSoon: PerfumesTierType = [
           notes: {
             top: [
               { name: "Дуриан", src: fruits.durian },
-              { name: "Лист пандана", src: "" },
-              { name: "Жёлтые бобы мунг", src: "" },
+              { name: "Лист пандана", src: green.pandanLeaves },
+              { name: "Жёлтые бобы мунг", src: vegetables.mungBeans },
             ],
             middle: [
               { name: "Спелое манго", src: fruits.mango },
@@ -1030,7 +895,7 @@ const perfumesTierSoon: PerfumesTierType = [
             ],
             middle: [
               { name: "Тесто для печенья", src: gourmand.cookieDough },
-              { name: "Кумарин", src: "" },
+              { name: "Кумарин", src: synthetics.coumarin },
               { name: "Мёд", src: gourmand.honey },
             ],
             base: [

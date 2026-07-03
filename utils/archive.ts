@@ -2361,7 +2361,7 @@ const listParf = [
           ],
           middle: [
             { name: "Мёд", src: gourmand.honey },
-            { name: "Жимолость", src: "" },
+            { name: "Жимолость", src: green.honeysuckle },
             { name: "Мимоза", src: flowers.mimosa },
             { name: "Пион", src: flowers.peony },
             { name: "Тюльпан", src: flowers.tulip },
@@ -2369,7 +2369,7 @@ const listParf = [
           ],
           base: [
             { name: "Амбра", src: animalistic.amber },
-            { name: "Кумарин", src: "" },
+            { name: "Кумарин", src: synthetics.coumarin },
             { name: "Сливки", src: gourmand.cream },
             { name: "Мох", src: green.moss },
             { name: "Мускусы", src: animalistic.musk },
@@ -2412,7 +2412,7 @@ const listParf = [
             { name: "Масло петигрейна", src: balsamsOil.absolutePlants },
             { name: "Мандарин", src: fruits.mandarin },
             { name: "Лист инжира", src: green.figLeaf },
-            { name: "Камфора", src: "" },
+            { name: "Камфора", src: synthetics.camphor },
             { name: "Помело", src: fruits.pomelo },
             { name: "Ганджа", src: green.ganja },
           ],
@@ -2715,7 +2715,7 @@ const listParf = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Жимолость", src: "" },
+            { name: "Жимолость", src: green.honeysuckle },
             { name: "Озон", src: natural.ozone },
             { name: "Бергамот", src: fruits.bergamot },
             { name: "Лист березы", src: green.foliage },
@@ -2726,7 +2726,7 @@ const listParf = [
           middle: [
             { name: "Нимфеаль", src: synthetics.diviniris },
             { name: "Ландыш", src: flowers.lilyValley },
-            { name: "Минеральные ноты", src: natural.mineralNotes },
+            { name: "Минеральный", src: natural.mineralNotes },
             { name: "Жасмин", src: flowers.jasmine },
             { name: "Цветы липы", src: flowers.lindenFlower },
             { name: "Персик", src: fruits.peach },
@@ -3136,14 +3136,14 @@ const listParf = [
           ],
           middle: [
             { name: "Кедр", src: woods.cedarWood },
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Гвоздика", src: spices.cloves },
             { name: "Герань", src: flowers.geranium },
           ],
           base: [
             { name: "Чёрные оливки", src: berries.blackOlives },
             { name: "Цикламен", src:  flowers.cyclamen },
-            { name: "Сибирская сосна", src: woods.pine },
+            { name: "Сибирская сосна", src: woods.siberianPine },
           ],
         },
         textStory: {
@@ -3264,7 +3264,7 @@ const listParf = [
           ],
           middle: [
             { name: "Ландыш", src: flowers.lilyValley },
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Ирис", src: flowers.iris },
           ],
           base: [
@@ -3489,7 +3489,7 @@ const listParf = [
             { name: "Амбра", src: animalistic.amber },
           ],
           middle: [
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Жасмин", src: flowers.jasmine },
           ],
           base: [
@@ -3661,7 +3661,7 @@ const listParf = [
             { name: "Мускус", src: animalistic.musk },
           ],
           middle: [
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Жасмин", src: flowers.jasmine },
             { name: "Роза", src: flowers.rose },
             { name: "Ирис", src: flowers.iris },
@@ -4229,18 +4229,53 @@ const listParf = [
         ],
       },
 
+      {
+        brand: "Hayari Parfums",
+        perfumeName: "Ame Fauve",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Нероли", src: flowers.neroli },
+          ],
+          middle: [
+            { name: "Уд", src: woods.agarwoodOud },
+            { name: "Ладан", src: resins.incense },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Шафран", src: spices.saffron },
+          ],
+          base: [
+            { name: "Мускус", src: animalistic.musk },
+            { name: "Животная циветта", src: animalistic.civet },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Кожа", src: animalistic.leather },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
       
 
       //========== арабские ===========
-
-      
-
-
-      //===============
-
-      
-
-      
 
 
 

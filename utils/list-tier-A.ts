@@ -33,6 +33,7 @@ const bullBloodBottle =
 const leonardaBottle = "../public/bottles/brands/spiritica/leonarda-2.webp";
 const jeffreyBottle = "../public/bottles/brands/spiritica/jeffrey.jpg";
 const verdadSombraBottle = "../public/bottles/tier-a/senyoko-verdad-sombra.jpg";
+const grigiaBottle = "../public/bottles/brands/maqueda/grigia.webp";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
@@ -381,6 +382,48 @@ const perfumesTierA: PerfumesTierType = [
         textStory: {
           brandHistory: [{ text: "Первый абзац" }],
           perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Maqueda",
+        perfumeName: "Grigia",
+        promoText: "Страшное путешествие амбры",
+        imagePerfume: grigiaBottle,
+        price01ml: 0,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 50,
+        price10ml: 100,
+        priceFull: 190,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [{ name: "Какао", src: gourmand.cocoa }],
+          middle: [
+            { name: "Жасмин", src: flowers.jasmine },
+            { name: "Соль", src: natural.salt },
+            { name: "Можжевельник", src: green.juniper },
+          ],
+          base: [
+            { name: "Животные ноты", src: animalistic.animalNotes },
+            { name: "Серая амбра", src: animalistic.ambergris },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
           review: [{ text: "Первый абзац" }],
         },
         vibe: [

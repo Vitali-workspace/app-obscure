@@ -159,7 +159,7 @@ const perfumesTierC: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Виргинский кедр", src: woods.cedarWood },
             { name: "Лимон", src: fruits.lemon },
             { name: "Элеми", src: resins.elemi },
@@ -334,6 +334,98 @@ const perfumesTierC: PerfumesTierType = [
             { name: "Кожа", src: animalistic.leather },
             { name: "Стиракс", src: resins.styrax },
             { name: "Земля", src: natural.dirt },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Adi Ale Van",
+        perfumeName: "Urma Vie - Extrait de Ceaslov",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Виски", src: drinks.bourbonWhiskey },
+            { name: "Соль", src: natural.salt },
+          ],
+          middle: [
+            { name: "Ладан", src: resins.incense },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Смолы", src: resins.resin },
+            { name: "Ветивер", src: green.vetiver },
+          ],
+          base: [
+            { name: "Ладан", src: resins.incense },
+            { name: "Дубовый мох", src: green.moss },
+            { name: "Пачули", src: green.patchouli },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Adi Ale Van",
+        perfumeName: "Journey of Life - Extrait of Dreams",
+        promoText: "xxxxx",
+        imagePerfume: "",
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Виноград", src: berries.grape },
+            { name: "Мускатный шалфей", src: green.clarySage },
+          ],
+          middle: [
+            { name: "Киприол", src: balsamsOil.cypriolOil },
+            { name: "Слива", src: fruits.plum },
+          ],
+          base: [
+            { name: "Какао", src: gourmand.cocoa },
+            { name: "Абсолют ветивера", src: balsamsOil.absolutePlants },
+            { name: "Кастореум", src: animalistic.castoreum },
           ],
         },
         textStory: {
@@ -768,7 +860,7 @@ const perfumesTierC: PerfumesTierType = [
           ],
           base: [
             { name: "Влажная земля", src: natural.mud },
-            { name: "Минеральные ноты", src: natural.mineralNotes },
+            { name: "Минеральный", src: natural.mineralNotes },
             { name: "Ветивер", src: green.vetiver },
             { name: "Пушистый мускус", src: animalistic.musk },
           ],
@@ -887,7 +979,7 @@ const perfumesTierC: PerfumesTierType = [
           top: [
             { name: "Бергамот", src: fruits.bergamot },
             { name: "Сосна", src: woods.pine },
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Лимон", src: fruits.lemon },
           ],
           middle: [
@@ -931,7 +1023,7 @@ const perfumesTierC: PerfumesTierType = [
           top: [
             { name: "Бергамот", src: fruits.bergamot },
             { name: "Ирис", src: flowers.iris },
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Мирт", src: green.myrtle },
             { name: "Мускатный орех", src: spices.nutmeg },
           ],

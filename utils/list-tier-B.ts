@@ -284,7 +284,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Caeleste",
         perfumeName: "Principalities",
-        promoText: "Миниральное печенье",
+        promoText: "Минеральное печенье",
         imagePerfume: principalitiesBottle,
         price01ml: 0,
         price05ml: 24.9,
@@ -297,7 +297,7 @@ const perfumesTierB: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Минеральные ноты", src: natural.mineralNotes },
+            { name: "Минеральный", src: natural.mineralNotes },
             { name: "Петрикор", src: natural.petrichor },
             { name: "Шипы розы", src: green.roseThorns },
             { name: "Фиалка", src: flowers.violet },
@@ -1577,7 +1577,7 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Сливочное масло", src: gourmand.butter },
           ],
           middle: [
-            { name: "Шафран", src: spices.saffron },
+            { name: "Сливочное масло", src: gourmand.butter },
           ],
           base: [
             { name: "Соль", src: natural.salt },

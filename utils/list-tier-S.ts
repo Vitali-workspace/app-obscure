@@ -62,7 +62,7 @@ const perfumesTierS: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Морской аккорд", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Соль", src: natural.salt },
             { name: "Альдегиды", src: synthetics.aldehydes },
           ],
@@ -206,10 +206,10 @@ const perfumesTierS: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Аккорд рвоты", src: animalistic.vomit },
-            { name: "Аккорд плесени", src: mushrooms.mold },
+            { name: "Рвота", src: animalistic.vomit },
+            { name: "Плесень", src: mushrooms.mold },
             {
-              name: "Аккорд ночных животных",
+              name: "Мускус ночных животных",
               src: animalistic.nocturnalAnimals,
             },
           ],
@@ -419,7 +419,7 @@ const perfumesTierS: PerfumesTierType = [
           ],
           middle: [
             { name: "Животные ноты", src: animalistic.animalNotes },
-            { name: "Морские ноты", src: natural.marineNotes },
+            { name: "Морской", src: natural.marineNotes },
             { name: "Жасмин", src: flowers.jasmine },
             { name: "Шафран", src: spices.saffron },
           ],

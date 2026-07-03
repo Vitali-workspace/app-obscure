@@ -390,7 +390,7 @@ const perfumesTierD: PerfumesTierType = [
             { name: "Сухая трава и листья", src: natural.dryLeaves },
           ],
           middle: [
-            { name: "Древесно-амбровый аккорд", src: animalistic.amber },
+            { name: "Амбровая древесина", src: animalistic.amber },
             { name: "Абсолют пихтового бальзама", src: balsamsOil.firBalsam },
             { name: "Элеми", src: resins.elemi },
           ],
@@ -520,24 +520,24 @@ const perfumesTierD: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
+            { name: "Вишнёвый пирог", src: gourmand.cherryPie },
             { name: "Шафран", src: spices.saffron },
             { name: "Гвоздика", src: spices.cloves },
             { name: "Ночной жасмин", src: flowers.jasmine },
-            { name: "Вишнёвый пирог", src: gourmand.cherryPie },
           ],
-          middle: [
-            { name: "Ксанторрея", src: woods.mahogany },
+          middle: [           
             { name: "Табак Латакия", src: green.tobacco },
             { name: "Уд", src: woods.agarwoodOud },
             { name: "Мирра", src: resins.myrrh },
             { name: "Стиракс", src: resins.styrax },
+            { name: "Ксанторрея", src: woods.mahogany },
           ],
           base: [
-            { name: "Тёмная древесина", src: woods.ebonyTree },
+            { name: "Табак Латакия", src: green.tobacco },          
             { name: "Бензоин", src: resins.benzoin },
             { name: "Пачули", src: green.patchouli },
-            { name: "Табак Латакия", src: green.tobacco },
             { name: "Ваниль", src: spices.vanilla },
+            { name: "Тёмная древесина", src: woods.palisander },
           ],
         },
         textStory: {
@@ -744,7 +744,7 @@ const perfumesTierD: PerfumesTierType = [
         notes: {
           top: [
             { name: "Лимон", src: fruits.lemon },
-            { name: "Сибирская сосна", src: "" },
+            { name: "Сибирская сосна", src: woods.siberianPine },
           ],
           middle: [
             { name: "Гваяк", src: woods.guaiacWood },
