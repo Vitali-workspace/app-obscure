@@ -671,7 +671,7 @@ const perfumesTierC: PerfumesTierType = [
             { name: "Сосна", src: woods.pine },
             { name: "Кедр", src: woods.cedarWood },
             {
-              name: "Абсолют дубовой древесины",
+              name: "Абсолют дуба",
               src: balsamsOil.absoluteLabdanum,
             },
           ],

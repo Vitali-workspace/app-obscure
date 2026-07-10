@@ -286,7 +286,7 @@ const perfumesTierB: PerfumesTierType = [
         perfumeName: "Principalities",
         promoText: "Минеральное печенье",
         imagePerfume: principalitiesBottle,
-        price01ml: 0,
+        price01ml: 5.9,
         price05ml: 24.9,
         price1ml: 49.9,
         price2ml: 99.9,

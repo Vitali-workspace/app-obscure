@@ -813,7 +813,7 @@ const discoverySets = [
               middle: [
                 { name: "Ладан", src: resins.incense },
                 { name: "Элеми", src: resins.elemi },
-                { name: "Минеральные ноты", src: natural.marineNotes },
+                { name: "Минеральный", src: natural.marineNotes },
               ],
               base: [
                 { name: "Серая амбра", src: animalistic.ambergris },

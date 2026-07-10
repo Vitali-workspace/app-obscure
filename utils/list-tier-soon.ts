@@ -90,6 +90,120 @@ const perfumesTierSoon: PerfumesTierType = [
             { name: "Тёмный", src: "" },
           ],
         },
+
+        {
+          brand: "Hilde Soliani",
+          perfumeName: "Eau de Cuisine",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price01ml: 4.9,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Каштан", src: nuts.chestnut },
+            ],
+            middle: [
+              { name: "Анис", src: spices.anise },
+              { name: "Сыр", src: gourmand.cheese },
+            ],
+            base: [
+              { name: "Рыба", src: gourmand.fish },
+            ],
+          },
+          textStory: {
+            brandHistory: [{ text: "Первый абзац" }],
+            perfumeHistory: [{ text: "Первый абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
+  
+        {
+          brand: "Hilde Soliani",
+          perfumeName: "Mlon e Parsot",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price01ml: 4.9,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Дыня", src: fruits.melon },
+            ],
+            middle: [
+              { name: "Дыня", src: fruits.melon },
+            ],
+            base: [
+              { name: "Ветчина", src: gourmand.bacon },
+            ],
+          },
+          textStory: {
+            brandHistory: [{ text: "Первый абзац" }],
+            perfumeHistory: [{ text: "Первый абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
+  
+        {
+          brand: "Hilde Soliani",
+          perfumeName: "Lets Party",
+          promoText: "xxxxx",
+          imagePerfume: NotIMG,
+          price01ml: 4.9,
+          price05ml: 0,
+          price1ml: 0,
+          price2ml: 0,
+          price5ml: 0,
+          price10ml: 0,
+          priceFull: 0,
+          visibility: "visible",
+          volumeMl: 10,
+          notes: {
+            top: [
+              { name: "Кока-кола", src: drinks.cocaCola },
+            ],
+            middle: [
+              { name: "Нарцисс", src: flowers.narcissus },
+              { name: "Луговой цветок", src: flowers.wildflowers },
+            ],
+            base: [
+              { name: "Картофель", src: vegetables.potatoes },
+              { name: "Перец", src: vegetables.bellPepper },
+            ],
+          },
+          textStory: {
+            brandHistory: [{ text: "Первый абзац" }],
+            perfumeHistory: [{ text: "Первый абзац" }],
+            review: [{ text: "Первый абзац" }],
+          },
+          vibe: [
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+            { name: "xxx", src: "" },
+          ],
+        },
         
         {
             brand: "Papillon Artisan Perfumes",
