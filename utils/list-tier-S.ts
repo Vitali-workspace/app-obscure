@@ -35,6 +35,13 @@ const quickieBottle = "../public/bottles/brands/sorcinelli/quickie-2.webp";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
+const babaYagaBottle = "../public/bottles/";
+const cyberSexBottle = "../public/bottles/";
+const spinalFluidBottle = "../public/bottles/";
+const rigorMortisBottle = "../public/bottles/";
+const vitriolBottle = "../public/bottles/";
+const douleurBottle = "../public/bottles/";
+
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
@@ -374,7 +381,7 @@ const perfumesTierS: PerfumesTierType = [
             { name: "Копайский бальзам", src: balsamsOil.copaibaBalsam },
             { name: "Гурьюновый бальзам", src: balsamsOil.gurjunBalsam },
             { name: "Гваяк", src: woods.guaiacWood },
-            { name: "Кедровое дерево", src: woods.cedarWood },
+            { name: "Кедр", src: woods.cedarWood },
             {
               name: "Ценные сорта древесины",
               src: woods.palisander,

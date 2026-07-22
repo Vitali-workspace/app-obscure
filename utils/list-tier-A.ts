@@ -37,6 +37,13 @@ const grigiaBottle = "../public/bottles/brands/maqueda/grigia.webp";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
+const maahirBlackBottle = "../public/bottles/";
+const varanasiBottle = "../public/bottles/";
+const funerieBottle = "../public/bottles/";
+const nuvolariBottle = "../public/bottles/";
+const tubercoleuseBottle = "../public/bottles/";
+const unutamamBottle = "../public/bottles/";
+
 //================ Вайб ====================
 
 const imgVibe = "../public/vibe/test-room.jpg";
