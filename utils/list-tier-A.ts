@@ -639,17 +639,17 @@ const perfumesTierA: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Лаванда", src: flowers.lavender },
-            { name: "Розмарин", src: spices.rosemary },
             { name: "Мята", src: green.mint },
+            { name: "Розмарин", src: spices.rosemary },
             { name: "Можжевельник", src: green.juniper },
+            { name: "Лаванда", src: flowers.lavender },
           ],
           middle: [
+            { name: "Орегано", src: spices.oregano },
             { name: "Жасмин", src: flowers.jasmine },
             { name: "Цветок гвоздики", src: flowers.carnation },
             { name: "Пачули", src: green.patchouli },
             { name: "Амбра", src: animalistic.amber },
-            { name: "Орегано", src: spices.oregano },
           ],
           base: [
             { name: "Кастореум", src: animalistic.castoreum },
