@@ -16,6 +16,7 @@ const deerMusk = "../public/notes/animalistic/deer-musk.webp";
 const fur = "../public/notes/animalistic/fur.jpg";
 const goatHair = "../public/notes/animalistic/goat-hair.webp";
 const hyraceum = "../public/notes/animalistic/hyraceum.webp";
+const lanolin = "../public/notes/animalistic/lanolin.webp";
 const leather = "../public/notes/animalistic/leather.webp";
 const lymph = "../public/notes/animalistic/lymph.jpg";
 const meat = "../public/notes/animalistic/meat.webp";
@@ -53,6 +54,7 @@ const animalistic = {
   fur,
   goatHair,
   hyraceum,
+  lanolin,
   leather,
   lymph,
   meat,
@@ -158,14 +160,18 @@ const caipiroska = "../public/notes/drinks/caipiroska.webp";
 const champagne = "../public/notes/drinks/champagne.webp";
 const cocaCola = "../public/notes/drinks/coca-cola.webp";
 const coconutMilk = "../public/notes/drinks/coconut-milk.webp";
+const coconutWater = "../public/notes/drinks/coconut-water.webp";
 const coffee = "../public/notes/drinks/coffee.webp";
 const creamSoda = "../public/notes/drinks/cream-soda.webp";
 const differentTea = "../public/notes/drinks/different-tea.webp";
 const energyDrink = "../public/notes/drinks/energy-drink.jpg";
+const fizzyWater = "../public/notes/drinks/fizzy-water.webp";
 const gin = "../public/notes/drinks/gin.webp";
 const goatMilk = "../public/notes/drinks/goat-s-milk.webp";
 const greenCoffee = "../public/notes/drinks/green-coffee.webp";
+const greenTea = "../public/notes/drinks/green-tea.webp";
 const jasmineTea = "../public/notes/drinks/jasmine-tea.webp";
+const jasmineWater = "../public/notes/drinks/jasmine-water.webp";
 const kopiLuwak = "../public/notes/drinks/kopi-luwak.webp";
 const liquor = "../public/notes/drinks/liquor.webp";
 const martiniPornstar = "../public/notes/drinks/martini-pornstar.webp";
@@ -195,14 +201,18 @@ const drinks = {
   champagne,
   cocaCola,
   coconutMilk,
+  coconutWater,
   coffee,
   creamSoda,
   differentTea,
   energyDrink,
+  fizzyWater,
   gin,
   goatMilk,
   greenCoffee,
+  greenTea,
   jasmineTea,
+  jasmineWater,
   kopiLuwak,
   liquor,
   martiniPornstar,
@@ -227,6 +237,7 @@ const amaryllis = "../public/notes/flowers/amaryllis.webp";
 const azalea = "../public/notes/flowers/azalea.webp";
 const belladonna = "../public/notes/flowers/belladona.webp";
 const blackRose = "../public/notes/flowers/black-rose.webp";
+const blueChamomile = "../public/notes/flowers/blue-chamomile.webp";
 const blueLotus = "../public/notes/flowers/blue-lotus.webp";
 const boronia = "../public/notes/flowers/boronia.webp";
 const bromelia = "../public/notes/flowers/bromelia.webp";
@@ -308,6 +319,7 @@ const flowers = {
   azalea,
   belladonna,
   blackRose,
+  blueChamomile,
   blueLotus,
   boronia,
   bromelia,
@@ -515,12 +527,14 @@ const condensedMilk  = "../public/notes/gourmand/condensed-milk.webp";
 const cookie = "../public/notes/gourmand/cookie.webp";
 const cottonCandy = "../public/notes/gourmand/cotton-candy.webp";
 const cream = "../public/notes/gourmand/cream.webp";
+const cremeBrulee = "../public/notes/gourmand/creme-brulee.webp";
 const croissant = "../public/notes/gourmand/croissant.webp";
 const custard = "../public/notes/gourmand/custard.jpg";
 const darkChocolate = "../public/notes/gourmand/dark-chocolate.webp";
 const dough = "../public/notes/gourmand/dough.webp";
 const ediblePowder = "../public/notes/gourmand/edible-powder.jpg";
 const fish  = "../public/notes/gourmand/fish.webp";
+const fizzyCandies = "../public/notes/gourmand/fizzy-candies.webp";
 const friedSeaweed = "../public/notes/gourmand/fried-seaweed.webp";
 const gourmandAccord = "../public/notes/gourmand/gourmand-accord.webp";
 const gummyBears  = "../public/notes/gourmand/gummy-bears.webp";
@@ -543,6 +557,7 @@ const palmSugar = "../public/notes/gourmand/palm-sugar.webp";
 const pancake = "../public/notes/gourmand/pancake.webp";
 const panettone = "../public/notes/gourmand/panettone.webp";
 const pearIceCream = "../public/notes/gourmand/pear-ice-cream.webp";
+const pie = "../public/notes/gourmand/pie.webp";
 const popcorn = "../public/notes/gourmand/popcorn.webp";
 const praline = "../public/notes/gourmand/praline.webp";
 const redCaviar = "../public/notes/gourmand/red-caviar.webp";
@@ -578,12 +593,14 @@ const gourmand = {
   cookie,
   cottonCandy,
   cream,
+  cremeBrulee,
   croissant,
   custard,
   darkChocolate,
   dough,
   ediblePowder,
   fish,
+  fizzyCandies,
   friedSeaweed,
   gourmandAccord,
   gummyBears,
@@ -606,6 +623,7 @@ const gourmand = {
   pancake,
   panettone,
   pearIceCream,
+  pie,
   popcorn,
   praline,
   redCaviar,
@@ -665,11 +683,12 @@ const milkJuice = "../public/notes/green/milk-juice.webp";
 const mint = "../public/notes/green/mint.webp";
 const moss = "../public/notes/green/moss.webp";
 const myrtle = "../public/notes/green/myrtle.webp";
-const nagarmotha = "../public/notes/green/nagarmotha.jpg";
+const nagarmotha = "../public/notes/green/nagarmotha.webp";
 const nard = "../public/notes/green/nard.webp";
 const nettle = "../public/notes/green/nettle.webp";
 const opium = "../public/notes/green/opium.webp";
 const palmarosa = "../public/notes/green/palmarosa.webp";
+const palmLeaves = "../public/notes/green/palm-leaves.webp";
 const pandanLeaves  = "../public/notes/green/pandan-leaves.webp";
 const patchouli = "../public/notes/green/patchouli.webp";
 const pittosporum = "../public/notes/green/pittosporum.webp";
@@ -740,6 +759,7 @@ const green = {
   nettle,
   opium,
   palmarosa,
+  palmLeaves,
   pandanLeaves,
   patchouli,
   pittosporum,
@@ -796,6 +816,7 @@ const fire = "../public/notes/natural-atmospheric/fire.webp";
 const forestFloor = "../public/notes/natural-atmospheric/forest-floor.webp";
 const gold  = "../public/notes/natural-atmospheric/gold.webp";
 const ice = "../public/notes/natural-atmospheric/ice.webp";
+const icyBreeze = "../public/notes/natural-atmospheric/icy-breeze.webp";
 const iodine = "../public/notes/natural-atmospheric/iodine.webp";
 const lava  = "../public/notes/natural-atmospheric/lava.webp";
 const limestones = "../public/notes/natural-atmospheric/limestones.webp";
@@ -843,6 +864,7 @@ const natural = {
   forestFloor,
   gold,
   ice,
+  icyBreeze,
   iodine,
   lava,
   limestones,
@@ -979,6 +1001,7 @@ const objects = {
 // rare-objects
 const adultToys = "../public/notes/rare-objects/adult-toys.webp";
 const aluminum  = "../public/notes/rare-objects/aluminum.webp";
+const amberVanilla = "../public/notes/rare-objects/amber-vanilla.webp";
 const antiqueStore = "../public/notes/rare-objects/antique-store.webp";
 const bandages = "../public/notes/rare-objects/bandages.webp";
 const batteries = "../public/notes/rare-objects/batteries.webp";
@@ -1082,6 +1105,7 @@ const woodTrim  = "../public/notes/rare-objects/wood-trim.webp";
 const rare = {
   adultToys,
   aluminum,
+  amberVanilla,
   antiqueStore,
   bandages,
   batteries,
