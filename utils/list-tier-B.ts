@@ -25,13 +25,14 @@ import { storyB } from "./stories";
 //============ флаконы ========================
 
 const reliqviaBottle = "../public/bottles/brands/sorcinelli/reliqvia-2.jpg";
+const reliqviaHomeBottle = "../public/bottles/brands/sorcinelli/reliquia-diff-1.webp";
 const lavsBottle = "../public/bottles/brands/sorcinelli/lavs-2.jpg";
 const ventoForteBottle =
   "../public/bottles/brands/sorcinelli/vento-forte-2.webp";
 const bombardeBottle = "../public/bottles/brands/sorcinelli/musique-2.jpg";
 const fantomasBottle = "../public/bottles/tier-b/fantomas.jpg";
 
-const inexcusableBottle = "../public/bottles/brands/toskovat/inexcusable-evil.webp";
+
 const birthdayBottle = "../public/bottles/brands/toskovat/last-birthday-cake.webp";
 
 const principalitiesBottle = "../public/bottles/brands/caeleste/principalities.webp";
@@ -39,31 +40,43 @@ const yuzuyakuzaBottle = "../public/bottles/brands/spiritica/yuzuyakuza.webp";
 
 const NotIMG = "../public/bottles/not-bottle.webp";
 
-const chiLoVuoleBottle = "../public/bottles/";
-const ageInnocenceBottle = "../public/bottles/";
-const emptyWishesBottle = "../public/bottles/";
-const bornScreamingBottle = "../public/bottles/";
-const generationBottle = "../public/bottles/";
-const anarchistBottle = "../public/bottles/";
-const najuBottle = "../public/bottles/";
-const kopiLuwakBottle = "../public/bottles/";
-const solarWindBottle = "../public/bottles/";
-const quetzalcoatlBottle = "../public/bottles/";
-const surinamBottle = "../public/bottles/";
-const luxObscuraBottle = "../public/bottles/";
-const serpentBottle = "../public/bottles/";
-const elyseeBottle = "../public/bottles/";
-const odeur71Bottle = "../public/bottles/";
-const odeur53Bottle = "../public/bottles/";
-const plumSprayBottle = "../public/bottles/";
-const mangoYuzuBottle = "../public/bottles/";
-const amarettoJazzBottle = "../public/bottles/";
-const deityBottle = "../public/bottles/";
-const tranchantBottle = "../public/bottles/";
-const cdgBottle = "../public/bottles/";
-const barbershopBottle = "../public/bottles/";
-const luBuBottle = "../public/bottles/";
+const ageInnocenceBottle = "../public/bottles/brands/toskovat/age-innocence.webp";
+const emptyWishesBottle = "../public/bottles/brands/toskovat/empty-wishes-well.webp";
+const bornScreamingBottle = "../public/bottles/brands/toskovat/born-screaming.webp";
+const generationBottle = "../public/bottles/brands/toskovat/generation-godard.webp";
+const anarchistBottle = "../public/bottles/brands/toskovat/anarchist.webp";
 
+const najuBottle = "../public/bottles/brands/pictura-fragrans/naju-spring.webp";
+const kopiLuwakBottle = "../public/bottles/brands/pictura-fragrans/kopi-luwak.webp";
+const solarWindBottle = "../public/bottles/brands/pictura-fragrans/solar-wind.webp";
+const quetzalcoatlBottle = "../public/bottles/brands/pictura-fragrans/quetzalcoatl.webp";
+const surinamBottle = "../public/bottles/brands/pictura-fragrans/surinam-vert.webp";
+const serpentBottle = "../public/bottles/brands/pictura-fragrans/serpent-orchard.webp";
+const elyseeBottle = "../public/bottles/brands/pictura-fragrans/elysee-liminaire.webp";
+
+const odeur71Bottle = "../public/bottles/brands/comme-garcons/odeur-71.webp";
+const odeur53Bottle = "../public/bottles/brands/comme-garcons/odeur-53.webp";
+const cdg2011Bottle = "../public/bottles/brands/comme-garcons/cdg2011.webp";
+
+const plumSprayBottle = "../public/bottles/brands/bohoboco/plum-spray.webp";
+const mangoYuzuBottle = "../public/bottles/brands/bohoboco/mango-gasoline.webp";
+const amarettoJazzBottle = "../public/bottles/brands/ataraxia/amaretto.webp";
+const deityBottle = "../public/bottles/brands/ataraxia/deity.webp";
+const tranchantBottle = "../public/bottles/tier-b/miss-tranchant.webp";
+const barbershopBottle = "../public/bottles/tier-b/burning-barbershop.webp";
+const luBuBottle = "../public/bottles/tier-b/lu-bu.webp";
+
+const gettoneBottle = "../public/bottles/brands/sorcinelli/gettone.jpg";
+const osangBottle = "../public/bottles/tier-b/osang-1.jpg";
+const bunkerBottle = "../public/bottles/tier-b/nausea-bunker.webp";
+
+const popperBottle = "../public/bottles/brands/sorcinelli/popper.webp";
+const slightlyBottle = "../public/bottles/brands/sorcinelli/slightly.webp";
+const undergroundBottle = "../public/bottles/tier-b/underground-vibes.jpg";
+const kvartalBottle = "../public/bottles/tier-b/kvatral.webp";
+const holdingSwordBottle = "../public/bottles/tier-b/holding-sword.webp";
+const electricDreamsBottle = "../public/bottles/tier-b/electric-dreams.webp";
+const kaleidoscopeBottle = "../public/bottles/brands/benneviento/kaleidoskope.webp";
 
 //================ Вайб ====================
 
@@ -128,6 +141,56 @@ const perfumesTierB: PerfumesTierType = [
 
       {
         brand: "Filippo Sorcinelli",
+        perfumeName: "Reliqvia (Scented Home)",
+        promoText: "xxxxx",
+        imagePerfume: reliqviaHomeBottle,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Пачули", src: green.patchouli },
+            { name: "Ладан", src: resins.incense },
+            { name: "Кашмеран", src: synthetics.cashmeran },
+            { name: "Гваяк", src: woods.guaiacWood },
+            { name: "Сандал", src: woods.sandalwood },
+          ],
+          middle: [
+            { name: "Мастиковое дерево", src: woods.masticTree },
+            { name: "Сосна", src: woods.pine },
+            { name: "Гвоздика", src: spices.cloves },
+            { name: "Цветок апельсина", src: flowers.orangeBlossom },
+            { name: "Амирис", src: woods.amyris },
+          ],
+          base: [
+            { name: "Элеми", src: resins.elemi },
+            { name: "Сладкий апельсин", src: fruits.orange },
+            { name: "Чёрная смородина", src: berries.blackCurrant },
+            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Дым", src: natural.smoke },
+            { name: "Табак", src: green.tobacco },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
         perfumeName: "Lavs",
         promoText: "Металлический ладан",
         imagePerfume: lavsBottle,
@@ -169,55 +232,6 @@ const perfumesTierB: PerfumesTierType = [
           { name: "Мрачное здание", src: imgVibe },
           { name: "Влажный", src: imgVibe },
           { name: "Тёмный", src: imgVibe },
-        ],
-      },
-
-      {
-        brand: "Filippo Sorcinelli",
-        perfumeName: "Chi lo vuole, lo puo riscoprire...",
-        promoText: "Новогодний дух",
-        imagePerfume: chiLoVuoleBottle,
-        price01ml: 4.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Металлические ноты", src: natural.metallicNotes },
-            { name: "Грейпфрут", src: fruits.grapefruit },
-            { name: "Чёрный перец", src: spices.blackPepper },
-            { name: "Гальбанум", src: green.galbanum },
-          ],
-          middle: [
-            { name: "Олибанум", src: resins.olibanum },
-            { name: "Чёрная роза", src: flowers.blackRose },
-            { name: "Лабданум", src: resins.labdanum },
-            { name: "Пудровые ноты", src: gourmand.ediblePowder },
-          ],
-          base: [
-            { name: "Кожа", src: animalistic.leather },
-            { name: "Масло яванского ветивера", src: balsamsOil.absolutePlants },
-            { name: "Дубовый мох", src: green.moss },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
         ],
       },
 
@@ -265,6 +279,94 @@ const perfumesTierB: PerfumesTierType = [
 
       {
         brand: "Filippo Sorcinelli",
+        perfumeName: "Gettone",
+        promoText: "xxxxx",
+        imagePerfume: gettoneBottle,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Бензоин", src: resins.benzoin },
+            { name: "Пачули", src: green.patchouli },
+            { name: "Ветивер", src: green.vetiver },
+            { name: "Плесень", src: mushrooms.mold },
+          ],
+          middle: [
+            { name: "Берёзовый дёготь", src: balsamsOil.birchTar },
+            { name: "Пыль", src: natural.dust },
+            { name: "Кожа", src: animalistic.leather },
+          ],
+          base: [
+            { name: "Ржавчина", src: rare.rust },
+            { name: "Cталь", src: natural.metallicNotes },
+            { name: "Латунь", src: natural.copper },
+            { name: "Гальбанум", src: green.galbanum },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Organ #4",
+        perfumeName: "Filippo Sorcinelli",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Латекс", src: objects.latex },
+            { name: "Амбровая древесина", src: woods.woodyNotes },
+            { name: "Дуб", src: woods.oak },
+          ],
+          middle: [
+            { name: "Латунь", src: rare.copperStrings },
+            { name: "Пион", src: flowers.peony },
+            { name: "Ирис", src: flowers.iris },
+          ],
+          base: [
+            { name: "Мандарин", src: fruits.mandarin },
+            { name: "Кардамон", src: spices.cardamom },
+            { name: "Чёрный перец", src: spices.blackPepper },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Filippo Sorcinelli",
         perfumeName: "Contre Bombarde 32",
         promoText: "Древесно сливочная гурманика",
         imagePerfume: bombardeBottle,
@@ -304,6 +406,100 @@ const perfumesTierB: PerfumesTierType = [
           { name: "Мрачное здание", src: imgVibe },
           { name: "Влажный", src: imgVibe },
           { name: "Тёмный", src: imgVibe },
+        ],
+      },
+
+      {
+        brand: "Niviru",
+        perfumeName: "Квартал / Kvartal",
+        promoText: "xxxxx",
+        imagePerfume: kvartalBottle,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Кровь", src: animalistic.blood },
+            { name: "Бензин", src: objects.gasoline },
+            { name: "Шафран", src: spices.saffron },           
+          ],
+          middle: [
+            { name: "Бетон", src: natural.concrete },
+            { name: "Кожа", src: animalistic.leather},
+            { name: "Мох", src: green.moss },
+            { name: "Болгарская роза", src: flowers.rose },
+          ],
+          base: [
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Ваниль", src: spices.vanilla },
+            { name: "Гваяк", src: woods.guaiacWood },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Laboratorio Olfattivo",
+        perfumeName: "Underground Vibes",
+        promoText: "Запах рейвов",
+        imagePerfume: undergroundBottle,
+        price01ml: 0,
+        price05ml: 9.9,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Конопля", src: green.cannabis },
+            { name: "Виски", src: drinks.bourbonWhiskey },
+            { name: "Можжевеловые ягоды", src: green.juniper },
+          ],
+          middle: [
+            { name: "Цемент", src: natural.concrete },
+            { name: "Бензин", src: objects.gasoline },
+            { name: "Киприол", src: balsamsOil.cypriolOil },
+            { name: "Бессмертник", src: green.immortelle },
+          ],
+          base: [
+            { name: "Масло ириса", src: balsamsOil.absolutePlants },
+            { name: "Вьетнамский уд", src: woods.agarwoodOud },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Пачули", src: green.patchouli },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
         ],
       },
 
@@ -371,9 +567,176 @@ const perfumesTierB: PerfumesTierType = [
       },
 
       {
+        brand: "Mendittorosa",
+        perfumeName: "Osang",
+        promoText: "xxxxx",
+        imagePerfume: osangBottle,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Сычуаньский перец", src: spices.sichuanPepper },
+            { name: "Мускатный орех", src: spices.nutmeg },
+            { name: "Сандал", src: woods.sandalwood },
+            { name: "Перуанский бальзам", src: balsamsOil.peruBalsam },
+            { name: "Пажитник", src: spices.fenugreek },
+          ],
+          middle: [
+            { name: "Луговые цветы", src: flowers.wildflowers },
+            { name: "Гелиотроп", src: flowers.heliotrope },
+            { name: "Ирис", src: flowers.iris },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Бензоин", src: resins.benzoin },
+            { name: "Стиракс", src: resins.styrax },
+          ],
+          base: [
+            { name: "Мёд", src: gourmand.honey },
+            { name: "Ладан", src: resins.incense },
+            { name: "Мирра", src: resins.myrrh },
+            { name: "Уд", src: woods.agarwoodOud },
+            { name: "Амбра", src: animalistic.amber },
+            { name: "Мускус", src: animalistic.musk },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Benneviento",
+        perfumeName: "Kaleidoscope Mind",
+        promoText: "Запах грибного трипа",
+        imagePerfume: kaleidoscopeBottle,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Озон", src: natural.ozone },
+            { name: "Мята", src: green.mint },
+            { name: "Опиум", src: green.opium },
+            { name: "Эвкалипт", src: woods.eucalyptus },
+            { name: "Альдегиды", src: synthetics.aldehydes },
+            { name: "Шипучие жевательные конфеты", src: gourmand.fizzyCandies },
+            { name: "Листья фиалки", src: green.violetLeaf },
+          ],
+          middle: [
+            { name: "Арбуз", src: fruits.watermelon },
+            { name: "Дыня", src: fruits.melon },
+            { name: "Конопля", src: green.cannabis },
+            { name: "Яблоко", src: fruits.apple },
+            { name: "Кокаин", src: objects.cocaine },
+            { name: "Чёрная смородина", src: berries.blackCurrant },
+            { name: "Латекс", src: objects.latex },
+            { name: "Фиолетовая кислица", src: green.purpleSorrel },
+            { name: "Бензин", src: objects.gasoline },
+            { name: "Личи", src: fruits.lychee },         
+            { name: "Грибы", src: mushrooms.mushroom },
+            { name: "Адениум", src: flowers.turkishRose },
+            { name: "Оксид розы", src: balsamsOil.absolutePlants },
+            { name: "Орхидея", src: flowers.orchid },            
+          ],
+          base: [
+            { name: "Амброксан", src: synthetics.ambroxan },
+            { name: "Амброфикс", src: synthetics.ambrofix },
+            { name: "Амбростар", src: synthetics.ambrostar },
+            { name: "Амброкс Супер", src: synthetics.ambroxSuper },
+            { name: "Калон", src: synthetics.calone },
+            { name: "Зелёный лес", src: woods.forestTrees },
+            { name: "Мускус", src: animalistic.musk },
+            { name: "Мускон", src: synthetics.muscone },
+            { name: "Голубой лотос", src: flowers.blueLotus },
+            { name: "Вишня", src: berries.cherry },
+            { name: "Ладанник", src: flowers.cistus },           
+            { name: "Нимфеаль", src: synthetics.nympheal },
+            { name: "Петрикор", src: natural.petrichor },
+            { name: "Земля", src: natural.dirt },
+            { name: "Геосмин", src: synthetics.geosmin },
+            { name: "Ирис", src: flowers.iris },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
+        brand: "Nausea",
+        perfumeName: "Bunker",
+        promoText: "Медовый бункер",
+        imagePerfume: bunkerBottle,
+        price01ml: 1,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Минеральный", src: natural.mineralNotes },
+            { name: "Земля", src: natural.dirt },
+            { name: "Анис", src: spices.anise },
+            { name: "Можжевельник", src: green.juniper },
+          ],
+          middle: [
+            { name: "Ладан", src: resins.incense },
+            { name: "Металлические ноты", src: natural.metallicNotes },
+            { name: "Пчелиный воск", src: animalistic.beeswax },
+          ],
+          base: [
+            { name: "Мёд", src: gourmand.honey },
+            { name: "Пепел", src: natural.ash },
+            { name: "Табак", src: green.tobacco },
+            { name: "Кедр", src: woods.cedarWood },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+        ],
+      },
+
+      {
         brand: "Spiritica",
         perfumeName: "Yuzuyakuza",
-        promoText: "xxxxx",
+        promoText: "Пороховой взрыв юдзу",
         imagePerfume: yuzuyakuzaBottle,
         price01ml: 5.9,
         price05ml: 0,
@@ -423,38 +786,35 @@ const perfumesTierB: PerfumesTierType = [
       },
 
       {
-        brand: "Toskovat",
-        perfumeName: "Inexcusable Evil",
-        promoText: "Запах войны",
-        imagePerfume: inexcusableBottle,
-        price01ml: 5.9,
-        price05ml: 19.9,
-        price1ml: 39.9,
+        brand: "Filippo Sorcinelli",
+        perfumeName: "popper-pop",
+        promoText: "xxxxx",
+        imagePerfume: popperBottle,
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
         price2ml: 0,
-        price5ml: 0.0,
-        price10ml: 0.0,
-        priceFull: 0.0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
         visibility: "visible",
-        volumeMl: 100,
+        volumeMl: 10,
         notes: {
           top: [
-            { name: "Порох", src: objects.gunpowder },
-            { name: "Озон", src: natural.ozone },
+            { name: "Красное яблоко", src: fruits.redApple },
+            { name: "Азиатская груша", src: fruits.nashiPear },
+            { name: "Сладкий миндаль", src: nuts.almond },
+            { name: "Листья мяты", src: green.mint },
           ],
           middle: [
-            { name: "Кровь", src: animalistic.blood },
-            { name: "Бинты", src: rare.bandages },
-            { name: "Йод", src: natural.iodine },
-            { name: "Горящие цветы", src: flowers.burningFlowers },
-            { name: "Гваяк", src: woods.guaiacWood },
-            { name: "Масло копайбы", src: balsamsOil.copaibaBalsam },
-            { name: "Нагармота", src: green.nagarmotha },
+            { name: "Орхидея", src: flowers.orchid },
+            { name: "Магнолия", src: flowers.magnolia },
+            { name: "Давана", src: green.davana },
+            { name: "Смолосемянник", src: green.pittosporum },
           ],
           base: [
-            { name: "Обломки бетона", src: rare.fallenConcrete },
-            { name: "Дождь", src: natural.rain },
-            { name: "Ладан", src: resins.incense },
-            { name: "Сандал", src: woods.sandalwood },
+            { name: "Хвойная древесина", src: green.conifer },
+            { name: "Ароматная древесина", src: woods.mahogany },
           ],
         },
         textStory: {
@@ -467,16 +827,67 @@ const perfumesTierB: PerfumesTierType = [
           review: [{ text: "Первый абзац" }],
         },
         vibe: [
-          { name: "Мрачное здание", src: imgVibe },
-          { name: "Влажный", src: imgVibe },
-          { name: "Тёмный", src: imgVibe },
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
         ],
       },
 
       {
+        brand: "Filippo Sorcinelli",
+        perfumeName: "slightly-b!tch",
+        promoText: "xxxxx",
+        imagePerfume: slightlyBottle,
+        price01ml: 0,
+        price05ml: 1,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Горький апельсин", src: fruits.orange },
+            { name: "Клементин", src: fruits.clementine },
+            { name: "Зелёный миндаль", src: nuts.almond },
+            { name: "Мята кудрявая", src: green.mint },
+          ],
+          middle: [
+            { name: "Боярышник", src: green.hawthorn },
+            { name: "Иланг-иланг", src: flowers.ylangYlang },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Полынь", src: green.wormwood },
+          ],
+          base: [
+            { name: "Кедр", src: woods.cedarWood },
+            { name: "Крушина", src: woods.buckthorn },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+
+
+      {
         brand: "Toskovat",
         perfumeName: "Last Birthday Cake",
-        promoText: "Вкус последнего торта",
+        promoText: "Копчёный торт",
         imagePerfume: birthdayBottle,
         price01ml: 5.9,
         price05ml: 19.9,
@@ -549,7 +960,7 @@ const perfumesTierB: PerfumesTierType = [
         volumeMl: 10,
         notes: {
           top: [
-            { name: "Жевательная резинка", src: gourmand.bubbleGum },
+            { name: "Жвачка", src: gourmand.bubbleGum },
             { name: "Сахарная вата", src: gourmand.cottonCandy },
             { name: "Клубника", src: berries.strawberry },
           ],
@@ -586,7 +997,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Toskovat",
         perfumeName: "Empty Wishes Well",
-        promoText: "xxxxx",
+        promoText: "Аромат дна",
         imagePerfume: emptyWishesBottle,
         price01ml: 0,
         price05ml: 19.9,
@@ -636,7 +1047,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Toskovat",
         perfumeName: "Born Screaming",
-        promoText: "Дымный",
+        promoText: "ххх",
         imagePerfume: bornScreamingBottle,
         price01ml: 0,
         price05ml: 19.9,
@@ -842,9 +1253,58 @@ const perfumesTierB: PerfumesTierType = [
       },
 
       {
+        brand: "Miguel Matos",
+        perfumeName: "Electric Dreams",
+        promoText: "Дымная жвачка",
+        imagePerfume: electricDreamsBottle,
+        price01ml: 6,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Клубничная жвачка", src: gourmand.bubbleGum },
+            { name: "Банан", src: fruits.banana },
+            { name: "Металлические цитрусы", src: fruits.metalCitrus }, 
+          ],
+          middle: [
+            { name: "Газировка Tutti Frutti", src: drinks.sodaFrutti },
+            { name: "Свежее бельё", src: objects.freshLinen },
+            { name: "Кожа", src: animalistic.leather },           
+            { name: "Iso E Super", src: synthetics.isoSuper },
+          ],
+          base: [
+            { name: "Дым перегретого компьютера", src: rare.computerSmoke },
+            { name: "Пластиковые цветы", src: flowers.plasticFlowers },
+            { name: "Дешёвое вино", src: drinks.redWine },
+            { name: "Амброценид", src: synthetics.ambrocenide },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
         brand: "Pictura Fragrans",
         perfumeName: "Naju Spring",
-        promoText: "Мороженое",
+        promoText: "Рисовое мороженое",
         imagePerfume: najuBottle,
         price01ml: 5.9,
         price05ml: 0,
@@ -894,7 +1354,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Pictura Fragrans",
         perfumeName: "Kopi Luwak",
-        promoText: "xxxxx",
+        promoText: "Тёмная кофейная горечь",
         imagePerfume: kopiLuwakBottle,
         price01ml: 5.9,
         price05ml: 0,
@@ -918,7 +1378,7 @@ const perfumesTierB: PerfumesTierType = [
           base: [
             { name: "Выдержанная ваниль", src: spices.vanilla },
             { name: "Уд", src: woods.agarwoodOud },
-            { name: "Тёмные пачули", src: green.patchouli },
+            { name: "Тёмные пачули", src: green.darkPatchouli },
             { name: "Тропическая листва", src: green.foliage },
           ],
         },
@@ -1046,7 +1506,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Pictura Fragrans",
         perfumeName: "Surinam Vert",
-        promoText: "Бензиновые фрукты",
+        promoText: "Бензиновые тропики",
         imagePerfume: surinamBottle,
         price01ml: 5.9,
         price05ml: 0,
@@ -1062,7 +1522,7 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Гуава", src: fruits.guava },
             { name: "Зелень", src: green.greenNotes },
             { name: "Маракуйя", src: fruits.passionfruit },
-            { name: "Кокосовая вода", src: drinks.coconutMilk },
+            { name: "Кокосовая вода", src: drinks.coconutWater },
             { name: "Бензин", src: objects.gasoline },
           ],
           middle: [
@@ -1085,65 +1545,6 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Ночной жасмин", src: flowers.jasmine },
             { name: "Мускус", src: animalistic.musk },
             { name: "Кашмеран", src: synthetics.cashmeran },
-          ],
-        },
-        textStory: {
-          brandHistory: [
-            { text: "Первый абзац" },
-            { text: "Второй абзац" },
-            { text: "Третий абзац" },
-          ],
-          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
-          review: [{ text: "Первый абзац" }],
-        },
-        vibe: [
-          { name: "Мрачное здание", src: "" },
-          { name: "Влажный", src: "" },
-          { name: "Тёмный", src: "" },
-        ],
-      },
-
-      {
-        brand: "Pictura Fragrans",
-        perfumeName: "Lux Obscura",
-        promoText: "xxxxx",
-        imagePerfume: luxObscuraBottle,
-        price01ml: 5.9,
-        price05ml: 0,
-        price1ml: 0,
-        price2ml: 0,
-        price5ml: 0,
-        price10ml: 0,
-        priceFull: 0,
-        visibility: "visible",
-        volumeMl: 10,
-        notes: {
-          top: [
-            { name: "Глина", src: natural.clay },
-            { name: "Порох", src: objects.gunpowder },
-            { name: "Копчёная паприка", src: spices.pinkPepper },
-            { name: "Йод", src: natural.iodine },
-            { name: "Дождь", src: natural.rain },
-            { name: "Кровь", src: animalistic.blood },         
-            { name: "Имбирь", src: spices.ginger },
-            { name: "Лист магнолии", src: green.foliage },
-          ],
-          middle: [
-            { name: "Мак", src: flowers.poppy },
-            { name: "Пачули", src: green.patchouli },         
-            { name: "Клирвуд", src: woods.clearwood },
-            { name: "Гвоздика", src: flowers.carnation },
-            { name: "Шафран", src: spices.saffron },
-            { name: "Чёрный чай", src: drinks.blackTea },
-            { name: "Табак", src: green.tobacco },
-            { name: "Цветок чёрной смородины", src: flowers.cheeryBlossom },
-          ],
-          base: [
-            { name: "Деревянная бочка", src: objects.barrel },
-            { name: "Акигалавуд", src: synthetics.akigalawood },
-            { name: "Абсолют сандала", src: balsamsOil.woodOil },
-            { name: "Орканокс", src: synthetics.orcanox },     
-            { name: "Опопонакс", src: resins.opoponax },
           ],
         },
         textStory: {
@@ -1419,7 +1820,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Bohoboco",
         perfumeName: "Mango Yuzu Gasoline",
-        promoText: "Манго в бензине",
+        promoText: "Бензиновое манго",
         imagePerfume: mangoYuzuBottle,
         price01ml: 4.9,
         price05ml: 9.9,
@@ -1469,6 +1870,44 @@ const perfumesTierB: PerfumesTierType = [
           { name: "Мрачное здание", src: "" },
           { name: "Влажный", src: "" },
           { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Bu Feng",
+        perfumeName: "Holding The Sword",
+        promoText: "xxxxx",
+        imagePerfume: holdingSwordBottle,
+        price01ml: 6,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Шафран", src: spices.saffron },
+          ],
+          middle: [
+            { name: "Металл", src: natural.metallicNotes },
+            { name: "Роза «Багровая слава»", src: flowers.rose },
+          ],
+          base: [
+            { name: "Кедр", src: woods.cedarWood },
+          ],
+        },
+        textStory: {
+          brandHistory: [{ text: "Первый абзац" }],
+          perfumeHistory: [{ text: "Первый абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
+          { name: "xxx", src: "" },
         ],
       },
 
@@ -1529,7 +1968,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Ataraxia",
         perfumeName: "Deity",
-        promoText: "xxxxx",
+        promoText: "Медовый человек",
         imagePerfume: deityBottle,
         price01ml: 5.9,
         price05ml: 0,
@@ -1626,7 +2065,7 @@ const perfumesTierB: PerfumesTierType = [
         brand: "Comme des Garcons",
         perfumeName: "CDG",
         promoText: "Парфюмерный клей",
-        imagePerfume: cdgBottle,
+        imagePerfume: cdg2011Bottle,
         price01ml: 4.9,
         price05ml: 0,
         price1ml: 0,
@@ -1639,7 +2078,7 @@ const perfumesTierB: PerfumesTierType = [
         notes: {
           top: [
             { name: "Альдегиды", src: synthetics.aldehydes },
-            { name: "Сафралейн", src: synthetics.diviniris },
+            { name: "Сафралейн", src: synthetics.safraleine },
             { name: "Боярышник", src: green.hawthorn },
           ],
           middle: [
@@ -1671,7 +2110,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "D.S. & Durga",
         perfumeName: "Burning Barbershop",
-        promoText: "xxxxx",
+        promoText: "Мятно-лавандовая гарь",
         imagePerfume: barbershopBottle,
         price01ml: 4.9,
         price05ml: 0,
@@ -1714,7 +2153,7 @@ const perfumesTierB: PerfumesTierType = [
       {
         brand: "Sora Dora",
         perfumeName: "Lu Bu",
-        promoText: "xxxxx",
+        promoText: "Сладкая кровь предателя",
         imagePerfume: luBuBottle,
         price01ml: 5.9,
         price05ml: 0,
@@ -1736,15 +2175,15 @@ const perfumesTierB: PerfumesTierType = [
             { name: "Кровь", src: animalistic.blood },
           ],
           base: [
-            { name: "Абсолют чёрной ванили", src: spices.vanilla },
-            { name: "Абсолют бобов тонка", src: spices.tonkaBean },
-            { name: "Эссенция амириса", src: woods.amyris },
-            { name: "Эссенция гваякового дерева", src: woods.guaiacWood },
+            { name: "Чёрная ваниль", src: spices.vanilla },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+            { name: "Тёплый металл", src: objects.hotIron },
+            { name: "Амирис", src: woods.amyris },
+            { name: "Гваяк", src: woods.guaiacWood },
             { name: "Миндаль", src: nuts.almond },
             { name: "Древесина кашемира", src: woods.cashmirWood },
             { name: "Виргинский кедр", src: woods.virginiaCedar },
-            { name: "Толуанский бальзам", src: balsamsOil.toluBalsam },
-            { name: "Тёплый металл", src: objects.hotIron },
+            { name: "Толуанский бальзам", src: balsamsOil.toluBalsam },     
           ],
         },
         textStory: {
@@ -1758,6 +2197,340 @@ const perfumesTierB: PerfumesTierType = [
           { name: "xxx", src: "" },
         ],
       },
+
+      {
+        brand: "Pictura Fragrans",
+        perfumeName: "Aquelarre Indigo",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 5.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Ром", src: drinks.rum },
+            { name: "Мате", src: drinks.mate },
+            { name: "Зелень", src: green.greenNotes },
+            { name: "Белый перец", src: spices.whitePepper },
+            { name: "Белая имбирная лилия", src: flowers.lily },
+            { name: "Хиндинол", src: synthetics.hindinol },
+          ],
+          middle: [
+            { name: "Дым", src: natural.smoke },
+            { name: "Голубой лотос", src: flowers.blueLotus },
+            { name: "Ладанник", src: flowers.cistus },
+            { name: "Козья шерсть", src: animalistic.goatHair },
+            { name: "Растительный мускус", src: animalistic.musk },
+            { name: "Операнид", src: synthetics.operanide },
+          ],
+          base: [
+            { name: "Чёрная кожа", src: animalistic.leather },
+            { name: "Лабданум", src: resins.labdanum },
+            { name: "Олибанум", src: resins.olibanum },
+            { name: "Сено", src: green.hay },
+            { name: "Ладанник", src: flowers.cistus },
+            { name: "Табак", src: green.tobacco },
+            { name: "Малазийский уд", src: woods.agarwoodOud },
+            { name: "Амбреин", src: synthetics.ambreine },
+            { name: "Орбитон", src: synthetics.orbitone },
+            { name: "Парадизон", src: synthetics.paradisone },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      {
+        brand: "Pictura Fragrans",
+        perfumeName: "Aquelarre",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 5.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Кожа", src: animalistic.leather },
+            { name: "Дым", src: natural.smoke },
+            { name: "Цветок апельсина", src: flowers.orangeBlossom },
+            { name: "Мускатный шалфей", src: green.clarySage },
+            { name: "Бергамот", src: fruits.bergamot },
+            { name: "Роза отто", src: flowers.rose },
+            { name: "Хинданол", src: synthetics.hindinol },
+          ],
+          middle: [
+            { name: "Сливки", src: gourmand.cream },
+            { name: "Виски", src: drinks.bourbonWhiskey },
+            { name: "Коньяк", src: drinks.rum },
+            { name: "Шафран", src: spices.saffron },
+            { name: "Эфирное масло ракушек", src: balsamsOil.choyaNakh },
+            { name: "Табак", src: green.tobacco },
+            { name: "Камбоджийский уд", src: woods.agarwoodOud },
+          ],
+          base: [             
+            { name: "Ладанник", src: flowers.cistus },
+            { name: "Абсолют сандала", src: balsamsOil.absolutePlants },
+            { name: "Животный мускус", src: animalistic.animalNotes },
+            { name: "Амберин", src: synthetics.ambreine },
+            { name: "Орканокс", src: synthetics.orcanox },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+      
+      {
+        brand: "Pictura Fragrans",
+        perfumeName: "Qetora Zohar",
+        promoText: "xxxxx",
+        imagePerfume: NotIMG,
+        price01ml: 5.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Инжирное дерево", src: woods.figWood },
+            { name: "Сычуаньский перец", src: spices.sichuanPepper },
+            { name: "Финики", src: fruits.dates },
+            { name: "Юдзу", src: fruits.yuzu },
+            { name: "Кардамон", src: spices.cardamom },
+            { name: "Элеми", src: resins.elemi },
+            { name: "Мацис", src: spices.mace },
+          ],
+          middle: [
+            { name: "Дикий ассаамский уд", src: woods.agarwoodOud },
+            { name: "Инжир", src: fruits.fig },
+            { name: "Мирра", src: resins.myrrh },
+            { name: "Гиацинт", src: flowers.hyacinth },
+            { name: "Ладан", src: resins.incense },
+            { name: "Сухофрукты", src: fruits.driedFruits },
+            { name: "Бобы тонка", src: spices.tonkaBean },
+            { name: "Кориандр", src: spices.coriander },
+            { name: "Опопонакс", src: resins.opoponax },
+            { name: "Тост", src: gourmand.toast },
+          ],
+          base: [
+            { name: "Ладан", src: resins.incense },
+            { name: "Рожковое дерево", src: woods.carob },
+            { name: "Сандал из Майсура", src: woods.sandalwood },
+            { name: "Серая амбра", src: animalistic.ambergris },
+            { name: "Амбретта", src: animalistic.ambrette },
+            { name: "Мускус", src: animalistic.musk },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+      
+
+      {
+        brand: "Pictura Fragrans",
+        perfumeName: "Le Reveil",
+        promoText: "Земляничный йогурт",
+        imagePerfume: NotIMG,
+        price01ml: 5.9,
+        price05ml: 0,
+        price1ml: 0,
+        price2ml: 0,
+        price5ml: 0,
+        price10ml: 0,
+        priceFull: 0,
+        visibility: "visible",
+        volumeMl: 10,
+        notes: {
+          top: [
+            { name: "Лесная земляника", src: berries.wildStrawberry },
+            { name: "Белый шоколад", src: gourmand.whiteChocolate },
+            { name: "Лаванда", src: flowers.lavender },
+            { name: "Ром", src: drinks.rum },
+            { name: "Стебли зелени", src: green.stemsGreenery },
+          ],
+          middle: [
+            { name: "Козья шерсть", src: animalistic.goatHair },
+            { name: "Трюфель", src: mushrooms.truffle },
+            { name: "Этилмальтол", src: synthetics.ethylMaltol },
+            { name: "Животный мускус", src: animalistic.animalNotes },
+            { name: "Гелиотроп", src: flowers.heliotrope },
+            { name: "Гвоздика", src: spices.cloves },
+          ],
+          base: [
+            { name: "Белый уд", src: woods.agarwoodOud },
+            { name: "Глина", src: natural.clay },
+            { name: "Перуанский бальзам", src: balsamsOil.peruBalsam },
+            { name: "Ванильная икра", src: spices.vanillaCaviar },
+            { name: "Тоналид", src: synthetics.tonalide },
+            { name: "Козье молоко", src: drinks.goatMilk },
+          ],
+        },
+        textStory: {
+          brandHistory: [
+            { text: "Первый абзац" },
+            { text: "Второй абзац" },
+            { text: "Третий абзац" },
+          ],
+          perfumeHistory: [{ text: "Первый абзац" }, { text: "Второй абзац" }],
+          review: [{ text: "Первый абзац" }],
+        },
+        vibe: [
+          { name: "Мрачное здание", src: "" },
+          { name: "Влажный", src: "" },
+          { name: "Тёмный", src: "" },
+        ],
+      },
+
+
+
+      // {
+      //   brand: "Filippo Sorcinelli",
+      //   perfumeName: "Ambrosivs (Scented Home)",
+      //   promoText: "xxxxx",
+      //   imagePerfume: NotIMG,
+      //   price01ml: 1,
+      //   price05ml: 0,
+      //   price1ml: 0,
+      //   price2ml: 0,
+      //   price5ml: 0,
+      //   price10ml: 0,
+      //   priceFull: 0,
+      //   visibility: "visible",
+      //   volumeMl: 10,
+      //   notes: {
+      //     top: [
+      //       { name: "Элеми", src: resins.elemi },
+      //       { name: "Лимон", src: fruits.lemon },
+      //       { name: "Грейпфрут", src: fruits.grapefruit },
+      //       { name: "Ладан", src: resins.incense },
+      //       { name: "Можжевельник", src: green.juniper },
+      //       { name: "Розмарин", src: spices.rosemary },
+      //       { name: "Полынь", src: green.wormwood },
+      //       { name: "Абсент", src: drinks.absinthe },
+      //     ],
+      //     middle: [
+      //       { name: "Кедр", src: woods.cedarWood },
+      //       { name: "Цикламен", src: flowers.cyclamen },
+      //       { name: "Гвоздика", src: spices.cloves },
+      //       { name: "Берёза", src: woods.birch },
+      //     ],
+      //     base: [
+      //       { name: "Ваниль", src: spices.vanilla },
+      //       { name: "Бобы тонка", src: spices.tonkaBean },
+      //       { name: "Сандал", src: woods.sandalwood },
+      //       { name: "Пачули", src: green.patchouli },
+      //       { name: "Ветивер", src: green.vetiver },
+      //       { name: "Ладанник", src: flowers.cistus },
+      //       { name: "Амбра", src: animalistic.amber },
+      //     ],
+      //   },
+      //   textStory: {
+      //     brandHistory: [{ text: "Первый абзац" }],
+      //     perfumeHistory: [{ text: "Первый абзац" }],
+      //     review: [{ text: "Первый абзац" }],
+      //   },
+      //   vibe: [
+      //     { name: "xxx", src: "" },
+      //     { name: "xxx", src: "" },
+      //     { name: "xxx", src: "" },
+      //   ],
+      // },
+
+      // {
+      //   brand: "Filippo Sorcinelli",
+      //   perfumeName: "Tu Es Petrus (Scented Home)",
+      //   promoText: "xxxxx",
+      //   imagePerfume: NotIMG,
+      //   price01ml: 1,
+      //   price05ml: 0,
+      //   price1ml: 0,
+      //   price2ml: 0,
+      //   price5ml: 0,
+      //   price10ml: 0,
+      //   priceFull: 0,
+      //   visibility: "visible",
+      //   volumeMl: 10,
+      //   notes: {
+      //     top: [
+      //       { name: "Ваниль", src: spices.vanilla },
+      //       { name: "Бобы тонка", src: spices.tonkaBean },
+      //       { name: "Пачули", src: green.patchouli },
+      //       { name: "Мускусы", src: animalistic.musk },
+      //     ],
+      //     middle: [
+      //       { name: "Жасмин", src: flowers.jasmine },
+      //       { name: "Кедр", src: woods.cedarWood },
+      //       { name: "Фруктовая роса", src: natural.dew },
+      //     ],
+      //     base: [
+      //       { name: "Бергамот", src: fruits.bergamot },
+      //       { name: "Апельсин", src: fruits.orange },
+      //       { name: "Мандарин", src: fruits.mandarin },
+      //     ],
+      //   },
+      //   textStory: {
+      //     brandHistory: [{ text: "Первый абзац" }],
+      //     perfumeHistory: [{ text: "Первый абзац" }],
+      //     review: [{ text: "Первый абзац" }],
+      //   },
+      //   vibe: [
+      //     { name: "xxx", src: "" },
+      //     { name: "xxx", src: "" },
+      //     { name: "xxx", src: "" },
+      //   ],
+      // },
 
 
       
